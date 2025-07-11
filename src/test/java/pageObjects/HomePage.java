@@ -21,6 +21,12 @@ public class HomePage extends BasePage{
 	@FindBy(xpath="//input[@placeholder='Search doctors, clinics, hospitals, etc.']")
 	WebElement searchHospitals;
 	
+	@FindBy(xpath="//span[@class='user_info_top']")
+	WebElement userInfo;
+	
+	@FindBy(xpath="//span[text()='My Tests']")
+	WebElement myTests;
+	
 	public void setSearchCity(String searchItem) throws Exception{
 		searchCity.click();
 		cross.click();
@@ -44,5 +50,12 @@ public class HomePage extends BasePage{
 	public void setSearchDoctorsClinicsHospitals(String searchItem) {
 		searchHospitals.sendKeys(searchItem);
 		driver.findElement(By.xpath("//div[normalize-space()='"+searchItem+"']")).click();
+	}
+	
+	public void clickUserInfo() {
+		userInfo.click();
+	}
+	public void clickMyTests() {
+		myTests.click();
 	}
 }
