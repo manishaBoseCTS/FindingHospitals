@@ -9,7 +9,7 @@
         <methods>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="hospitalsSearch" invocation-numbers="0"/>
+          <include name="hospitalsSearch"/>
         </methods>
       </class> <!-- testCases.TC001_HospitalsAvailabilityTest -->
     </classes>
