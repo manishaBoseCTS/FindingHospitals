@@ -33,6 +33,6 @@ public class TC001_HospitalsAvailabilityTest extends BaseClass{
 			logger.debug("Debug logs....");
 			Assert.fail();
 		}
-		logger.info("***Finished TestCase*****");
+		logger.info("****Finished TestCase*****");
 	}
 }
