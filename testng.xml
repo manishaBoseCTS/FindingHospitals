@@ -7,6 +7,7 @@
   	<parameter name="browser" value="Chrome" />
     <classes>
       <class name="testCases.TC001_HospitalsAvailabilityTest"/>
+      <class name="testCases.TC002_LoginAuthentication"/>
     </classes>
   </test> <!-- Test -->
   
@@ -15,6 +16,7 @@
   	<parameter name="browser" value="Edge" />
     <classes>
       <class name="testCases.TC001_HospitalsAvailabilityTest"/>
+      <class name="testCases.TC002_LoginAuthentication"/>
     </classes>
   </test> <!-- Test -->
   
