@@ -5,26 +5,13 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="Chrome"/>
     <classes>
-      <class name="testCases.TC001_HospitalsAvailabilityTest">
+      <class name="testCases.TC002_NearbyDoctors">
         <methods>
           <include name="tearDown"/>
-          <include name="hospitalsSearch" invocation-numbers="0"/>
+          <include name="findDoctorsTest" invocation-numbers="0"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC001_HospitalsAvailabilityTest -->
+      </class> <!-- testCases.TC002_NearbyDoctors -->
     </classes>
   </test> <!-- chromeTest(failed) -->
-  <test thread-count="5" name="edgeTest(failed)">
-    <parameter name="os" value="Windows"/>
-    <parameter name="browser" value="Edge"/>
-    <classes>
-      <class name="testCases.TC001_HospitalsAvailabilityTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="hospitalsSearch" invocation-numbers="0"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC001_HospitalsAvailabilityTest -->
-    </classes>
-  </test> <!-- edgeTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -7,7 +7,8 @@
   	<parameter name="browser" value="Chrome" />
     <classes>
       <class name="testCases.TC001_HospitalsAvailabilityTest"/>
-      <class name="testCases.TC002_LoginAuthentication"/>
+      <class name="testCases.TC004_LoginAuthentication"/>
+      <class name= "testCases.TC002_NearbyDoctors"/>
     </classes>
   </test> <!-- Test -->
   
@@ -16,7 +17,8 @@
   	<parameter name="browser" value="Edge" />
     <classes>
       <class name="testCases.TC001_HospitalsAvailabilityTest"/>
-      <class name="testCases.TC002_LoginAuthentication"/>
+      <class name="testCases.TC004_LoginAuthentication"/>
+      <class name= "testCases.TC002_NearbyDoctors"/>
     </classes>
   </test> <!-- Test -->
   

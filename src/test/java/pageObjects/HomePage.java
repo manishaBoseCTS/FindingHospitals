@@ -28,6 +28,9 @@ public class HomePage extends BasePage{
 	@FindBy(id="usernameErrorBlock")
 	WebElement errorBlock;
 	
+	@FindBy(linkText="Find Doctors")
+	WebElement doctorsLink;
+	
 	public void setSearchCity(String searchItem) throws Exception{
 		searchCity.click();
 		cross.click();
@@ -59,6 +62,10 @@ public class HomePage extends BasePage{
 	
 	public void clickLogin() {
 		login.click();
+	}
+	
+	public void clickFindDoctors() {
+		doctorsLink.click();
 	}
 	
 }

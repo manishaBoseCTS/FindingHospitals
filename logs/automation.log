@@ -1,48 +1,55 @@
-2025-07-11 09:58:05 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\2403732\OneDrive - Cognizant\Desktop\FindingHospitals\testng.xml
-
-2025-07-11 09:58:21 INFO  TC001_HospitalsAvailabilityTest:13 - ****Starting TestCase*****
-2025-07-11 09:58:21 INFO  TC001_HospitalsAvailabilityTest:18 - ****Entering Search City*****
-2025-07-11 09:58:31 INFO  TC001_HospitalsAvailabilityTest:21 - ****Entering Search Value*****
-2025-07-11 09:58:38 INFO  TC001_HospitalsAvailabilityTest:24 - ****Getting Total No. of Results*****
-2025-07-11 09:58:38 INFO  TC001_HospitalsAvailabilityTest:27 - ****Getting Name of Hospitals based on criteria*****
-2025-07-11 09:58:39 INFO  TC001_HospitalsAvailabilityTest:36 - ***Finished TestCase*****
-2025-07-11 12:28:58 INFO  Utils:112 - [TestNG] Running:
+2025-07-12 12:02:44 INFO  Utils:112 - [TestNG] Running:
   C:\Users\2403730\eclipse-workspace\FindingHospitals\testng.xml
 
-2025-07-11 12:29:07 INFO  TC001_HospitalsAvailabilityTest:13 - ****Starting TestCase*****
-2025-07-11 12:29:07 INFO  TC001_HospitalsAvailabilityTest:18 - ****Entering Search City*****
-2025-07-11 12:29:13 INFO  TC001_HospitalsAvailabilityTest:21 - ****Entering Search Value*****
-2025-07-11 12:29:24 INFO  TC001_HospitalsAvailabilityTest:24 - ****Getting Total No. of Results*****
-2025-07-11 12:29:24 INFO  TC001_HospitalsAvailabilityTest:27 - ****Getting Name of Hospitals based on criteria*****
-2025-07-11 12:29:24 INFO  TC001_HospitalsAvailabilityTest:36 - ****Finished TestCase*****
-2025-07-11 12:30:33 INFO  TC001_HospitalsAvailabilityTest:13 - ****Starting TestCase*****
-2025-07-11 12:30:33 INFO  TC001_HospitalsAvailabilityTest:18 - ****Entering Search City*****
-2025-07-11 12:30:38 ERROR TC001_HospitalsAvailabilityTest:32 - Test Failed
-org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
-from disconnected: not connected to DevTools
-  (Session info: MicrosoftEdge=138.0.3351.77)
+2025-07-12 12:02:55 INFO  TC001_HospitalsAvailabilityTest:13 - ****Starting TestCase*****
+2025-07-12 12:02:55 INFO  TC001_HospitalsAvailabilityTest:18 - ****Entering Search City*****
+2025-07-12 12:05:00 INFO  TC001_HospitalsAvailabilityTest:21 - ****Entering Search Value*****
+2025-07-12 12:05:11 INFO  TC001_HospitalsAvailabilityTest:24 - ****Getting Total No. of Results*****
+2025-07-12 12:05:11 INFO  TC001_HospitalsAvailabilityTest:27 - ****Getting Name of Hospitals based on criteria*****
+2025-07-12 12:05:12 INFO  TC001_HospitalsAvailabilityTest:36 - ****Finished Searching Hospitals TestCase*****
+2025-07-12 12:05:26 INFO  TC004_LoginAuthentication:22 - ******Starting Login Authentication Test Case*******
+2025-07-12 12:05:26 INFO  TC004_LoginAuthentication:24 - *****Clicking Login on Home Page******
+2025-07-12 12:05:26 INFO  TC004_LoginAuthentication:28 - *****Entering username and password and clicking login******
+2025-07-12 12:05:28 INFO  TC004_LoginAuthentication:45 - *****Checking visibility of username error block upon unsuccessful login******
+2025-07-12 12:05:29 INFO  TC004_LoginAuthentication:56 - ****Finished Login Authentication TestCase*****
+2025-07-12 12:05:29 INFO  TC004_LoginAuthentication:22 - ******Starting Login Authentication Test Case*******
+2025-07-12 12:05:29 INFO  TC004_LoginAuthentication:24 - *****Clicking Login on Home Page******
+2025-07-12 12:05:30 INFO  TC004_LoginAuthentication:28 - *****Entering username and password and clicking login******
+2025-07-12 12:05:33 INFO  TC004_LoginAuthentication:37 - *****Checking if Profile Info is displayed after successful login******
+2025-07-12 12:05:33 INFO  TC004_LoginAuthentication:39 - *****Logging out******
+2025-07-12 12:05:36 INFO  TC004_LoginAuthentication:56 - ****Finished Login Authentication TestCase*****
+2025-07-12 12:05:36 INFO  TC004_LoginAuthentication:22 - ******Starting Login Authentication Test Case*******
+2025-07-12 12:05:36 INFO  TC004_LoginAuthentication:24 - *****Clicking Login on Home Page******
+2025-07-12 12:05:39 INFO  TC004_LoginAuthentication:28 - *****Entering username and password and clicking login******
+2025-07-12 12:05:40 INFO  TC004_LoginAuthentication:45 - *****Checking visibility of username error block upon unsuccessful login******
+2025-07-12 12:06:02 INFO  TC004_LoginAuthentication:56 - ****Finished Login Authentication TestCase*****
+2025-07-12 12:06:11 INFO  TC002_NearbyDoctors:18 - ****Starting Search Nearby Doctors TestCase*****
+2025-07-12 12:06:11 INFO  TC002_NearbyDoctors:22 - ****Selecting Location*****
+2025-07-12 12:06:12 INFO  TC002_NearbyDoctors:24 - ****Selecting Doctor Type*****
+2025-07-12 12:06:18 INFO  TC002_NearbyDoctors:28 - ****Selecting Gender*****
+2025-07-12 12:06:23 INFO  TC002_NearbyDoctors:30 - ****Selecting Experience*****
+2025-07-12 12:06:28 INFO  TC002_NearbyDoctors:32 - ****Sorting names based on fees*****
+2025-07-12 12:06:36 INFO  TC002_NearbyDoctors:34 - ****Storing doctor names in a list*****
+2025-07-12 12:06:40 INFO  TC002_NearbyDoctors:45 - ****Finished Searching Doctors TestCase*****
+2025-07-12 12:11:31 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2403730\eclipse-workspace\FindingHospitals\testng.xml
+
+2025-07-12 12:11:40 INFO  TC001_HospitalsAvailabilityTest:13 - ****Starting TestCase*****
+2025-07-12 12:11:40 INFO  TC001_HospitalsAvailabilityTest:18 - ****Entering Search City*****
+2025-07-12 12:11:56 ERROR TC001_HospitalsAvailabilityTest:32 - Test Failed
+org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
 Build info: version: '4.33.0', revision: '2c6aaad03a'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [6cad369d2e17dcebec63f7f9e8ecb254, findElements {value=//div[normalize-space()='Bangalore'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 138.0.3351.77, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54213}, msedge: {msedgedriverVersion: 138.0.3351.77 (efaf6935b436..., userDataDir: C:\Users\2403730\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54213/devtoo..., se:cdpVersion: 138.0.3351.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6cad369d2e17dcebec63f7f9e8ecb254
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c4756c6e5309b22bfd610b4eb5acf6dd, findElements [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2403730\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55024}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55024/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c4756c6e5309b22bfd610b4eb5acf6dd
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:571)
 	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
 	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:380)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:374)
-	at pageObjects.HomePage.setSearchCity(HomePage.java:36)
+	at pageObjects.HomePage.setSearchCity(HomePage.java:43)
 	at testCases.TC001_HospitalsAvailabilityTest.hospitalsSearch(TC001_HospitalsAvailabilityTest.java:19)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
@@ -70,43 +77,87 @@ Session ID: 6cad369d2e17dcebec63f7f9e8ecb254
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-2025-07-11 12:31:20 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\2403730\eclipse-workspace\FindingHospitals\testng.xml
-
-2025-07-11 12:31:30 INFO  TC001_HospitalsAvailabilityTest:13 - ****Starting TestCase*****
-2025-07-11 12:31:30 INFO  TC001_HospitalsAvailabilityTest:18 - ****Entering Search City*****
-2025-07-11 12:31:35 INFO  TC001_HospitalsAvailabilityTest:21 - ****Entering Search Value*****
-2025-07-11 12:31:44 INFO  TC001_HospitalsAvailabilityTest:24 - ****Getting Total No. of Results*****
-2025-07-11 12:31:44 INFO  TC001_HospitalsAvailabilityTest:27 - ****Getting Name of Hospitals based on criteria*****
-2025-07-11 12:31:44 INFO  TC001_HospitalsAvailabilityTest:36 - ****Finished TestCase*****
-2025-07-11 12:35:58 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\2403730\eclipse-workspace\FindingHospitals\testng.xml
-
-2025-07-11 12:36:12 INFO  TC001_HospitalsAvailabilityTest:13 - ****Starting TestCase*****
-2025-07-11 12:36:12 INFO  TC001_HospitalsAvailabilityTest:18 - ****Entering Search City*****
-2025-07-11 12:36:17 INFO  TC001_HospitalsAvailabilityTest:21 - ****Entering Search Value*****
-2025-07-11 12:36:18 INFO  TC001_HospitalsAvailabilityTest:13 - ****Starting TestCase*****
-2025-07-11 12:36:18 INFO  TC001_HospitalsAvailabilityTest:18 - ****Entering Search City*****
-2025-07-11 12:36:24 INFO  TC001_HospitalsAvailabilityTest:21 - ****Entering Search Value*****
-2025-07-11 12:36:26 INFO  TC001_HospitalsAvailabilityTest:24 - ****Getting Total No. of Results*****
-2025-07-11 12:36:26 INFO  TC001_HospitalsAvailabilityTest:27 - ****Getting Name of Hospitals based on criteria*****
-2025-07-11 12:36:27 INFO  TC001_HospitalsAvailabilityTest:36 - ****Finished TestCase*****
-2025-07-11 12:37:17 INFO  TC001_HospitalsAvailabilityTest:24 - ****Getting Total No. of Results*****
-2025-07-11 12:37:17 ERROR TC001_HospitalsAvailabilityTest:32 - Test Failed
-org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //div[@class='c-prime-header']/h1
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Caused by: java.io.UncheckedIOException: java.io.IOException: HTTP/1.1 header parser received no bytes
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:500)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$2(JdkHttpClient.java:387)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.io.IOException: HTTP/1.1 header parser received no bytes
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:967)
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:459)
+	... 8 more
+Caused by: java.io.IOException: HTTP/1.1 header parser received no bytes
+	at java.net.http/jdk.internal.net.http.common.Utils.wrapWithExtraDetail(Utils.java:388)
+	at java.net.http/jdk.internal.net.http.Http1Response$HeadersReader.onReadError(Http1Response.java:590)
+	at java.net.http/jdk.internal.net.http.Http1AsyncReceiver.checkForErrors(Http1AsyncReceiver.java:302)
+	at java.net.http/jdk.internal.net.http.Http1AsyncReceiver.flush(Http1AsyncReceiver.java:268)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:182)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	... 3 more
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1178)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:841)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1470)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1415)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1415)
+2025-07-12 12:12:04 INFO  TC004_LoginAuthentication:22 - ******Starting Login Authentication Test Case*******
+2025-07-12 12:12:04 INFO  TC004_LoginAuthentication:24 - *****Clicking Login on Home Page******
+2025-07-12 12:12:04 INFO  TC004_LoginAuthentication:28 - *****Entering username and password and clicking login******
+2025-07-12 12:12:06 INFO  TC004_LoginAuthentication:45 - *****Checking visibility of username error block upon unsuccessful login******
+2025-07-12 12:12:07 INFO  TC004_LoginAuthentication:56 - ****Finished Login Authentication TestCase*****
+2025-07-12 12:12:07 INFO  TC004_LoginAuthentication:22 - ******Starting Login Authentication Test Case*******
+2025-07-12 12:12:07 INFO  TC004_LoginAuthentication:24 - *****Clicking Login on Home Page******
+2025-07-12 12:12:07 INFO  TC004_LoginAuthentication:28 - *****Entering username and password and clicking login******
+2025-07-12 12:12:17 ERROR TC004_LoginAuthentication:52 - Test Failed
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
 Build info: version: '4.33.0', revision: '2c6aaad03a'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:168)
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [05d91e61a11e147d518a8e55175d0ee4, findElement {using=id, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2403730\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55224}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55224/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 05d91e61a11e147d518a8e55175d0ee4
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy31.getText(Unknown Source)
-	at pageObjects.HospitalsPage.getResult(HospitalsPage.java:30)
-	at testCases.TC001_HospitalsAvailabilityTest.hospitalsSearch(TC001_HospitalsAvailabilityTest.java:25)
+	at jdk.proxy2/jdk.proxy2.$Proxy31.toString(Unknown Source)
+	at java.base/java.lang.String.valueOf(String.java:4465)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.toString(ExpectedConditions.java:295)
+	at java.base/java.lang.String.valueOf(String.java:4465)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:225)
+	at pageObjects.Login.loginWithCredentials(Login.java:34)
+	at testCases.TC004_LoginAuthentication.loginTest(TC004_LoginAuthentication.java:30)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -133,18 +184,18 @@ Driver info: driver.version: RemoteWebDriver
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-2025-07-11 12:37:37 INFO  TC001_HospitalsAvailabilityTest:13 - ****Starting TestCase*****
-2025-07-11 12:37:37 INFO  TC001_HospitalsAvailabilityTest:18 - ****Entering Search City*****
-2025-07-11 12:37:42 ERROR TC001_HospitalsAvailabilityTest:32 - Test Failed
-org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
-from disconnected: not connected to DevTools
-  (Session info: MicrosoftEdge=138.0.3351.77)
+2025-07-12 12:12:17 INFO  TC004_LoginAuthentication:22 - ******Starting Login Authentication Test Case*******
+2025-07-12 12:12:17 INFO  TC004_LoginAuthentication:24 - *****Clicking Login on Home Page******
+2025-07-12 12:12:17 ERROR TC004_LoginAuthentication:52 - Test Failed
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
 Build info: version: '4.33.0', revision: '2c6aaad03a'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [82032c8ee82ac87fef8d20fcc4ac8c8c, findElements {value=//div[normalize-space()='Bangalore'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 138.0.3351.77, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55650}, msedge: {msedgedriverVersion: 138.0.3351.77 (efaf6935b436..., userDataDir: C:\Users\2403730\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55650/devtoo..., se:cdpVersion: 138.0.3351.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 82032c8ee82ac87fef8d20fcc4ac8c8c
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [05d91e61a11e147d518a8e55175d0ee4, findElement {using=xpath, value=//a[normalize-space()='Login / Signup']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2403730\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55224}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55224/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 05d91e61a11e147d518a8e55175d0ee4
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -155,12 +206,15 @@ Session ID: 82032c8ee82ac87fef8d20fcc4ac8c8c
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
-	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:380)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:374)
-	at pageObjects.HomePage.setSearchCity(HomePage.java:36)
-	at testCases.TC001_HospitalsAvailabilityTest.hospitalsSearch(TC001_HospitalsAvailabilityTest.java:19)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy31.click(Unknown Source)
+	at pageObjects.HomePage.clickLogin(HomePage.java:64)
+	at testCases.TC004_LoginAuthentication.loginTest(TC004_LoginAuthentication.java:26)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -187,36 +241,175 @@ Session ID: 82032c8ee82ac87fef8d20fcc4ac8c8c
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-2025-07-11 13:46:11 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\2403730\eclipse-workspace\FindingHospitals\testng.xml
-
-2025-07-11 13:46:22 INFO  TC001_HospitalsAvailabilityTest:13 - ****Starting TestCase*****
-2025-07-11 13:46:22 INFO  TC001_HospitalsAvailabilityTest:18 - ****Entering Search City*****
-2025-07-11 13:46:27 INFO  TC001_HospitalsAvailabilityTest:21 - ****Entering Search Value*****
-2025-07-11 13:46:35 INFO  TC001_HospitalsAvailabilityTest:24 - ****Getting Total No. of Results*****
-2025-07-11 13:46:35 INFO  TC001_HospitalsAvailabilityTest:27 - ****Getting Name of Hospitals based on criteria*****
-2025-07-11 13:46:35 INFO  TC001_HospitalsAvailabilityTest:36 - ****Finished TestCase*****
-2025-07-11 13:47:51 INFO  TC001_HospitalsAvailabilityTest:13 - ****Starting TestCase*****
-2025-07-11 13:47:51 INFO  TC001_HospitalsAvailabilityTest:18 - ****Entering Search City*****
-2025-07-11 13:47:56 INFO  TC001_HospitalsAvailabilityTest:21 - ****Entering Search Value*****
-2025-07-11 13:48:03 INFO  TC001_HospitalsAvailabilityTest:24 - ****Getting Total No. of Results*****
-2025-07-11 13:48:03 INFO  TC001_HospitalsAvailabilityTest:27 - ****Getting Name of Hospitals based on criteria*****
-2025-07-11 13:48:04 INFO  TC001_HospitalsAvailabilityTest:36 - ****Finished TestCase*****
-2025-07-11 13:48:33 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\2403730\eclipse-workspace\FindingHospitals\testng.xml
-
-2025-07-11 13:48:42 INFO  TC001_HospitalsAvailabilityTest:13 - ****Starting TestCase*****
-2025-07-11 13:48:42 INFO  TC001_HospitalsAvailabilityTest:18 - ****Entering Search City*****
-2025-07-11 13:48:47 ERROR TC001_HospitalsAvailabilityTest:32 - Test Failed
+2025-07-12 12:12:26 INFO  TC002_NearbyDoctors:18 - ****Starting Search Nearby Doctors TestCase*****
+2025-07-12 12:12:26 INFO  TC002_NearbyDoctors:22 - ****Selecting Location*****
+2025-07-12 12:12:27 INFO  TC002_NearbyDoctors:24 - ****Selecting Doctor Type*****
+2025-07-12 12:12:30 ERROR TC002_NearbyDoctors:41 - Test Failed
 org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
 from disconnected: not connected to DevTools
   (Session info: chrome=137.0.7151.69)
 Build info: version: '4.33.0', revision: '2c6aaad03a'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2fc67d5b8b94d18a708f1160be8a37bb, findElements {value=//div[normalize-space()='Bangalore'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2403730\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58446}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58446/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2fc67d5b8b94d18a708f1160be8a37bb
+Command: [519df2ca54d1a3a42d6190eb4a59bba6, findElement {using=xpath, value=//input[@placeholder='Search doctors, clinics, hospitals, etc.']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2403730\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55397}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55397/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 519df2ca54d1a3a42d6190eb4a59bba6
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy31.sendKeys(Unknown Source)
+	at pageObjects.FindDoctorsPage.selectDoctorType(FindDoctorsPage.java:29)
+	at testCases.TC002_NearbyDoctors.findDoctorsTest(TC002_NearbyDoctors.java:25)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+2025-07-12 12:12:45 INFO  TC002_NearbyDoctors:18 - ****Starting Search Nearby Doctors TestCase*****
+2025-07-12 12:12:45 INFO  TC002_NearbyDoctors:22 - ****Selecting Location*****
+2025-07-12 12:12:45 INFO  TC002_NearbyDoctors:24 - ****Selecting Doctor Type*****
+2025-07-12 12:12:59 INFO  TC002_NearbyDoctors:28 - ****Selecting Gender*****
+2025-07-12 12:13:08 ERROR TC002_NearbyDoctors:41 - Test Failed
+org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [6a4199547b4f692ad625e47763443b77, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 138.0.3351.83, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55563}, msedge: {msedgedriverVersion: 138.0.3351.83 (16e2a7bef320..., userDataDir: C:\Users\2403730\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55563/devtoo..., se:cdpVersion: 138.0.3351.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6a4199547b4f692ad625e47763443b77
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:571)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy31.click(Unknown Source)
+	at pageObjects.FetchDoctorsPage.selectGender(FetchDoctorsPage.java:44)
+	at testCases.TC002_NearbyDoctors.findDoctorsTest(TC002_NearbyDoctors.java:29)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.io.UncheckedIOException: java.io.IOException: HTTP/1.1 header parser received no bytes
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:500)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$2(JdkHttpClient.java:387)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.io.IOException: HTTP/1.1 header parser received no bytes
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:967)
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:459)
+	... 8 more
+Caused by: java.io.IOException: HTTP/1.1 header parser received no bytes
+	at java.net.http/jdk.internal.net.http.common.Utils.wrapWithExtraDetail(Utils.java:388)
+	at java.net.http/jdk.internal.net.http.Http1Response$HeadersReader.onReadError(Http1Response.java:590)
+	at java.net.http/jdk.internal.net.http.Http1AsyncReceiver.checkForErrors(Http1AsyncReceiver.java:302)
+	at java.net.http/jdk.internal.net.http.Http1AsyncReceiver.flush(Http1AsyncReceiver.java:268)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:182)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	... 3 more
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1178)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:841)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1470)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1415)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1415)
+2025-07-12 12:16:15 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2403730\eclipse-workspace\FindingHospitals\testng.xml
+
+2025-07-12 12:16:30 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2403730\eclipse-workspace\FindingHospitals\testng.xml
+
+2025-07-12 12:16:39 INFO  TC002_NearbyDoctors:19 - ****Starting Search Nearby Doctors TestCase*****
+2025-07-12 12:16:47 INFO  TC002_NearbyDoctors:25 - ****Selecting Location*****
+2025-07-12 12:16:47 INFO  TC002_NearbyDoctors:27 - ****Selecting Doctor Type*****
+2025-07-12 12:16:54 INFO  TC002_NearbyDoctors:31 - ****Selecting Gender*****
+2025-07-12 12:16:59 INFO  TC002_NearbyDoctors:33 - ****Selecting Experience*****
+2025-07-12 12:17:04 INFO  TC002_NearbyDoctors:35 - ****Sorting names based on fees*****
+2025-07-12 12:17:11 INFO  TC002_NearbyDoctors:37 - ****Storing doctor names in a list*****
+2025-07-12 12:17:14 ERROR TC002_NearbyDoctors:44 - Test Failed
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bb8125c5ae5a37c74c41ba14dda7c1ce, findElements {using=xpath, value=//*[@class='doctor-name']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2403730\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56184}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56184/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bb8125c5ae5a37c74c41ba14dda7c1ce
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -231,8 +424,10 @@ Session ID: 2fc67d5b8b94d18a708f1160be8a37bb
 	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:380)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:374)
-	at pageObjects.HomePage.setSearchCity(HomePage.java:36)
-	at testCases.TC001_HospitalsAvailabilityTest.hospitalsSearch(TC001_HospitalsAvailabilityTest.java:19)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElements(DefaultElementLocator.java:83)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:36)
+	at jdk.proxy2/jdk.proxy2.$Proxy31.iterator(Unknown Source)
+	at testCases.TC002_NearbyDoctors.findDoctorsTest(TC002_NearbyDoctors.java:39)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -259,212 +454,40 @@ Session ID: 2fc67d5b8b94d18a708f1160be8a37bb
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-2025-07-11 13:49:51 INFO  Utils:112 - [TestNG] Running:
+2025-07-12 12:18:07 INFO  Utils:112 - [TestNG] Running:
   C:\Users\2403730\eclipse-workspace\FindingHospitals\testng.xml
 
-2025-07-11 13:55:41 INFO  Utils:112 - [TestNG] Running:
+2025-07-12 12:18:15 INFO  TC002_NearbyDoctors:19 - ****Starting Search Nearby Doctors TestCase*****
+2025-07-12 12:18:22 INFO  TC002_NearbyDoctors:25 - ****Selecting Location*****
+2025-07-12 12:18:23 INFO  TC002_NearbyDoctors:27 - ****Selecting Doctor Type*****
+2025-07-12 12:18:29 INFO  TC002_NearbyDoctors:31 - ****Selecting Gender*****
+2025-07-12 12:18:32 INFO  TC002_NearbyDoctors:33 - ****Selecting Experience*****
+2025-07-12 12:18:38 INFO  TC002_NearbyDoctors:35 - ****Sorting names based on fees*****
+2025-07-12 12:18:45 INFO  TC002_NearbyDoctors:37 - ****Storing doctor names in a list*****
+2025-07-12 12:18:47 INFO  TC002_NearbyDoctors:48 - ****Finished Searching Doctors TestCase*****
+2025-07-12 12:33:39 INFO  Utils:112 - [TestNG] Running:
   C:\Users\2403730\eclipse-workspace\FindingHospitals\testng.xml
 
-2025-07-11 14:01:59 INFO  Utils:112 - [TestNG] Running:
+2025-07-12 12:34:46 INFO  Utils:112 - [TestNG] Running:
   C:\Users\2403730\eclipse-workspace\FindingHospitals\testng.xml
 
-2025-07-11 14:13:36 INFO  Utils:112 - [TestNG] Running:
+2025-07-12 12:36:27 INFO  Utils:112 - [TestNG] Running:
   C:\Users\2403730\eclipse-workspace\FindingHospitals\testng.xml
 
-2025-07-11 14:13:45 INFO  TC001_HospitalsAvailabilityTest:13 - ****Starting TestCase*****
-2025-07-11 14:13:45 INFO  TC001_HospitalsAvailabilityTest:18 - ****Entering Search City*****
-2025-07-11 14:13:51 ERROR TC001_HospitalsAvailabilityTest:32 - Test Failed
-java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElements(org.openqa.selenium.By)" because "this.driver" is null
-	at pageObjects.HomePage.setSearchCity(HomePage.java:37)
-	at testCases.TC001_HospitalsAvailabilityTest.hospitalsSearch(TC001_HospitalsAvailabilityTest.java:19)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-2025-07-11 14:14:01 INFO  TC002_LoginAuthentication:22 - ******Starting Login Authentication Test Case*******
-2025-07-11 14:14:01 INFO  TC002_LoginAuthentication:24 - *****Clicking Login on Home Page******
-2025-07-11 14:14:02 INFO  TC002_LoginAuthentication:28 - *****Entering username and password and clicking login******
-2025-07-11 14:14:03 INFO  TC002_LoginAuthentication:42 - *****Checking invisibility of Profile Info upon unsuccessful login******
-2025-07-11 14:16:04 INFO  TC002_LoginAuthentication:52 - ****Finished Login Authentication TestCase*****
-2025-07-11 14:16:04 INFO  TC002_LoginAuthentication:22 - ******Starting Login Authentication Test Case*******
-2025-07-11 14:16:04 INFO  TC002_LoginAuthentication:24 - *****Clicking Login on Home Page******
-2025-07-11 14:16:06 INFO  TC002_LoginAuthentication:28 - *****Entering username and password and clicking login******
-2025-07-11 14:16:08 INFO  TC002_LoginAuthentication:37 - *****Checking if Profile Info is displayed after successful login******
-2025-07-11 14:16:08 INFO  TC002_LoginAuthentication:39 - *****Logging out******
-2025-07-11 14:16:08 INFO  TC002_LoginAuthentication:52 - ****Finished Login Authentication TestCase*****
-2025-07-11 14:16:08 INFO  TC002_LoginAuthentication:22 - ******Starting Login Authentication Test Case*******
-2025-07-11 14:16:08 INFO  TC002_LoginAuthentication:24 - *****Clicking Login on Home Page******
-2025-07-11 14:16:09 INFO  TC002_LoginAuthentication:28 - *****Entering username and password and clicking login******
-2025-07-11 14:16:09 INFO  TC002_LoginAuthentication:42 - *****Checking invisibility of Profile Info upon unsuccessful login******
-2025-07-11 14:18:09 INFO  TC002_LoginAuthentication:52 - ****Finished Login Authentication TestCase*****
-2025-07-11 14:18:24 INFO  TC001_HospitalsAvailabilityTest:13 - ****Starting TestCase*****
-2025-07-11 14:18:24 INFO  TC001_HospitalsAvailabilityTest:18 - ****Entering Search City*****
-2025-07-11 14:18:29 ERROR TC001_HospitalsAvailabilityTest:32 - Test Failed
-java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElements(org.openqa.selenium.By)" because "this.driver" is null
-	at pageObjects.HomePage.setSearchCity(HomePage.java:37)
-	at testCases.TC001_HospitalsAvailabilityTest.hospitalsSearch(TC001_HospitalsAvailabilityTest.java:19)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-2025-07-11 14:18:40 INFO  TC002_LoginAuthentication:22 - ******Starting Login Authentication Test Case*******
-2025-07-11 14:18:40 INFO  TC002_LoginAuthentication:24 - *****Clicking Login on Home Page******
-2025-07-11 14:18:41 INFO  TC002_LoginAuthentication:28 - *****Entering username and password and clicking login******
-2025-07-11 14:18:42 INFO  TC002_LoginAuthentication:42 - *****Checking invisibility of Profile Info upon unsuccessful login******
-2025-07-11 14:20:42 INFO  TC002_LoginAuthentication:52 - ****Finished Login Authentication TestCase*****
-2025-07-11 14:20:42 INFO  TC002_LoginAuthentication:22 - ******Starting Login Authentication Test Case*******
-2025-07-11 14:20:42 INFO  TC002_LoginAuthentication:24 - *****Clicking Login on Home Page******
-2025-07-11 14:20:43 INFO  TC002_LoginAuthentication:28 - *****Entering username and password and clicking login******
-2025-07-11 14:20:45 INFO  TC002_LoginAuthentication:37 - *****Checking if Profile Info is displayed after successful login******
-2025-07-11 14:20:45 INFO  TC002_LoginAuthentication:39 - *****Logging out******
-2025-07-11 14:20:46 INFO  TC002_LoginAuthentication:52 - ****Finished Login Authentication TestCase*****
-2025-07-11 14:20:46 INFO  TC002_LoginAuthentication:22 - ******Starting Login Authentication Test Case*******
-2025-07-11 14:20:46 INFO  TC002_LoginAuthentication:24 - *****Clicking Login on Home Page******
-2025-07-11 14:20:47 INFO  TC002_LoginAuthentication:28 - *****Entering username and password and clicking login******
-2025-07-11 14:20:47 INFO  TC002_LoginAuthentication:42 - *****Checking invisibility of Profile Info upon unsuccessful login******
-2025-07-11 14:22:47 INFO  TC002_LoginAuthentication:52 - ****Finished Login Authentication TestCase*****
-2025-07-11 14:25:44 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\2403730\eclipse-workspace\FindingHospitals\testng.xml
-
-2025-07-11 14:25:55 INFO  TC001_HospitalsAvailabilityTest:13 - ****Starting TestCase*****
-2025-07-11 14:25:55 INFO  TC001_HospitalsAvailabilityTest:18 - ****Entering Search City*****
-2025-07-11 14:26:00 ERROR TC001_HospitalsAvailabilityTest:32 - Test Failed
-java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElements(org.openqa.selenium.By)" because "this.driver" is null
-	at pageObjects.HomePage.setSearchCity(HomePage.java:40)
-	at testCases.TC001_HospitalsAvailabilityTest.hospitalsSearch(TC001_HospitalsAvailabilityTest.java:19)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-2025-07-11 14:26:10 INFO  TC002_LoginAuthentication:22 - ******Starting Login Authentication Test Case*******
-2025-07-11 14:26:10 INFO  TC002_LoginAuthentication:24 - *****Clicking Login on Home Page******
-2025-07-11 14:26:11 INFO  TC002_LoginAuthentication:28 - *****Entering username and password and clicking login******
-2025-07-11 14:26:12 INFO  TC002_LoginAuthentication:45 - *****Checking visibility of username error block upon unsuccessful login******
-2025-07-11 14:26:13 INFO  TC002_LoginAuthentication:56 - ****Finished Login Authentication TestCase*****
-2025-07-11 14:26:13 INFO  TC002_LoginAuthentication:22 - ******Starting Login Authentication Test Case*******
-2025-07-11 14:26:13 INFO  TC002_LoginAuthentication:24 - *****Clicking Login on Home Page******
-2025-07-11 14:26:13 INFO  TC002_LoginAuthentication:28 - *****Entering username and password and clicking login******
-2025-07-11 14:26:16 INFO  TC002_LoginAuthentication:37 - *****Checking if Profile Info is displayed after successful login******
-2025-07-11 14:26:16 INFO  TC002_LoginAuthentication:39 - *****Logging out******
-2025-07-11 14:26:17 INFO  TC002_LoginAuthentication:56 - ****Finished Login Authentication TestCase*****
-2025-07-11 14:26:17 INFO  TC002_LoginAuthentication:22 - ******Starting Login Authentication Test Case*******
-2025-07-11 14:26:17 INFO  TC002_LoginAuthentication:24 - *****Clicking Login on Home Page******
-2025-07-11 14:26:17 INFO  TC002_LoginAuthentication:28 - *****Entering username and password and clicking login******
-2025-07-11 14:26:18 INFO  TC002_LoginAuthentication:45 - *****Checking visibility of username error block upon unsuccessful login******
-2025-07-11 14:26:18 INFO  TC002_LoginAuthentication:56 - ****Finished Login Authentication TestCase*****
-2025-07-11 14:26:28 INFO  TC001_HospitalsAvailabilityTest:13 - ****Starting TestCase*****
-2025-07-11 14:26:28 INFO  TC001_HospitalsAvailabilityTest:18 - ****Entering Search City*****
-2025-07-11 14:26:34 ERROR TC001_HospitalsAvailabilityTest:32 - Test Failed
-java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElements(org.openqa.selenium.By)" because "this.driver" is null
-	at pageObjects.HomePage.setSearchCity(HomePage.java:40)
-	at testCases.TC001_HospitalsAvailabilityTest.hospitalsSearch(TC001_HospitalsAvailabilityTest.java:19)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-2025-07-11 14:26:44 INFO  TC002_LoginAuthentication:22 - ******Starting Login Authentication Test Case*******
-2025-07-11 14:26:44 INFO  TC002_LoginAuthentication:24 - *****Clicking Login on Home Page******
-2025-07-11 14:26:45 INFO  TC002_LoginAuthentication:28 - *****Entering username and password and clicking login******
-2025-07-11 14:26:46 INFO  TC002_LoginAuthentication:45 - *****Checking visibility of username error block upon unsuccessful login******
-2025-07-11 14:26:47 ERROR TC002_LoginAuthentication:52 - Test Failed
-org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
-  (Session info: MicrosoftEdge=138.0.3351.77)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-07-12 12:36:36 INFO  TC002_NearbyDoctors:20 - ****Starting Search Nearby Doctors TestCase*****
+2025-07-12 12:36:50 INFO  TC002_NearbyDoctors:26 - ****Selecting Location*****
+2025-07-12 12:36:50 INFO  TC002_NearbyDoctors:28 - ****Selecting Doctor Type*****
+2025-07-12 12:36:54 INFO  TC002_NearbyDoctors:32 - ****Selecting Gender*****
+2025-07-12 12:36:56 ERROR TC002_NearbyDoctors:45 - Test Failed
+org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=137.0.7151.69)
 Build info: version: '4.33.0', revision: '2c6aaad03a'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [02c6c7fec81a2723e0dcb669e1f4aea4, isElementDisplayed {id=f.E94B15CE70977A5BDEC87A393FD14998.d.9AEF055EDA8091CB1BC861CB08054BFB.e.77}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 138.0.3351.77, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:64469}, msedge: {msedgedriverVersion: 138.0.3351.77 (efaf6935b436..., userDataDir: C:\Users\2403730\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64469/devtoo..., se:cdpVersion: 138.0.3351.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: MicrosoftEdge on windows (02c6c7fec81a2723e0dcb669e1f4aea4)] -> id: usernameErrorBlock]
-Session ID: 02c6c7fec81a2723e0dcb669e1f4aea4
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1384a9891c6885ff1fecfaa600a49163, findElement {value=//span[@data-qa-id='doctor_gender_selected']//i[@class='u-transition--transform u-d-inlineblock icon-ic_dropdown u-f-right'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2403730\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59150}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59150/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1384a9891c6885ff1fecfaa600a49163
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -475,221 +498,15 @@ Session ID: 02c6c7fec81a2723e0dcb669e1f4aea4
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:282)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy31.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at testCases.TC002_LoginAuthentication.loginTest(TC002_LoginAuthentication.java:46)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-2025-07-11 14:26:47 INFO  TC002_LoginAuthentication:22 - ******Starting Login Authentication Test Case*******
-2025-07-11 14:26:47 INFO  TC002_LoginAuthentication:24 - *****Clicking Login on Home Page******
-2025-07-11 14:26:47 INFO  TC002_LoginAuthentication:28 - *****Entering username and password and clicking login******
-2025-07-11 14:26:49 INFO  TC002_LoginAuthentication:37 - *****Checking if Profile Info is displayed after successful login******
-2025-07-11 14:26:49 INFO  TC002_LoginAuthentication:39 - *****Logging out******
-2025-07-11 14:26:50 INFO  TC002_LoginAuthentication:56 - ****Finished Login Authentication TestCase*****
-2025-07-11 14:26:50 INFO  TC002_LoginAuthentication:22 - ******Starting Login Authentication Test Case*******
-2025-07-11 14:26:50 INFO  TC002_LoginAuthentication:24 - *****Clicking Login on Home Page******
-2025-07-11 14:26:50 INFO  TC002_LoginAuthentication:28 - *****Entering username and password and clicking login******
-2025-07-11 14:26:51 INFO  TC002_LoginAuthentication:45 - *****Checking visibility of username error block upon unsuccessful login******
-2025-07-11 14:26:51 INFO  TC002_LoginAuthentication:56 - ****Finished Login Authentication TestCase*****
-2025-07-11 14:29:30 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\2403730\eclipse-workspace\FindingHospitals\testng.xml
-
-2025-07-11 14:29:39 INFO  TC002_LoginAuthentication:22 - ******Starting Login Authentication Test Case*******
-2025-07-11 14:29:39 INFO  TC002_LoginAuthentication:24 - *****Clicking Login on Home Page******
-2025-07-11 14:29:40 INFO  TC002_LoginAuthentication:28 - *****Entering username and password and clicking login******
-2025-07-11 14:29:41 INFO  TC002_LoginAuthentication:45 - *****Checking visibility of username error block upon unsuccessful login******
-2025-07-11 14:29:42 INFO  TC002_LoginAuthentication:56 - ****Finished Login Authentication TestCase*****
-2025-07-11 14:29:42 INFO  TC002_LoginAuthentication:22 - ******Starting Login Authentication Test Case*******
-2025-07-11 14:29:42 INFO  TC002_LoginAuthentication:24 - *****Clicking Login on Home Page******
-2025-07-11 14:29:42 INFO  TC002_LoginAuthentication:28 - *****Entering username and password and clicking login******
-2025-07-11 14:29:44 INFO  TC002_LoginAuthentication:37 - *****Checking if Profile Info is displayed after successful login******
-2025-07-11 14:29:44 INFO  TC002_LoginAuthentication:39 - *****Logging out******
-2025-07-11 14:29:45 INFO  TC002_LoginAuthentication:56 - ****Finished Login Authentication TestCase*****
-2025-07-11 14:29:45 INFO  TC002_LoginAuthentication:22 - ******Starting Login Authentication Test Case*******
-2025-07-11 14:29:45 INFO  TC002_LoginAuthentication:24 - *****Clicking Login on Home Page******
-2025-07-11 14:29:46 INFO  TC002_LoginAuthentication:28 - *****Entering username and password and clicking login******
-2025-07-11 14:29:46 INFO  TC002_LoginAuthentication:45 - *****Checking visibility of username error block upon unsuccessful login******
-2025-07-11 14:29:46 INFO  TC002_LoginAuthentication:56 - ****Finished Login Authentication TestCase*****
-2025-07-11 14:29:57 INFO  TC002_LoginAuthentication:22 - ******Starting Login Authentication Test Case*******
-2025-07-11 14:29:57 INFO  TC002_LoginAuthentication:24 - *****Clicking Login on Home Page******
-2025-07-11 14:29:58 INFO  TC002_LoginAuthentication:28 - *****Entering username and password and clicking login******
-2025-07-11 14:29:59 INFO  TC002_LoginAuthentication:45 - *****Checking visibility of username error block upon unsuccessful login******
-2025-07-11 14:30:00 INFO  TC002_LoginAuthentication:56 - ****Finished Login Authentication TestCase*****
-2025-07-11 14:30:00 INFO  TC002_LoginAuthentication:22 - ******Starting Login Authentication Test Case*******
-2025-07-11 14:30:00 INFO  TC002_LoginAuthentication:24 - *****Clicking Login on Home Page******
-2025-07-11 14:30:00 INFO  TC002_LoginAuthentication:28 - *****Entering username and password and clicking login******
-2025-07-11 14:30:02 INFO  TC002_LoginAuthentication:37 - *****Checking if Profile Info is displayed after successful login******
-2025-07-11 14:30:02 INFO  TC002_LoginAuthentication:39 - *****Logging out******
-2025-07-11 14:30:03 INFO  TC002_LoginAuthentication:56 - ****Finished Login Authentication TestCase*****
-2025-07-11 14:30:03 INFO  TC002_LoginAuthentication:22 - ******Starting Login Authentication Test Case*******
-2025-07-11 14:30:03 INFO  TC002_LoginAuthentication:24 - *****Clicking Login on Home Page******
-2025-07-11 14:30:04 INFO  TC002_LoginAuthentication:28 - *****Entering username and password and clicking login******
-2025-07-11 14:30:04 INFO  TC002_LoginAuthentication:45 - *****Checking visibility of username error block upon unsuccessful login******
-2025-07-11 14:30:05 INFO  TC002_LoginAuthentication:56 - ****Finished Login Authentication TestCase*****
-2025-07-11 14:31:39 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\2403730\eclipse-workspace\FindingHospitals\testng.xml
-
-2025-07-11 14:31:49 INFO  TC001_HospitalsAvailabilityTest:13 - ****Starting TestCase*****
-2025-07-11 14:31:49 INFO  TC001_HospitalsAvailabilityTest:18 - ****Entering Search City*****
-2025-07-11 14:31:54 ERROR TC001_HospitalsAvailabilityTest:32 - Test Failed
-java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElements(org.openqa.selenium.By)" because "this.driver" is null
-	at pageObjects.HomePage.setSearchCity(HomePage.java:40)
-	at testCases.TC001_HospitalsAvailabilityTest.hospitalsSearch(TC001_HospitalsAvailabilityTest.java:19)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-2025-07-11 14:32:05 INFO  TC001_HospitalsAvailabilityTest:13 - ****Starting TestCase*****
-2025-07-11 14:32:05 INFO  TC001_HospitalsAvailabilityTest:18 - ****Entering Search City*****
-2025-07-11 14:32:10 ERROR TC001_HospitalsAvailabilityTest:32 - Test Failed
-java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElements(org.openqa.selenium.By)" because "this.driver" is null
-	at pageObjects.HomePage.setSearchCity(HomePage.java:40)
-	at testCases.TC001_HospitalsAvailabilityTest.hospitalsSearch(TC001_HospitalsAvailabilityTest.java:19)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-2025-07-11 14:34:09 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\2403730\eclipse-workspace\FindingHospitals\testng.xml
-
-2025-07-11 14:34:18 INFO  TC001_HospitalsAvailabilityTest:13 - ****Starting TestCase*****
-2025-07-11 14:34:18 INFO  TC001_HospitalsAvailabilityTest:18 - ****Entering Search City*****
-2025-07-11 14:34:23 ERROR TC001_HospitalsAvailabilityTest:32 - Test Failed
-java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElements(org.openqa.selenium.By)" because "this.driver" is null
-	at pageObjects.HomePage.setSearchCity(HomePage.java:40)
-	at testCases.TC001_HospitalsAvailabilityTest.hospitalsSearch(TC001_HospitalsAvailabilityTest.java:19)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-2025-07-11 14:34:35 INFO  TC001_HospitalsAvailabilityTest:13 - ****Starting TestCase*****
-2025-07-11 14:34:35 INFO  TC001_HospitalsAvailabilityTest:18 - ****Entering Search City*****
-2025-07-11 14:34:36 ERROR TC001_HospitalsAvailabilityTest:32 - Test Failed
-org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input data-qa-id="omni-searchbox-locality" data-input-box-id="omni-searchbox-locality" class="c-omni-searchbox c-omni-searchbox--small" autocomplete="off" placeholder="Search location" value="Chennai"> is not clickable at point (180, 20). Other element would receive the click: <a href="/consult/direct/new_consultation?id=16&amp;utm_source=consumer-home&amp;utm_medium=web&amp;utm_campaign=top_symptoms" aria-label="Period doubts or Pregnancy, Consult Now" class="card-link"></a>
-  (Session info: MicrosoftEdge=138.0.3351.77)
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [2e2efbc863bb23434a42c2fbb8023f2c, clickElement {id=f.D01594E735004548A5EF0FB7818E8E0B.d.72BEB75F1A19C9BA5A6F2AC3CD5306A4.e.6}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 138.0.3351.77, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50096}, msedge: {msedgedriverVersion: 138.0.3351.77 (efaf6935b436..., userDataDir: C:\Users\2403730\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50096/devtoo..., se:cdpVersion: 138.0.3351.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: MicrosoftEdge on windows (2e2efbc863bb23434a42c2fbb8023f2c)] -> xpath: //input[@placeholder='Search location']]
-Session ID: 2e2efbc863bb23434a42c2fbb8023f2c
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at jdk.proxy2/jdk.proxy2.$Proxy31.click(Unknown Source)
-	at pageObjects.HomePage.setSearchCity(HomePage.java:32)
-	at testCases.TC001_HospitalsAvailabilityTest.hospitalsSearch(TC001_HospitalsAvailabilityTest.java:19)
+	at pageObjects.FetchDoctorsPage.selectGender(FetchDoctorsPage.java:43)
+	at testCases.TC002_NearbyDoctors.findDoctorsTest(TC002_NearbyDoctors.java:33)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -716,308 +533,25 @@ Session ID: 2e2efbc863bb23434a42c2fbb8023f2c
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-2025-07-11 15:00:23 INFO  Utils:112 - [TestNG] Running:
+2025-07-12 12:37:21 INFO  Utils:112 - [TestNG] Running:
   C:\Users\2403730\eclipse-workspace\FindingHospitals\testng.xml
 
-2025-07-11 15:00:34 INFO  TC001_HospitalsAvailabilityTest:13 - ****Starting TestCase*****
-2025-07-11 15:00:34 INFO  TC001_HospitalsAvailabilityTest:18 - ****Entering Search City*****
-2025-07-11 15:00:40 ERROR TC001_HospitalsAvailabilityTest:32 - Test Failed
-java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElements(org.openqa.selenium.By)" because "this.driver" is null
-	at pageObjects.HomePage.setSearchCity(HomePage.java:40)
-	at testCases.TC001_HospitalsAvailabilityTest.hospitalsSearch(TC001_HospitalsAvailabilityTest.java:19)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-2025-07-11 15:00:51 INFO  TC001_HospitalsAvailabilityTest:13 - ****Starting TestCase*****
-2025-07-11 15:00:51 INFO  TC001_HospitalsAvailabilityTest:18 - ****Entering Search City*****
-2025-07-11 15:00:56 ERROR TC001_HospitalsAvailabilityTest:32 - Test Failed
-java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElements(org.openqa.selenium.By)" because "this.driver" is null
-	at pageObjects.HomePage.setSearchCity(HomePage.java:40)
-	at testCases.TC001_HospitalsAvailabilityTest.hospitalsSearch(TC001_HospitalsAvailabilityTest.java:19)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-2025-07-11 15:14:31 INFO  Utils:112 - [TestNG] Running:
+2025-07-12 12:37:30 INFO  TC002_NearbyDoctors:20 - ****Starting Search Nearby Doctors TestCase*****
+2025-07-12 12:37:43 INFO  TC002_NearbyDoctors:26 - ****Selecting Location*****
+2025-07-12 12:37:43 INFO  TC002_NearbyDoctors:28 - ****Selecting Doctor Type*****
+2025-07-12 12:37:51 INFO  TC002_NearbyDoctors:32 - ****Selecting Gender*****
+2025-07-12 12:37:54 INFO  TC002_NearbyDoctors:34 - ****Selecting Experience*****
+2025-07-12 12:38:00 INFO  TC002_NearbyDoctors:36 - ****Sorting names based on fees*****
+2025-07-12 12:38:11 INFO  TC002_NearbyDoctors:38 - ****Storing doctor names in a list*****
+2025-07-12 12:38:13 INFO  TC002_NearbyDoctors:49 - ****Finished Searching Doctors TestCase*****
+2025-07-12 12:38:51 INFO  Utils:112 - [TestNG] Running:
   C:\Users\2403730\eclipse-workspace\FindingHospitals\testng.xml
 
-2025-07-11 15:15:02 INFO  TC001_HospitalsAvailabilityTest:13 - ****Starting TestCase*****
-2025-07-11 15:15:02 INFO  TC001_HospitalsAvailabilityTest:18 - ****Entering Search City*****
-2025-07-11 15:15:07 ERROR TC001_HospitalsAvailabilityTest:32 - Test Failed
-java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElements(org.openqa.selenium.By)" because "this.driver" is null
-	at pageObjects.HomePage.setSearchCity(HomePage.java:40)
-	at testCases.TC001_HospitalsAvailabilityTest.hospitalsSearch(TC001_HospitalsAvailabilityTest.java:19)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-2025-07-11 15:15:27 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\2403730\eclipse-workspace\FindingHospitals\testng.xml
-
-2025-07-11 15:18:47 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\2403730\eclipse-workspace\FindingHospitals\testng.xml
-
-2025-07-11 15:18:57 INFO  TC001_HospitalsAvailabilityTest:13 - ****Starting TestCase*****
-2025-07-11 15:18:57 INFO  TC001_HospitalsAvailabilityTest:18 - ****Entering Search City*****
-2025-07-11 15:19:03 ERROR TC001_HospitalsAvailabilityTest:32 - Test Failed
-java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElements(org.openqa.selenium.By)" because "this.driver" is null
-	at pageObjects.HomePage.setSearchCity(HomePage.java:41)
-	at testCases.TC001_HospitalsAvailabilityTest.hospitalsSearch(TC001_HospitalsAvailabilityTest.java:19)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-2025-07-11 15:19:17 INFO  TC001_HospitalsAvailabilityTest:13 - ****Starting TestCase*****
-2025-07-11 15:19:17 INFO  TC001_HospitalsAvailabilityTest:18 - ****Entering Search City*****
-2025-07-11 15:19:22 ERROR TC001_HospitalsAvailabilityTest:32 - Test Failed
-java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElements(org.openqa.selenium.By)" because "this.driver" is null
-	at pageObjects.HomePage.setSearchCity(HomePage.java:41)
-	at testCases.TC001_HospitalsAvailabilityTest.hospitalsSearch(TC001_HospitalsAvailabilityTest.java:19)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-2025-07-11 15:20:25 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\2403730\eclipse-workspace\FindingHospitals\testng.xml
-
-2025-07-11 15:20:36 INFO  TC002_LoginAuthentication:22 - ******Starting Login Authentication Test Case*******
-2025-07-11 15:20:36 INFO  TC002_LoginAuthentication:24 - *****Clicking Login on Home Page******
-2025-07-11 15:20:37 INFO  TC002_LoginAuthentication:28 - *****Entering username and password and clicking login******
-2025-07-11 15:20:39 INFO  TC002_LoginAuthentication:45 - *****Checking visibility of username error block upon unsuccessful login******
-2025-07-11 15:20:39 INFO  TC002_LoginAuthentication:56 - ****Finished Login Authentication TestCase*****
-2025-07-11 15:20:39 INFO  TC002_LoginAuthentication:22 - ******Starting Login Authentication Test Case*******
-2025-07-11 15:20:39 INFO  TC002_LoginAuthentication:24 - *****Clicking Login on Home Page******
-2025-07-11 15:20:40 INFO  TC002_LoginAuthentication:28 - *****Entering username and password and clicking login******
-2025-07-11 15:20:42 INFO  TC002_LoginAuthentication:37 - *****Checking if Profile Info is displayed after successful login******
-2025-07-11 15:20:42 INFO  TC002_LoginAuthentication:39 - *****Logging out******
-2025-07-11 15:20:43 INFO  TC002_LoginAuthentication:56 - ****Finished Login Authentication TestCase*****
-2025-07-11 15:20:43 INFO  TC002_LoginAuthentication:22 - ******Starting Login Authentication Test Case*******
-2025-07-11 15:20:43 INFO  TC002_LoginAuthentication:24 - *****Clicking Login on Home Page******
-2025-07-11 15:20:44 INFO  TC002_LoginAuthentication:28 - *****Entering username and password and clicking login******
-2025-07-11 15:20:45 INFO  TC002_LoginAuthentication:45 - *****Checking visibility of username error block upon unsuccessful login******
-2025-07-11 15:20:45 INFO  TC002_LoginAuthentication:56 - ****Finished Login Authentication TestCase*****
-2025-07-11 15:26:00 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\2403730\eclipse-workspace\FindingHospitals\testng.xml
-
-2025-07-11 15:26:10 INFO  TC001_HospitalsAvailabilityTest:13 - ****Starting TestCase*****
-2025-07-11 15:26:10 INFO  TC001_HospitalsAvailabilityTest:18 - ****Entering Search City*****
-2025-07-11 15:26:15 ERROR TC001_HospitalsAvailabilityTest:32 - Test Failed
-java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElements(org.openqa.selenium.By)" because "this.driver" is null
-	at pageObjects.HomePage.setSearchCity(HomePage.java:41)
-	at testCases.TC001_HospitalsAvailabilityTest.hospitalsSearch(TC001_HospitalsAvailabilityTest.java:19)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-2025-07-11 15:26:28 INFO  TC001_HospitalsAvailabilityTest:13 - ****Starting TestCase*****
-2025-07-11 15:26:28 INFO  TC001_HospitalsAvailabilityTest:18 - ****Entering Search City*****
-2025-07-11 15:26:33 ERROR TC001_HospitalsAvailabilityTest:32 - Test Failed
-java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElements(org.openqa.selenium.By)" because "this.driver" is null
-	at pageObjects.HomePage.setSearchCity(HomePage.java:41)
-	at testCases.TC001_HospitalsAvailabilityTest.hospitalsSearch(TC001_HospitalsAvailabilityTest.java:19)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-2025-07-11 15:30:24 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\2403730\eclipse-workspace\FindingHospitals\testng.xml
-
-2025-07-11 15:30:35 INFO  TC001_HospitalsAvailabilityTest:13 - ****Starting TestCase*****
-2025-07-11 15:30:35 INFO  TC001_HospitalsAvailabilityTest:18 - ****Entering Search City*****
-2025-07-11 15:30:40 INFO  TC001_HospitalsAvailabilityTest:21 - ****Entering Search Value*****
-2025-07-11 15:30:49 INFO  TC001_HospitalsAvailabilityTest:24 - ****Getting Total No. of Results*****
-2025-07-11 15:30:49 INFO  TC001_HospitalsAvailabilityTest:27 - ****Getting Name of Hospitals based on criteria*****
-2025-07-11 15:30:49 INFO  TC001_HospitalsAvailabilityTest:36 - ****Finished Searching Hospitals TestCase*****
-2025-07-11 15:31:03 INFO  TC002_LoginAuthentication:22 - ******Starting Login Authentication Test Case*******
-2025-07-11 15:31:03 INFO  TC002_LoginAuthentication:24 - *****Clicking Login on Home Page******
-2025-07-11 15:31:03 INFO  TC002_LoginAuthentication:28 - *****Entering username and password and clicking login******
-2025-07-11 15:31:05 INFO  TC002_LoginAuthentication:45 - *****Checking visibility of username error block upon unsuccessful login******
-2025-07-11 15:31:06 INFO  TC002_LoginAuthentication:56 - ****Finished Login Authentication TestCase*****
-2025-07-11 15:31:06 INFO  TC002_LoginAuthentication:22 - ******Starting Login Authentication Test Case*******
-2025-07-11 15:31:06 INFO  TC002_LoginAuthentication:24 - *****Clicking Login on Home Page******
-2025-07-11 15:31:06 INFO  TC002_LoginAuthentication:28 - *****Entering username and password and clicking login******
-2025-07-11 15:31:08 INFO  TC002_LoginAuthentication:37 - *****Checking if Profile Info is displayed after successful login******
-2025-07-11 15:31:08 INFO  TC002_LoginAuthentication:39 - *****Logging out******
-2025-07-11 15:31:10 INFO  TC002_LoginAuthentication:56 - ****Finished Login Authentication TestCase*****
-2025-07-11 15:31:10 INFO  TC002_LoginAuthentication:22 - ******Starting Login Authentication Test Case*******
-2025-07-11 15:31:10 INFO  TC002_LoginAuthentication:24 - *****Clicking Login on Home Page******
-2025-07-11 15:31:10 INFO  TC002_LoginAuthentication:28 - *****Entering username and password and clicking login******
-2025-07-11 15:31:11 INFO  TC002_LoginAuthentication:45 - *****Checking visibility of username error block upon unsuccessful login******
-2025-07-11 15:31:11 INFO  TC002_LoginAuthentication:56 - ****Finished Login Authentication TestCase*****
-2025-07-11 15:31:24 INFO  TC001_HospitalsAvailabilityTest:13 - ****Starting TestCase*****
-2025-07-11 15:31:24 INFO  TC001_HospitalsAvailabilityTest:18 - ****Entering Search City*****
-2025-07-11 15:31:30 INFO  TC001_HospitalsAvailabilityTest:21 - ****Entering Search Value*****
-2025-07-11 15:31:38 INFO  TC001_HospitalsAvailabilityTest:24 - ****Getting Total No. of Results*****
-2025-07-11 15:31:38 INFO  TC001_HospitalsAvailabilityTest:27 - ****Getting Name of Hospitals based on criteria*****
-2025-07-11 15:31:39 INFO  TC001_HospitalsAvailabilityTest:36 - ****Finished Searching Hospitals TestCase*****
-2025-07-11 15:31:51 INFO  TC002_LoginAuthentication:22 - ******Starting Login Authentication Test Case*******
-2025-07-11 15:31:51 INFO  TC002_LoginAuthentication:24 - *****Clicking Login on Home Page******
-2025-07-11 15:31:51 INFO  TC002_LoginAuthentication:28 - *****Entering username and password and clicking login******
-2025-07-11 15:31:53 INFO  TC002_LoginAuthentication:45 - *****Checking visibility of username error block upon unsuccessful login******
-2025-07-11 15:31:54 INFO  TC002_LoginAuthentication:56 - ****Finished Login Authentication TestCase*****
-2025-07-11 15:31:54 INFO  TC002_LoginAuthentication:22 - ******Starting Login Authentication Test Case*******
-2025-07-11 15:31:54 INFO  TC002_LoginAuthentication:24 - *****Clicking Login on Home Page******
-2025-07-11 15:31:54 INFO  TC002_LoginAuthentication:28 - *****Entering username and password and clicking login******
-2025-07-11 15:31:56 INFO  TC002_LoginAuthentication:37 - *****Checking if Profile Info is displayed after successful login******
-2025-07-11 15:31:56 INFO  TC002_LoginAuthentication:39 - *****Logging out******
-2025-07-11 15:31:57 INFO  TC002_LoginAuthentication:56 - ****Finished Login Authentication TestCase*****
-2025-07-11 15:31:57 INFO  TC002_LoginAuthentication:22 - ******Starting Login Authentication Test Case*******
-2025-07-11 15:31:57 INFO  TC002_LoginAuthentication:24 - *****Clicking Login on Home Page******
-2025-07-11 15:31:58 INFO  TC002_LoginAuthentication:28 - *****Entering username and password and clicking login******
-2025-07-11 15:32:00 INFO  TC002_LoginAuthentication:45 - *****Checking visibility of username error block upon unsuccessful login******
-2025-07-11 15:32:00 INFO  TC002_LoginAuthentication:56 - ****Finished Login Authentication TestCase*****
+2025-07-12 12:39:00 INFO  TC002_NearbyDoctors:20 - ****Starting Search Nearby Doctors TestCase*****
+2025-07-12 12:39:12 INFO  TC002_NearbyDoctors:26 - ****Selecting Location*****
+2025-07-12 12:39:12 INFO  TC002_NearbyDoctors:28 - ****Selecting Doctor Type*****
+2025-07-12 12:39:29 INFO  TC002_NearbyDoctors:32 - ****Selecting Gender*****
+2025-07-12 12:39:32 INFO  TC002_NearbyDoctors:34 - ****Selecting Experience*****
+2025-07-12 12:39:36 INFO  TC002_NearbyDoctors:36 - ****Sorting names based on fees*****
+2025-07-12 12:39:42 INFO  TC002_NearbyDoctors:38 - ****Storing doctor names in a list*****
+2025-07-12 12:39:45 INFO  TC002_NearbyDoctors:49 - ****Finished Searching Doctors TestCase*****
