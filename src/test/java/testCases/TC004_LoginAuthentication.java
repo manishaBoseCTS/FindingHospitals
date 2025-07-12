@@ -14,7 +14,7 @@ import pageObjects.PractoLoggedInPage;
 import testBase.BaseClass;
 import utilities.DataProviders;
 
-public class TC002_LoginAuthentication extends BaseClass {
+public class TC004_LoginAuthentication extends BaseClass {
 
 
 	@Test(dataProvider = "LoginData", dataProviderClass = DataProviders.class)

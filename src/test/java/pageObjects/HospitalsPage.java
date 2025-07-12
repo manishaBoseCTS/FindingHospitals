@@ -44,7 +44,7 @@ public class HospitalsPage extends BasePage{
 				finalHospitals.add(o);
 		}
 		
-		//printing
+		//printing Hospitals
 		for(WebElement h: finalHospitals) {
 			String name = h.findElement(By.tagName("h2")).getText();
 			System.out.println(name);

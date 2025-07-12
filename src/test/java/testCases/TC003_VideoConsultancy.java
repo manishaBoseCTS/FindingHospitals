@@ -43,8 +43,3 @@ public class TC003_VideoConsultancy extends BaseClass{
 	}
 }
 
-
-
-//PractoLoggedInPage afterLogin = new PractoLoggedInPage(driver); 
-//WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
-//wait.until(ExpectedConditions.visibilityOf(afterLogin.fetchProfileElement()));

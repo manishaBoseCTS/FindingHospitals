@@ -32,14 +32,33 @@ public class DataProviders {
 		
 		ExcelUtility xlutil = new ExcelUtility(path);
 		
-		int totalrows = xlutil.getRowCount("Sheet1"); //1: Counting starts from 0 to end
-		int totalcols = xlutil.getCellCount("Sheet1",1); //2: Counting starts from 1 to end
+		int totalrows = xlutil.getRowCount("TC004"); //1: Counting starts from 0 to end
+		int totalcols = xlutil.getCellCount("TC004",1); //2: Counting starts from 1 to end
 		
 		Object searchData[][] = new Object[totalrows][totalcols]; 
 	
 		for(int i=1; i<=totalrows; i++) { //i = 1 because we don't want the title
 			for(int j = 0; j<totalcols; j++) {
-				searchData[i-1][j] = xlutil.getCellData("Sheet1",i,j);
+				searchData[i-1][j] = xlutil.getCellData("TC004",i,j);
+			}
+		}
+		return searchData;
+	}
+	
+	@DataProvider(name="DoctorsSearchData")
+	public Object[][] getDoctorsSearchData() throws IOException{
+		String path = ".\\testData\\NearbyDoctors_TestData.xlsx";
+		
+		ExcelUtility xlutil = new ExcelUtility(path);
+		
+		int totalrows = xlutil.getRowCount("TC002"); //1: Counting starts from 0 to end
+		int totalcols = xlutil.getCellCount("TC002",1); //2: Counting starts from 1 to end
+		
+		Object searchData[][] = new Object[totalrows][totalcols]; 
+	
+		for(int i=1; i<=totalrows; i++) { //i = 1 because we don't want the title
+			for(int j = 0; j<totalcols; j++) {
+				searchData[i-1][j] = xlutil.getCellData("TC002",i,j);
 			}
 		}
 		return searchData;

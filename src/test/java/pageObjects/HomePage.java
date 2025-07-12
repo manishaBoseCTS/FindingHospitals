@@ -7,6 +7,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import utilities.WaitUtils;
+
 public class HomePage extends BasePage{
 	
 	public HomePage(WebDriver driver) {
@@ -31,12 +33,15 @@ public class HomePage extends BasePage{
 	@FindBy(xpath="//a[@aria-label='Instant Video Consultation']")
 	WebElement videoCosultBtn;
 
+	@FindBy(linkText="Find Doctors")
+	WebElement doctorsLink;
+
 	
 	public void setSearchCity(String searchItem) throws Exception{
 		searchCity.click();
 		cross.click();
 		searchCity.sendKeys(searchItem);
-		Thread.sleep(5000); //to delete
+		WaitUtils.waitForDuration(driver, 5); //to delete
 		
 		//String location = driver.findElement(By.xpath("//input[@placeholder='Search location']")).getAttribute("value");
 		//System.out.println("Search location value: " + location);
@@ -66,9 +71,15 @@ public class HomePage extends BasePage{
 		login.click();
 	}
 	
+
 	public void clickVideoCosultBtn() {
 		videoCosultBtn.click();
 	}
 	
 
+
+	public void clickFindDoctors() {
+		doctorsLink.click();
+	}
+	
 }
