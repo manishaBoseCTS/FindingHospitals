@@ -1,6 +1,7 @@
 package utilities;
 
 import java.io.IOException;
+
 import org.testng.annotations.DataProvider;
 
 public class DataProviders {
@@ -23,4 +24,26 @@ public class DataProviders {
 		}
 		return searchData;
 	}
+	
+
+	@DataProvider(name="LoginData")
+	public Object[][] getLoginData() throws IOException{
+		String path = ".\\testData\\Login_TestData.xlsx";
+		
+		ExcelUtility xlutil = new ExcelUtility(path);
+		
+		int totalrows = xlutil.getRowCount("Sheet1"); //1: Counting starts from 0 to end
+		int totalcols = xlutil.getCellCount("Sheet1",1); //2: Counting starts from 1 to end
+		
+		Object searchData[][] = new Object[totalrows][totalcols]; 
+	
+		for(int i=1; i<=totalrows; i++) { //i = 1 because we don't want the title
+			for(int j = 0; j<totalcols; j++) {
+				searchData[i-1][j] = xlutil.getCellData("Sheet1",i,j);
+			}
+		}
+		return searchData;
+	}
+	
+    
 }

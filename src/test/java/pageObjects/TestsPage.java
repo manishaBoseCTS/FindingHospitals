@@ -13,7 +13,7 @@ public class TestsPage extends BasePage{
 		super(driver);
 	}
 	
-	@FindBy(xpath="//a[text()='Book tests']")
+	@FindBy(xpath="//a[@title='Book tests']")
 	WebElement bookTests;
 	
 	@FindBy(xpath="//li[@class='u-text--center']") 

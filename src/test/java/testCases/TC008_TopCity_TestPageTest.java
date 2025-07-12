@@ -1,12 +1,17 @@
 package testCases;
 
+import java.time.Duration;
 import java.util.List;
 
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import pageObjects.HomePage;
+import pageObjects.Login;
+import pageObjects.PractoLoggedInPage;
 import pageObjects.TestsPage;
 import testBase.BaseClass;
 
@@ -17,15 +22,27 @@ public class TC008_TopCity_TestPageTest extends BaseClass{
 	public void getTopCities() {
 
 		logger.info("****Starting TestCase*****");
-		try {
-			HomePage homepage = new HomePage(driver); 
-			TestsPage testPage = new TestsPage(driver);
+		try { 
+			
+			HomePage homepage = new HomePage(driver);
+			homepage.clickLogin();
+			
+			Login login = new Login(driver);
+			login.loginWithCredentials("chatterjeenaitik0@gmail.com","Practo2025@#$");
+			
+			
+			PractoLoggedInPage afterLogin = new PractoLoggedInPage(driver); 
+			WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
+			wait.until(ExpectedConditions.visibilityOf(afterLogin.fetchProfileElement()));
 			
 			logger.info("****Clicking userInfo*****");
-			homepage.clickUserInfo();
+			afterLogin.clickDrop();
 			
 			logger.info("****Clicking My Tests*****");
-			homepage.clickMyTests();
+			afterLogin.clickMyTests();
+			
+			Thread.sleep(2000);
+			TestsPage testPage = new TestsPage(driver);
 			
 			logger.info("****Clicking Book Tests*****");
 			testPage.clickBookTests();

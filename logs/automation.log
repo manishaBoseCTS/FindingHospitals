@@ -1,76 +1,150 @@
-2025-07-11 09:58:05 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\2403732\OneDrive - Cognizant\Desktop\FindingHospitals\testng.xml
-
-2025-07-11 09:58:21 INFO  TC001_HospitalsAvailabilityTest:13 - ****Starting TestCase*****
-2025-07-11 09:58:21 INFO  TC001_HospitalsAvailabilityTest:18 - ****Entering Search City*****
-2025-07-11 09:58:31 INFO  TC001_HospitalsAvailabilityTest:21 - ****Entering Search Value*****
-2025-07-11 09:58:38 INFO  TC001_HospitalsAvailabilityTest:24 - ****Getting Total No. of Results*****
-2025-07-11 09:58:38 INFO  TC001_HospitalsAvailabilityTest:27 - ****Getting Name of Hospitals based on criteria*****
-2025-07-11 09:58:39 INFO  TC001_HospitalsAvailabilityTest:36 - ***Finished TestCase*****
-2025-07-11 17:27:43 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-07-11 17:27:43 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-07-11 17:27:43 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-07-11 17:27:43 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-07-11 17:27:43 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-07-11 17:27:43 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-07-11 17:27:43 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-07-11 17:27:43 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-07-11 17:27:43 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 6 ms.
-2025-07-11 17:27:43 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 12 ms.
-2025-07-11 17:27:43 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-07-11 17:27:43 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-07-11 17:27:43 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-07-11 17:27:43 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-07-11 17:27:43 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-07-11 17:27:43 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-07-11 17:27:43 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-07-11 17:27:43 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-07-11 17:27:43 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-07-11 17:27:43 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-07-11 17:27:43 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-07-11 17:27:43 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-07-11 17:27:43 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-07-11 17:27:43 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-07-11 17:27:43 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
-2025-07-11 17:27:43 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
-2025-07-11 17:27:43 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-07-11 17:27:43 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-07-11 17:27:43 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-07-11 17:27:43 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-07-11 17:27:43 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\2403728\AppData\Local\Temp\testng-eclipse-1960021344\testng-customsuite.xml
-
-2025-07-11 17:27:43 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 10 ms.
-2025-07-11 17:27:44 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.jq.Main@3542162a: 147 ms
-2025-07-11 17:27:44 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.FailedReporter@488eb7f2: 31 ms
-2025-07-11 17:27:44 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.XMLReporter@62e6b5c8: 24 ms
-2025-07-11 17:27:44 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@40cb698e: 25 ms
-2025-07-11 17:27:44 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@4d18aa28: 15 ms
-2025-07-11 17:27:44 INFO  Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@75390459: 0 ms
-2025-07-11 17:31:39 INFO  Utils:112 - [TestNG] Running:
+2025-07-12 12:42:28 INFO  Utils:112 - [TestNG] Running:
   C:\Users\2403728\eclipse-workspace\FindingHospitals\testng.xml
 
-2025-07-11 17:31:51 INFO  TC008_TopCity_TestPageTest:19 - ****Starting TestCase*****
-2025-07-11 17:31:51 INFO  TC008_TopCity_TestPageTest:24 - ****Clicking userInfo*****
-2025-07-11 17:32:43 INFO  Utils:112 - [TestNG] Running:
+2025-07-12 12:42:40 INFO  TC003_VideoConsultancy:16 - ****Starting TestCase*****
+2025-07-12 12:42:40 INFO  TC003_VideoConsultancy:21 - ****Instant Video Consultation*****
+2025-07-12 12:42:40 INFO  TC003_VideoConsultancy:27 - ****passing and getting specialities with price*****
+2025-07-12 12:42:44 ERROR TC003_VideoConsultancy:34 - Test Failed
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1214, 741)
+  (Session info: chrome=137.0.7151.69)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cd48dcbedfa2b6c611b0adea2cb3539f, clickElement {id=f.3F3ECD9C4AE08CF230479DCFA491AAA2.d.D74979582382FDCDCAA631E8D42D01A5.e.79}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2403728\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61201}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61201/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (cd48dcbedfa2b6c611b0adea2cb3539f)] -> xpath: //button[@class='slider-next']]
+Session ID: cd48dcbedfa2b6c611b0adea2cb3539f
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source)
+	at pageObjects.Instant_Video_Consultation.putSpecialities(Instant_Video_Consultation.java:53)
+	at testCases.TC003_VideoConsultancy.getTopCities(TC003_VideoConsultancy.java:28)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+2025-07-12 12:54:14 INFO  Utils:112 - [TestNG] Running:
   C:\Users\2403728\eclipse-workspace\FindingHospitals\testng.xml
 
-2025-07-11 17:32:56 INFO  TC001_HospitalsAvailabilityTest:13 - ****Starting TestCase*****
-2025-07-11 17:32:56 INFO  TC001_HospitalsAvailabilityTest:18 - ****Entering Search City*****
-2025-07-11 17:33:38 ERROR TC001_HospitalsAvailabilityTest:32 - Test Failed
+2025-07-12 12:54:23 INFO  TC003_VideoConsultancy:16 - ****Starting TestCase*****
+2025-07-12 12:54:23 INFO  TC003_VideoConsultancy:21 - ****Instant Video Consultation*****
+2025-07-12 12:54:23 INFO  TC003_VideoConsultancy:27 - ****passing and getting specialities with price*****
+2025-07-12 12:54:27 ERROR TC003_VideoConsultancy:34 - Test Failed
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1214, 741)
+  (Session info: chrome=137.0.7151.69)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b81d49f4ef35e40679f70efbb8ba061c, clickElement {id=f.E589B56E8C74388D3E0FEFF67AF59AD5.d.F8EF2531BD0B43CFD76699ECCC1522A6.e.80}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2403728\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62954}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62954/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b81d49f4ef35e40679f70efbb8ba061c)] -> xpath: //button[@class='slider-next']]
+Session ID: b81d49f4ef35e40679f70efbb8ba061c
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source)
+	at pageObjects.Instant_Video_Consultation.putSpecialities(Instant_Video_Consultation.java:53)
+	at testCases.TC003_VideoConsultancy.getTopCities(TC003_VideoConsultancy.java:28)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+2025-07-12 12:58:13 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2403728\eclipse-workspace\FindingHospitals\testng.xml
+
+2025-07-12 12:58:22 INFO  TC003_VideoConsultancy:16 - ****Starting TestCase*****
+2025-07-12 12:58:22 INFO  TC003_VideoConsultancy:21 - ****Clicking Instant Video Consultation*****
+2025-07-12 12:58:22 INFO  TC003_VideoConsultancy:27 - ****Scrolling*****
+2025-07-12 12:58:26 INFO  TC003_VideoConsultancy:30 - ****passing and getting specialities with price*****
+2025-07-12 12:58:30 INFO  TC003_VideoConsultancy:41 - ****Finished TestCase*****
+2025-07-12 13:00:24 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2403728\eclipse-workspace\FindingHospitals\testng.xml
+
+2025-07-12 13:00:34 INFO  TC001_HospitalsAvailabilityTest:13 - ****Starting TestCase*****
+2025-07-12 13:00:34 INFO  TC001_HospitalsAvailabilityTest:18 - ****Entering Search City*****
+2025-07-12 13:01:22 ERROR TC001_HospitalsAvailabilityTest:32 - Test Failed
 org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
 Build info: version: '4.33.0', revision: '2c6aaad03a'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [38d5c8815f1b1ecdda43b9d7be87dc5b, findElements [value, using]]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2403728\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49770}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49770/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 38d5c8815f1b1ecdda43b9d7be87dc5b
+Command: [42597d73caef56c9ea979d4aad81925e, findElements [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2403728\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63813}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63813/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 42597d73caef56c9ea979d4aad81925e
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:571)
 	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
 	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:380)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:374)
-	at pageObjects.HomePage.setSearchCity(HomePage.java:39)
+	at pageObjects.HomePage.setSearchCity(HomePage.java:44)
 	at testCases.TC001_HospitalsAvailabilityTest.hospitalsSearch(TC001_HospitalsAvailabilityTest.java:19)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
@@ -138,89 +212,40 @@ Caused by: java.net.SocketException: Connection reset
 	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1414)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1414)
-2025-07-11 17:33:48 INFO  TC008_TopCity_TestPageTest:19 - ****Starting TestCase*****
-2025-07-11 17:33:48 INFO  TC008_TopCity_TestPageTest:24 - ****Clicking userInfo*****
-2025-07-11 17:33:58 ERROR TC008_TopCity_TestPageTest:45 - Test Failed
-org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [01c1a094131bc3477269aaab7d21c136, findElement [value, using]]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2403728\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49996}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49996/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 01c1a094131bc3477269aaab7d21c136
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:571)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy31.click(Unknown Source)
-	at pageObjects.HomePage.clickUserInfo(HomePage.java:56)
-	at testCases.TC008_TopCity_TestPageTest.getTopCities(TC008_TopCity_TestPageTest.java:25)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-Caused by: java.io.UncheckedIOException: java.io.IOException: HTTP/1.1 header parser received no bytes
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:500)
-	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$2(JdkHttpClient.java:387)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: java.io.IOException: HTTP/1.1 header parser received no bytes
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:966)
-	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:459)
-	... 8 more
-Caused by: java.io.IOException: HTTP/1.1 header parser received no bytes
-	at java.net.http/jdk.internal.net.http.common.Utils.wrapWithExtraDetail(Utils.java:388)
-	at java.net.http/jdk.internal.net.http.Http1Response$HeadersReader.onReadError(Http1Response.java:590)
-	at java.net.http/jdk.internal.net.http.Http1AsyncReceiver.checkForErrors(Http1AsyncReceiver.java:302)
-	at java.net.http/jdk.internal.net.http.Http1AsyncReceiver.flush(Http1AsyncReceiver.java:268)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:182)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
-	... 3 more
-Caused by: java.net.SocketException: Connection reset
-	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
-	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
-	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1178)
-	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:841)
-	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
-	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
-	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
-	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1469)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1414)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1414)
+2025-07-12 13:01:37 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2403728\eclipse-workspace\FindingHospitals\testng.xml
+
+2025-07-12 13:01:48 INFO  TC001_HospitalsAvailabilityTest:13 - ****Starting TestCase*****
+2025-07-12 13:01:48 INFO  TC001_HospitalsAvailabilityTest:18 - ****Entering Search City*****
+2025-07-12 13:03:05 INFO  TC001_HospitalsAvailabilityTest:21 - ****Entering Search Value*****
+2025-07-12 13:03:13 INFO  TC001_HospitalsAvailabilityTest:24 - ****Getting Total No. of Results*****
+2025-07-12 13:03:13 INFO  TC001_HospitalsAvailabilityTest:27 - ****Getting Name of Hospitals based on criteria*****
+2025-07-12 13:03:14 INFO  TC001_HospitalsAvailabilityTest:36 - ****Finished Searching Hospitals TestCase*****
+2025-07-12 13:03:26 INFO  TC002_LoginAuthentication:22 - ******Starting Login Authentication Test Case*******
+2025-07-12 13:03:26 INFO  TC002_LoginAuthentication:24 - *****Clicking Login on Home Page******
+2025-07-12 13:03:26 INFO  TC002_LoginAuthentication:28 - *****Entering username and password and clicking login******
+2025-07-12 13:03:28 INFO  TC002_LoginAuthentication:45 - *****Checking visibility of username error block upon unsuccessful login******
+2025-07-12 13:03:28 INFO  TC002_LoginAuthentication:56 - ****Finished Login Authentication TestCase*****
+2025-07-12 13:03:28 INFO  TC002_LoginAuthentication:22 - ******Starting Login Authentication Test Case*******
+2025-07-12 13:03:28 INFO  TC002_LoginAuthentication:24 - *****Clicking Login on Home Page******
+2025-07-12 13:03:29 INFO  TC002_LoginAuthentication:28 - *****Entering username and password and clicking login******
+2025-07-12 13:03:31 INFO  TC002_LoginAuthentication:37 - *****Checking if Profile Info is displayed after successful login******
+2025-07-12 13:03:31 INFO  TC002_LoginAuthentication:39 - *****Logging out******
+2025-07-12 13:03:32 INFO  TC002_LoginAuthentication:56 - ****Finished Login Authentication TestCase*****
+2025-07-12 13:03:32 INFO  TC002_LoginAuthentication:22 - ******Starting Login Authentication Test Case*******
+2025-07-12 13:03:32 INFO  TC002_LoginAuthentication:24 - *****Clicking Login on Home Page******
+2025-07-12 13:03:32 INFO  TC002_LoginAuthentication:28 - *****Entering username and password and clicking login******
+2025-07-12 13:03:33 INFO  TC002_LoginAuthentication:45 - *****Checking visibility of username error block upon unsuccessful login******
+2025-07-12 13:03:33 INFO  TC002_LoginAuthentication:56 - ****Finished Login Authentication TestCase*****
+2025-07-12 13:03:43 INFO  TC008_TopCity_TestPageTest:24 - ****Starting TestCase*****
+2025-07-12 13:03:51 INFO  TC008_TopCity_TestPageTest:38 - ****Clicking userInfo*****
+2025-07-12 13:03:51 INFO  TC008_TopCity_TestPageTest:41 - ****Clicking My Tests*****
+2025-07-12 13:03:55 INFO  TC008_TopCity_TestPageTest:47 - ****Clicking Book Tests*****
+2025-07-12 13:03:56 INFO  TC008_TopCity_TestPageTest:50 - ****Number of Top cities*****
+2025-07-12 13:03:56 INFO  TC008_TopCity_TestPageTest:53 - ****List Of Cities*****
+2025-07-12 13:03:57 INFO  TC008_TopCity_TestPageTest:66 - ****Finished TestCase*****
+2025-07-12 13:04:08 INFO  TC003_VideoConsultancy:16 - ****Starting TestCase*****
+2025-07-12 13:04:08 INFO  TC003_VideoConsultancy:21 - ****Clicking Instant Video Consultation*****
+2025-07-12 13:04:08 INFO  TC003_VideoConsultancy:27 - ****Scrolling*****
+2025-07-12 13:04:12 INFO  TC003_VideoConsultancy:30 - ****passing and getting specialities with price*****
+2025-07-12 13:04:16 INFO  TC003_VideoConsultancy:41 - ****Finished TestCase*****

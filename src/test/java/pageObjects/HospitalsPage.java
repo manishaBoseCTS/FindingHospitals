@@ -9,7 +9,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class HospitalsPage extends BasePage{
-	WebDriver driver;
 	public HospitalsPage(WebDriver driver) {
 		super(driver);
 	}

@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -55,7 +55,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-Suite" class="navigator-link ">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,26 +92,46 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 2 failed,   </span>
+                    <span class="method-stats">6 methods,   6 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
-                    <div class="method-list-content failed suite-Suite">
+                    <div class="method-list-content passed suite-Suite">
                       <span>
-                        <img src="failed.png" width="3%"/>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testCases.TC008_TopCity_TestPageTest" class="method navigator-link" hash-for-method="getTopCities">getTopCities</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="failed.png" width="3%"/>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC003_VideoConsultancy" class="method navigator-link" hash-for-method="getTopCities">getTopCities</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testCases.TC001_HospitalsAvailabilityTest" class="method navigator-link" hash-for-method="hospitalsSearch(Bangalore, Hospital, Open 24x7, 4)">hospitalsSearch(Bangalore, Hospital, Open 24x7, 4)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC002_LoginAuthentication" class="method navigator-link" hash-for-method="loginTest(dasTanisha@gmail.com, xyzdasTani@#, Invalid)">loginTest(dasTanisha@gmail.com, xyzdasTani@#, Invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC002_LoginAuthentication" class="method navigator-link" hash-for-method="loginTest(rajthakur2341@gmail.com, RajThakur234@#, Invalid)">loginTest(rajthakur2341@gmail.com, RajThakur234@#, Invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC002_LoginAuthentication" class="method navigator-link" hash-for-method="loginTest(chatterjeenaitik0@gmail.com, Practo2025@#$, Valid)">loginTest(chatterjeenaitik0@gmail.com, Practo2025@#$, Valid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -123,29 +143,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
+          <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">testCases.TC008_TopCity_TestPageTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="getTopCities">
-                  </a> <!-- getTopCities -->
-                  <span class="method-name">getTopCities</span>
-                  <div class="stack-trace">java.lang.AssertionError: null
-	at testCases.TC008_TopCity_TestPageTest.getTopCities(TC008_TopCity_TestPageTest.java:47)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 27 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
               <span class="class-name">testCases.TC001_HospitalsAvailabilityTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -155,15 +155,72 @@
                   </a> <!-- hospitalsSearch(Bangalore, Hospital, Open 24x7, 4) -->
                   <span class="method-name">hospitalsSearch</span>
                   <span class="parameters">(Bangalore,Hospital,Open 24x7,4)</span>
-                  <div class="stack-trace">java.lang.AssertionError: null
-	at testCases.TC001_HospitalsAvailabilityTest.hospitalsSearch(TC001_HospitalsAvailabilityTest.java:34)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 27 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC002_LoginAuthentication</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(dasTanisha@gmail.com, xyzdasTani@#, Invalid)">
+                  </a> <!-- loginTest(dasTanisha@gmail.com, xyzdasTani@#, Invalid) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(dasTanisha@gmail.com,xyzdasTani@#,Invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(rajthakur2341@gmail.com, RajThakur234@#, Invalid)">
+                  </a> <!-- loginTest(rajthakur2341@gmail.com, RajThakur234@#, Invalid) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(rajthakur2341@gmail.com,RajThakur234@#,Invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(chatterjeenaitik0@gmail.com, Practo2025@#$, Valid)">
+                  </a> <!-- loginTest(chatterjeenaitik0@gmail.com, Practo2025@#$, Valid) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(chatterjeenaitik0@gmail.com,Practo2025@#$,Valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC003_VideoConsultancy</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTopCities">
+                  </a> <!-- getTopCities -->
+                  <span class="method-name">getTopCities</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC008_TopCity_TestPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTopCities">
+                  </a> <!-- getTopCities -->
+                  <span class="method-name">getTopCities</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -179,13 +236,11 @@
     &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testCases.TC001_HospitalsAvailabilityTest&quot;/&gt;
+      &lt;class name=&quot;testCases.TC002_LoginAuthentication&quot;/&gt;
       &lt;class name=&quot;testCases.TC008_TopCity_TestPageTest&quot;/&gt;
+      &lt;class name=&quot;testCases.TC003_VideoConsultancy&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- chromeTest --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;edgeTest&quot;&gt;
-    &lt;parameter name=&quot;os&quot; value=&quot;Windows&quot;/&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;Edge&quot;/&gt;
-  &lt;/test&gt; &lt;!-- edgeTest --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -197,10 +252,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">chromeTest (2 classes)</span>
-              </li>
-              <li>
-                <span class="test-name">edgeTest (0 classes)</span>
+                <span class="test-name">chromeTest (4 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -226,20 +278,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'hospitalsSearch')
 data.setCell(0, 2, 'testCases.TC001_HospitalsAvailabilityTest')
-data.setCell(0, 3, 41880);
+data.setCell(0, 3, 86455);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'getTopCities')
 data.setCell(1, 2, 'testCases.TC008_TopCity_TestPageTest')
-data.setCell(1, 3, 9925);
+data.setCell(1, 3, 13429);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'getTopCities')
+data.setCell(2, 2, 'testCases.TC003_VideoConsultancy')
+data.setCell(2, 3, 8023);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'loginTest')
+data.setCell(3, 2, 'testCases.TC002_LoginAuthentication')
+data.setCell(3, 3, 3251);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'loginTest')
+data.setCell(4, 2, 'testCases.TC002_LoginAuthentication')
+data.setCell(4, 3, 2524);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'loginTest')
+data.setCell(5, 2, 'testCases.TC002_LoginAuthentication')
+data.setCell(5, 3, 1191);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 51 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -271,31 +339,65 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">hospitalsSearch(Bangalore, Hospital, Open 24x7, 4)</span>
-                <span class="method-start">12775 ms</span>
+                <span class="method-start">11040 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">54666 ms</span>
+                <span class="method-start">97499 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC002_LoginAuthentication</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(Windows, Chrome)</span>
+                <span class="method-start">101005 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(rajthakur2341@gmail.com, RajThakur234@#, Invalid)</span>
+                <span class="method-start">109288 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginTest(chatterjeenaitik0@gmail.com, Practo2025@#$, Valid)</span>
+                <span class="method-start">111813 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginTest(dasTanisha@gmail.com, xyzdasTani@#, Invalid)</span>
+                <span class="method-start">115066 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">116258 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC008_TopCity_TestPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(Windows, Chrome)</span>
-                <span class="method-start">54690 ms</span>
+                <span class="method-start">118508 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">getTopCities</span>
-                <span class="method-start">64708 ms</span>
+                <span class="method-start">126650 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">74637 ms</span>
+                <span class="method-start">140081 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC003_VideoConsultancy</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(Windows, Chrome)</span>
+                <span class="method-start">142767 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">getTopCities</span>
+                <span class="method-start">151324 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">159348 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

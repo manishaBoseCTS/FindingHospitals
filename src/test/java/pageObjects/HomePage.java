@@ -8,6 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class HomePage extends BasePage{
+	
 	public HomePage(WebDriver driver) {
 		super(driver);
 	}
@@ -21,11 +22,15 @@ public class HomePage extends BasePage{
 	@FindBy(xpath="//input[@placeholder='Search doctors, clinics, hospitals, etc.']")
 	WebElement searchHospitals;
 	
-	@FindBy(xpath="//span[@class='user_info_top']")
-	WebElement userInfo;
+	@FindBy(xpath="//a[normalize-space()='Login / Signup']")
+	WebElement login;
 	
-	@FindBy(xpath="//span[text()='My Tests']")
-	WebElement myTests;
+	@FindBy(id="usernameErrorBlock")
+	WebElement errorBlock;
+	
+	@FindBy(xpath="//a[@aria-label='Instant Video Consultation']")
+	WebElement videoCosultBtn;
+
 	
 	public void setSearchCity(String searchItem) throws Exception{
 		searchCity.click();
@@ -47,15 +52,23 @@ public class HomePage extends BasePage{
 
 	}
 	
+	public WebElement fetchUsernameErrorBlock() {
+	    return errorBlock;
+	}
+	
 	public void setSearchDoctorsClinicsHospitals(String searchItem) {
 		searchHospitals.sendKeys(searchItem);
 		driver.findElement(By.xpath("//div[normalize-space()='"+searchItem+"']")).click();
 	}
 	
-	public void clickUserInfo() {
-		userInfo.click();
+
+	public void clickLogin() {
+		login.click();
 	}
-	public void clickMyTests() {
-		myTests.click();
+	
+	public void clickVideoCosultBtn() {
+		videoCosultBtn.click();
 	}
+	
+
 }
