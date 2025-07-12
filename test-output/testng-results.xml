@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-12T12:38:51 IST" name="Suite" finished-at="2025-07-12T12:39:48 IST" duration-ms="56804">
+  <suite started-at="2025-07-12T23:04:32 IST" name="Suite" finished-at="2025-07-12T23:08:07 IST" duration-ms="214629">
     <groups>
     </groups>
-    <test started-at="2025-07-12T12:38:51 IST" name="chromeTest" finished-at="2025-07-12T12:39:48 IST" duration-ms="56781">
+    <test started-at="2025-07-12T23:04:32 IST" name="chromeTest" finished-at="2025-07-12T23:06:28 IST" duration-ms="115877">
       <class name="testCases.TC002_NearbyDoctors">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_NearbyDoctors@7ac0e420]" started-at="2025-07-12T12:38:51 IST" name="setup" finished-at="2025-07-12T12:38:59 IST" duration-ms="8373" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_NearbyDoctors@4b1d6571]" started-at="2025-07-12T23:05:33 IST" name="setup" finished-at="2025-07-12T23:05:43 IST" duration-ms="10472" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,7 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="findDoctorsTest(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_NearbyDoctors@7ac0e420]" started-at="2025-07-12T12:39:00 IST" name="findDoctorsTest" data-provider="DoctorsSearchData" finished-at="2025-07-12T12:39:45 IST" duration-ms="44427" status="PASS">
+        <test-method signature="findDoctorsTest(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_NearbyDoctors@4b1d6571]" started-at="2025-07-12T23:05:43 IST" name="findDoctorsTest" data-provider="DoctorsSearchData" finished-at="2025-07-12T23:06:24 IST" duration-ms="40998" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,13 +39,317 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findDoctorsTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_NearbyDoctors@7ac0e420]" started-at="2025-07-12T12:39:45 IST" name="tearDown" finished-at="2025-07-12T12:39:48 IST" duration-ms="3227" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_NearbyDoctors@4b1d6571]" started-at="2025-07-12T23:06:24 IST" name="tearDown" finished-at="2025-07-12T23:06:28 IST" duration-ms="3463" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC002_NearbyDoctors -->
+      <class name="testCases.TC001_HospitalsAvailabilityTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_HospitalsAvailabilityTest@5143c662]" started-at="2025-07-12T23:04:32 IST" name="setup" finished-at="2025-07-12T23:04:45 IST" duration-ms="12935" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="hospitalsSearch(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_HospitalsAvailabilityTest@5143c662]" started-at="2025-07-12T23:04:46 IST" name="hospitalsSearch" data-provider="FindingHospitalsData" finished-at="2025-07-12T23:05:04 IST" duration-ms="18750" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hospital]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Open 24x7]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hospitalsSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_HospitalsAvailabilityTest@5143c662]" started-at="2025-07-12T23:05:04 IST" name="tearDown" finished-at="2025-07-12T23:05:08 IST" duration-ms="3230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC001_HospitalsAvailabilityTest -->
+      <class name="testCases.TC004_LoginAuthentication">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_LoginAuthentication@294a6b8e]" started-at="2025-07-12T23:05:08 IST" name="setup" finished-at="2025-07-12T23:05:21 IST" duration-ms="13286" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_LoginAuthentication@294a6b8e]" started-at="2025-07-12T23:05:21 IST" name="loginTest" data-provider="LoginData" finished-at="2025-07-12T23:05:25 IST" duration-ms="4104" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rajthakur2341@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[RajThakur234@#]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_LoginAuthentication@294a6b8e]" started-at="2025-07-12T23:05:25 IST" name="loginTest" data-provider="LoginData" finished-at="2025-07-12T23:05:29 IST" duration-ms="4138" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chatterjeenaitik0@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Practo2025@#$]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_LoginAuthentication@294a6b8e]" started-at="2025-07-12T23:05:29 IST" name="loginTest" data-provider="LoginData" finished-at="2025-07-12T23:05:31 IST" duration-ms="1309" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dasTanisha@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyzdasTani@#]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC004_LoginAuthentication@294a6b8e]" started-at="2025-07-12T23:05:31 IST" name="tearDown" finished-at="2025-07-12T23:05:33 IST" duration-ms="2185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC004_LoginAuthentication -->
     </test> <!-- chromeTest -->
-    <test started-at="2025-07-12T12:39:48 IST" name="edgeTest" finished-at="2025-07-12T12:39:48 IST" duration-ms="1">
+    <test started-at="2025-07-12T23:06:28 IST" name="edgeTest" finished-at="2025-07-12T23:08:07 IST" duration-ms="98709">
+      <class name="testCases.TC002_NearbyDoctors">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_NearbyDoctors@22875539]" started-at="2025-07-12T23:07:15 IST" name="setup" finished-at="2025-07-12T23:07:24 IST" duration-ms="9278" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="findDoctorsTest(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_NearbyDoctors@22875539]" started-at="2025-07-12T23:07:24 IST" name="findDoctorsTest" data-provider="DoctorsSearchData" finished-at="2025-07-12T23:08:03 IST" duration-ms="38645" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dermatologist]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findDoctorsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_NearbyDoctors@22875539]" started-at="2025-07-12T23:08:03 IST" name="tearDown" finished-at="2025-07-12T23:08:07 IST" duration-ms="3767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC002_NearbyDoctors -->
+      <class name="testCases.TC001_HospitalsAvailabilityTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_HospitalsAvailabilityTest@63798ca7]" started-at="2025-07-12T23:06:28 IST" name="setup" finished-at="2025-07-12T23:06:37 IST" duration-ms="8775" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="hospitalsSearch(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_HospitalsAvailabilityTest@63798ca7]" started-at="2025-07-12T23:06:37 IST" name="hospitalsSearch" data-provider="FindingHospitalsData" finished-at="2025-07-12T23:06:51 IST" duration-ms="13848" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hospital]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Open 24x7]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hospitalsSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_HospitalsAvailabilityTest@63798ca7]" started-at="2025-07-12T23:06:51 IST" name="tearDown" finished-at="2025-07-12T23:06:54 IST" duration-ms="3137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC001_HospitalsAvailabilityTest -->
+      <class name="testCases.TC004_LoginAuthentication">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_LoginAuthentication@4612b856]" started-at="2025-07-12T23:06:54 IST" name="setup" finished-at="2025-07-12T23:07:04 IST" duration-ms="10572" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_LoginAuthentication@4612b856]" started-at="2025-07-12T23:07:05 IST" name="loginTest" data-provider="LoginData" finished-at="2025-07-12T23:07:07 IST" duration-ms="2765" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rajthakur2341@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[RajThakur234@#]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_LoginAuthentication@4612b856]" started-at="2025-07-12T23:07:07 IST" name="loginTest" data-provider="LoginData" finished-at="2025-07-12T23:07:11 IST" duration-ms="3905" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chatterjeenaitik0@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Practo2025@#$]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_LoginAuthentication@4612b856]" started-at="2025-07-12T23:07:11 IST" name="loginTest" data-provider="LoginData" finished-at="2025-07-12T23:07:13 IST" duration-ms="1397" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dasTanisha@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyzdasTani@#]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC004_LoginAuthentication@4612b856]" started-at="2025-07-12T23:07:13 IST" name="tearDown" finished-at="2025-07-12T23:07:15 IST" duration-ms="2241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC004_LoginAuthentication -->
     </test> <!-- edgeTest -->
   </suite> <!-- Suite -->
 </testng-results>
