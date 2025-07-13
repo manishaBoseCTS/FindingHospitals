@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="edgeTest(failed)">
+  <test thread-count="5" name="chromeTest(failed)">
     <parameter name="os" value="Windows"/>
-    <parameter name="browser" value="Edge"/>
+    <parameter name="browser" value="Chrome"/>
     <classes>
-      <class name="testCases.TC004_LoginAuthentication">
+      <class name="testCases.TC005_SearchHealthArticles">
         <methods>
+          <include name="healthArticlesSearch"/>
           <include name="tearDown"/>
-          <include name="loginTest" invocation-numbers="2"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC004_LoginAuthentication -->
+      </class> <!-- testCases.TC005_SearchHealthArticles -->
     </classes>
-  </test> <!-- edgeTest(failed) -->
+  </test> <!-- chromeTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

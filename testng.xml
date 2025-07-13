@@ -9,6 +9,7 @@
       <class name="testCases.TC001_HospitalsAvailabilityTest"/>
       <class name="testCases.TC004_LoginAuthentication"/>
       <class name= "testCases.TC002_NearbyDoctors"/>
+      <class name="testCases.TC005_SearchHealthArticles"/>
     </classes>
   </test> <!-- Test -->
   
@@ -19,6 +20,7 @@
       <class name="testCases.TC001_HospitalsAvailabilityTest"/>
       <class name="testCases.TC004_LoginAuthentication"/>
       <class name= "testCases.TC002_NearbyDoctors"/>
+      <class name="testCases.TC005_SearchHealthArticles"/>
     </classes>
   </test> <!-- Test -->
   
