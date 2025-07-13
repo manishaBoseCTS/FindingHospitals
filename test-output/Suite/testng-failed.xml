@@ -6,6 +6,7 @@
     <parameter name="browser" value="Chrome"/>
     <classes>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <class name="testCases.TC003_VideoConsultancy">
 =======
       <class name="testCases.TC002_NearbyDoctors">
@@ -23,6 +24,15 @@
         </methods>
       </class> <!-- testCases.TC002_NearbyDoctors -->
 >>>>>>> c2c10798c92ab91f9b4bca811dbb706f282d5009
+=======
+      <class name="testCases.TC005_SearchHealthArticles">
+        <methods>
+          <include name="healthArticlesSearch"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC005_SearchHealthArticles -->
+>>>>>>> 72b9305a2497fc540973826c9a8abec158fbbd19
     </classes>
   </test> <!-- chromeTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

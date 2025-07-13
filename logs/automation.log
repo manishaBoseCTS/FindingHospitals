@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2025-07-13 11:37:10 INFO  Utils:112 - [TestNG] Running:
   C:\Users\2403728\eclipse-workspace\FindingHospitals\testng.xml
 
@@ -19,3 +20,171 @@
 2025-07-13 11:41:58 INFO  TC003_VideoConsultancy:27 - ****Scrolling*****
 2025-07-13 11:42:00 INFO  TC003_VideoConsultancy:30 - ****passing and getting specialities with price*****
 2025-07-13 11:42:02 INFO  TC003_VideoConsultancy:41 - ****Finished TestCase*****
+=======
+2025-07-13 11:23:34 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2403721\SeleniumLearningWorkspace\seleniumwebdriver\findingHospitals\testng.xml
+
+2025-07-13 11:23:43 INFO  TC001_HospitalsAvailabilityTest:13 - ****Starting TestCase*****
+2025-07-13 11:23:43 INFO  TC001_HospitalsAvailabilityTest:18 - ****Entering Search City*****
+2025-07-13 11:23:49 INFO  TC001_HospitalsAvailabilityTest:21 - ****Entering Search Value*****
+2025-07-13 11:23:59 INFO  TC001_HospitalsAvailabilityTest:24 - ****Getting Total No. of Results*****
+2025-07-13 11:23:59 INFO  TC001_HospitalsAvailabilityTest:27 - ****Getting Name of Hospitals based on criteria*****
+2025-07-13 11:23:59 INFO  TC001_HospitalsAvailabilityTest:36 - ****Finished Searching Hospitals TestCase*****
+2025-07-13 11:24:11 INFO  TC004_LoginAuthentication:22 - ******Starting Login Authentication Test Case*******
+2025-07-13 11:24:11 INFO  TC004_LoginAuthentication:24 - *****Clicking Login on Home Page******
+2025-07-13 11:24:12 INFO  TC004_LoginAuthentication:28 - *****Entering username and password and clicking login******
+2025-07-13 11:24:16 INFO  TC004_LoginAuthentication:45 - *****Checking visibility of username error block upon unsuccessful login******
+2025-07-13 11:24:16 INFO  TC004_LoginAuthentication:56 - ****Finished Login Authentication TestCase*****
+2025-07-13 11:24:16 INFO  TC004_LoginAuthentication:22 - ******Starting Login Authentication Test Case*******
+2025-07-13 11:24:16 INFO  TC004_LoginAuthentication:24 - *****Clicking Login on Home Page******
+2025-07-13 11:24:16 INFO  TC004_LoginAuthentication:28 - *****Entering username and password and clicking login******
+2025-07-13 11:24:18 INFO  TC004_LoginAuthentication:37 - *****Checking if Profile Info is displayed after successful login******
+2025-07-13 11:24:18 INFO  TC004_LoginAuthentication:39 - *****Logging out******
+2025-07-13 11:24:19 INFO  TC004_LoginAuthentication:56 - ****Finished Login Authentication TestCase*****
+2025-07-13 11:24:19 INFO  TC004_LoginAuthentication:22 - ******Starting Login Authentication Test Case*******
+2025-07-13 11:24:19 INFO  TC004_LoginAuthentication:24 - *****Clicking Login on Home Page******
+2025-07-13 11:24:19 INFO  TC004_LoginAuthentication:28 - *****Entering username and password and clicking login******
+2025-07-13 11:24:20 INFO  TC004_LoginAuthentication:45 - *****Checking visibility of username error block upon unsuccessful login******
+2025-07-13 11:24:20 INFO  TC004_LoginAuthentication:56 - ****Finished Login Authentication TestCase*****
+2025-07-13 11:24:31 INFO  TC002_NearbyDoctors:20 - ****Starting Search Nearby Doctors TestCase*****
+2025-07-13 11:24:39 INFO  TC002_NearbyDoctors:26 - ****Selecting Location*****
+2025-07-13 11:24:39 INFO  TC002_NearbyDoctors:28 - ****Selecting Doctor Type*****
+2025-07-13 11:24:46 INFO  TC002_NearbyDoctors:32 - ****Selecting Gender*****
+2025-07-13 11:24:48 INFO  TC002_NearbyDoctors:34 - ****Selecting Experience*****
+2025-07-13 11:24:52 INFO  TC002_NearbyDoctors:36 - ****Sorting names based on fees*****
+2025-07-13 11:24:57 INFO  TC002_NearbyDoctors:38 - ****Storing doctor names in a list*****
+2025-07-13 11:24:59 INFO  TC002_NearbyDoctors:49 - ****Finished Searching Doctors TestCase*****
+2025-07-13 11:25:11 INFO  TC005_SearchHealthArticles:15 - ****Starting********
+2025-07-13 11:25:11 INFO  TC005_SearchHealthArticles:33 - **Search Bar click***
+2025-07-13 11:25:17 INFO  TC005_SearchHealthArticles:37 - **Search Bar sendKeys***
+2025-07-13 11:25:22 INFO  TC005_SearchHealthArticles:50 - Finished
+2025-07-13 11:25:34 INFO  TC001_HospitalsAvailabilityTest:13 - ****Starting TestCase*****
+2025-07-13 11:25:34 INFO  TC001_HospitalsAvailabilityTest:18 - ****Entering Search City*****
+2025-07-13 11:25:39 INFO  TC001_HospitalsAvailabilityTest:21 - ****Entering Search Value*****
+2025-07-13 11:25:47 INFO  TC001_HospitalsAvailabilityTest:24 - ****Getting Total No. of Results*****
+2025-07-13 11:25:47 INFO  TC001_HospitalsAvailabilityTest:27 - ****Getting Name of Hospitals based on criteria*****
+2025-07-13 11:25:47 INFO  TC001_HospitalsAvailabilityTest:36 - ****Finished Searching Hospitals TestCase*****
+2025-07-13 11:25:58 INFO  TC004_LoginAuthentication:22 - ******Starting Login Authentication Test Case*******
+2025-07-13 11:25:58 INFO  TC004_LoginAuthentication:24 - *****Clicking Login on Home Page******
+2025-07-13 11:26:00 INFO  TC004_LoginAuthentication:28 - *****Entering username and password and clicking login******
+2025-07-13 11:26:00 INFO  TC004_LoginAuthentication:45 - *****Checking visibility of username error block upon unsuccessful login******
+2025-07-13 11:26:01 INFO  TC004_LoginAuthentication:56 - ****Finished Login Authentication TestCase*****
+2025-07-13 11:26:01 INFO  TC004_LoginAuthentication:22 - ******Starting Login Authentication Test Case*******
+2025-07-13 11:26:01 INFO  TC004_LoginAuthentication:24 - *****Clicking Login on Home Page******
+2025-07-13 11:26:01 INFO  TC004_LoginAuthentication:28 - *****Entering username and password and clicking login******
+2025-07-13 11:26:03 INFO  TC004_LoginAuthentication:37 - *****Checking if Profile Info is displayed after successful login******
+2025-07-13 11:26:03 INFO  TC004_LoginAuthentication:39 - *****Logging out******
+2025-07-13 11:26:03 INFO  TC004_LoginAuthentication:56 - ****Finished Login Authentication TestCase*****
+2025-07-13 11:26:03 INFO  TC004_LoginAuthentication:22 - ******Starting Login Authentication Test Case*******
+2025-07-13 11:26:03 INFO  TC004_LoginAuthentication:24 - *****Clicking Login on Home Page******
+2025-07-13 11:26:04 INFO  TC004_LoginAuthentication:28 - *****Entering username and password and clicking login******
+2025-07-13 11:26:04 INFO  TC004_LoginAuthentication:45 - *****Checking visibility of username error block upon unsuccessful login******
+2025-07-13 11:26:05 INFO  TC004_LoginAuthentication:56 - ****Finished Login Authentication TestCase*****
+2025-07-13 11:26:15 INFO  TC002_NearbyDoctors:20 - ****Starting Search Nearby Doctors TestCase*****
+2025-07-13 11:26:25 INFO  TC002_NearbyDoctors:26 - ****Selecting Location*****
+2025-07-13 11:26:25 INFO  TC002_NearbyDoctors:28 - ****Selecting Doctor Type*****
+2025-07-13 11:26:30 INFO  TC002_NearbyDoctors:32 - ****Selecting Gender*****
+2025-07-13 11:26:33 INFO  TC002_NearbyDoctors:34 - ****Selecting Experience*****
+2025-07-13 11:26:36 INFO  TC002_NearbyDoctors:36 - ****Sorting names based on fees*****
+2025-07-13 11:26:42 INFO  TC002_NearbyDoctors:38 - ****Storing doctor names in a list*****
+2025-07-13 11:26:44 INFO  TC002_NearbyDoctors:49 - ****Finished Searching Doctors TestCase*****
+2025-07-13 11:26:56 INFO  TC005_SearchHealthArticles:15 - ****Starting********
+2025-07-13 11:26:56 INFO  TC005_SearchHealthArticles:33 - **Search Bar click***
+2025-07-13 11:27:02 INFO  TC005_SearchHealthArticles:37 - **Search Bar sendKeys***
+2025-07-13 11:27:07 INFO  TC005_SearchHealthArticles:50 - Finished
+>>>>>>> 72b9305a2497fc540973826c9a8abec158fbbd19
+2025-07-13 18:35:06 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2403728\eclipse-workspace\FindingHospitals\testng.xml
+
+2025-07-13 18:35:19 INFO  TC001_HospitalsAvailabilityTest:13 - ****Starting TestCase*****
+2025-07-13 18:35:19 INFO  TC001_HospitalsAvailabilityTest:18 - ****Entering Search City*****
+2025-07-13 18:35:25 INFO  TC001_HospitalsAvailabilityTest:21 - ****Entering Search Value*****
+2025-07-13 18:35:32 INFO  TC001_HospitalsAvailabilityTest:24 - ****Getting Total No. of Results*****
+2025-07-13 18:35:32 INFO  TC001_HospitalsAvailabilityTest:27 - ****Getting Name of Hospitals based on criteria*****
+2025-07-13 18:35:33 INFO  TC001_HospitalsAvailabilityTest:36 - ****Finished Searching Hospitals TestCase*****
+2025-07-13 18:35:46 INFO  TC002_NearbyDoctors:20 - ****Starting Search Nearby Doctors TestCase*****
+2025-07-13 18:35:55 INFO  TC002_NearbyDoctors:26 - ****Selecting Location*****
+2025-07-13 18:35:55 INFO  TC002_NearbyDoctors:28 - ****Selecting Doctor Type*****
+2025-07-13 18:36:03 INFO  TC002_NearbyDoctors:32 - ****Selecting Gender*****
+2025-07-13 18:36:05 INFO  TC002_NearbyDoctors:34 - ****Selecting Experience*****
+2025-07-13 18:36:09 INFO  TC002_NearbyDoctors:36 - ****Sorting names based on fees*****
+2025-07-13 18:36:16 INFO  TC002_NearbyDoctors:38 - ****Storing doctor names in a list*****
+2025-07-13 18:36:18 INFO  TC002_NearbyDoctors:49 - ****Finished Searching Doctors TestCase*****
+2025-07-13 18:36:32 INFO  TC003_VideoConsultancy:16 - ****Starting TestCase*****
+2025-07-13 18:36:32 INFO  TC003_VideoConsultancy:21 - ****Clicking Instant Video Consultation*****
+2025-07-13 18:36:32 INFO  TC003_VideoConsultancy:27 - ****Scrolling*****
+2025-07-13 18:36:36 INFO  TC003_VideoConsultancy:30 - ****passing and getting specialities with price*****
+2025-07-13 18:36:38 INFO  TC003_VideoConsultancy:41 - ****Finished TestCase*****
+2025-07-13 18:36:50 INFO  TC004_LoginAuthentication:22 - ******Starting Login Authentication Test Case*******
+2025-07-13 18:36:50 INFO  TC004_LoginAuthentication:24 - *****Clicking Login on Home Page******
+2025-07-13 18:36:51 INFO  TC004_LoginAuthentication:28 - *****Entering username and password and clicking login******
+2025-07-13 18:36:53 INFO  TC004_LoginAuthentication:45 - *****Checking visibility of username error block upon unsuccessful login******
+2025-07-13 18:36:53 INFO  TC004_LoginAuthentication:56 - ****Finished Login Authentication TestCase*****
+2025-07-13 18:36:53 INFO  TC004_LoginAuthentication:22 - ******Starting Login Authentication Test Case*******
+2025-07-13 18:36:53 INFO  TC004_LoginAuthentication:24 - *****Clicking Login on Home Page******
+2025-07-13 18:36:54 INFO  TC004_LoginAuthentication:28 - *****Entering username and password and clicking login******
+2025-07-13 18:36:56 INFO  TC004_LoginAuthentication:37 - *****Checking if Profile Info is displayed after successful login******
+2025-07-13 18:36:56 INFO  TC004_LoginAuthentication:39 - *****Logging out******
+2025-07-13 18:36:57 INFO  TC004_LoginAuthentication:56 - ****Finished Login Authentication TestCase*****
+2025-07-13 18:36:57 INFO  TC004_LoginAuthentication:22 - ******Starting Login Authentication Test Case*******
+2025-07-13 18:36:57 INFO  TC004_LoginAuthentication:24 - *****Clicking Login on Home Page******
+2025-07-13 18:36:57 INFO  TC004_LoginAuthentication:28 - *****Entering username and password and clicking login******
+2025-07-13 18:36:58 INFO  TC004_LoginAuthentication:45 - *****Checking visibility of username error block upon unsuccessful login******
+2025-07-13 18:36:58 INFO  TC004_LoginAuthentication:56 - ****Finished Login Authentication TestCase*****
+2025-07-13 18:37:10 INFO  TC005_SearchHealthArticles:15 - ****Starting********
+2025-07-13 18:37:10 INFO  TC005_SearchHealthArticles:33 - **Search Bar click***
+2025-07-13 18:37:16 INFO  TC005_SearchHealthArticles:37 - **Search Bar sendKeys***
+2025-07-13 18:37:22 INFO  TC005_SearchHealthArticles:50 - Finished
+2025-07-13 18:37:34 INFO  TC008_TopCity_TestPageTest:24 - ****Starting TestCase*****
+2025-07-13 18:37:42 INFO  TC008_TopCity_TestPageTest:38 - ****Clicking userInfo*****
+2025-07-13 18:37:42 INFO  TC008_TopCity_TestPageTest:41 - ****Clicking My Tests*****
+2025-07-13 18:37:46 INFO  TC008_TopCity_TestPageTest:47 - ****Clicking Book Tests*****
+2025-07-13 18:37:48 INFO  TC008_TopCity_TestPageTest:50 - ****Number of Top cities*****
+2025-07-13 18:37:48 INFO  TC008_TopCity_TestPageTest:53 - ****List Of Cities*****
+2025-07-13 18:37:49 INFO  TC008_TopCity_TestPageTest:66 - ****Finished TestCase*****
+2025-07-13 18:38:02 INFO  TC001_HospitalsAvailabilityTest:13 - ****Starting TestCase*****
+2025-07-13 18:38:02 INFO  TC001_HospitalsAvailabilityTest:18 - ****Entering Search City*****
+2025-07-13 18:38:08 INFO  TC001_HospitalsAvailabilityTest:21 - ****Entering Search Value*****
+2025-07-13 18:38:16 INFO  TC001_HospitalsAvailabilityTest:24 - ****Getting Total No. of Results*****
+2025-07-13 18:38:16 INFO  TC001_HospitalsAvailabilityTest:27 - ****Getting Name of Hospitals based on criteria*****
+2025-07-13 18:38:17 INFO  TC001_HospitalsAvailabilityTest:36 - ****Finished Searching Hospitals TestCase*****
+2025-07-13 18:38:30 INFO  TC002_NearbyDoctors:20 - ****Starting Search Nearby Doctors TestCase*****
+2025-07-13 18:38:39 INFO  TC002_NearbyDoctors:26 - ****Selecting Location*****
+2025-07-13 18:38:39 INFO  TC002_NearbyDoctors:28 - ****Selecting Doctor Type*****
+2025-07-13 18:38:46 INFO  TC002_NearbyDoctors:32 - ****Selecting Gender*****
+2025-07-13 18:38:48 INFO  TC002_NearbyDoctors:34 - ****Selecting Experience*****
+2025-07-13 18:38:52 INFO  TC002_NearbyDoctors:36 - ****Sorting names based on fees*****
+2025-07-13 18:38:58 INFO  TC002_NearbyDoctors:38 - ****Storing doctor names in a list*****
+2025-07-13 18:39:00 INFO  TC002_NearbyDoctors:49 - ****Finished Searching Doctors TestCase*****
+2025-07-13 18:39:14 INFO  TC003_VideoConsultancy:16 - ****Starting TestCase*****
+2025-07-13 18:39:14 INFO  TC003_VideoConsultancy:21 - ****Clicking Instant Video Consultation*****
+2025-07-13 18:39:14 INFO  TC003_VideoConsultancy:27 - ****Scrolling*****
+2025-07-13 18:39:18 INFO  TC003_VideoConsultancy:30 - ****passing and getting specialities with price*****
+2025-07-13 18:39:20 INFO  TC003_VideoConsultancy:41 - ****Finished TestCase*****
+2025-07-13 18:39:32 INFO  TC004_LoginAuthentication:22 - ******Starting Login Authentication Test Case*******
+2025-07-13 18:39:32 INFO  TC004_LoginAuthentication:24 - *****Clicking Login on Home Page******
+2025-07-13 18:39:33 INFO  TC004_LoginAuthentication:28 - *****Entering username and password and clicking login******
+2025-07-13 18:39:35 INFO  TC004_LoginAuthentication:45 - *****Checking visibility of username error block upon unsuccessful login******
+2025-07-13 18:39:35 INFO  TC004_LoginAuthentication:56 - ****Finished Login Authentication TestCase*****
+2025-07-13 18:39:35 INFO  TC004_LoginAuthentication:22 - ******Starting Login Authentication Test Case*******
+2025-07-13 18:39:35 INFO  TC004_LoginAuthentication:24 - *****Clicking Login on Home Page******
+2025-07-13 18:39:36 INFO  TC004_LoginAuthentication:28 - *****Entering username and password and clicking login******
+2025-07-13 18:39:38 INFO  TC004_LoginAuthentication:37 - *****Checking if Profile Info is displayed after successful login******
+2025-07-13 18:39:38 INFO  TC004_LoginAuthentication:39 - *****Logging out******
+2025-07-13 18:39:39 INFO  TC004_LoginAuthentication:56 - ****Finished Login Authentication TestCase*****
+2025-07-13 18:39:39 INFO  TC004_LoginAuthentication:22 - ******Starting Login Authentication Test Case*******
+2025-07-13 18:39:39 INFO  TC004_LoginAuthentication:24 - *****Clicking Login on Home Page******
+2025-07-13 18:39:40 INFO  TC004_LoginAuthentication:28 - *****Entering username and password and clicking login******
+2025-07-13 18:39:41 INFO  TC004_LoginAuthentication:45 - *****Checking visibility of username error block upon unsuccessful login******
+2025-07-13 18:39:41 INFO  TC004_LoginAuthentication:56 - ****Finished Login Authentication TestCase*****
+2025-07-13 18:39:54 INFO  TC005_SearchHealthArticles:15 - ****Starting********
+2025-07-13 18:39:54 INFO  TC005_SearchHealthArticles:33 - **Search Bar click***
+2025-07-13 18:40:00 INFO  TC005_SearchHealthArticles:37 - **Search Bar sendKeys***
+2025-07-13 18:40:06 INFO  TC005_SearchHealthArticles:50 - Finished
+2025-07-13 18:40:19 INFO  TC008_TopCity_TestPageTest:24 - ****Starting TestCase*****
+2025-07-13 18:40:28 INFO  TC008_TopCity_TestPageTest:38 - ****Clicking userInfo*****
+2025-07-13 18:40:28 INFO  TC008_TopCity_TestPageTest:41 - ****Clicking My Tests*****
+2025-07-13 18:40:32 INFO  TC008_TopCity_TestPageTest:47 - ****Clicking Book Tests*****
+2025-07-13 18:40:34 INFO  TC008_TopCity_TestPageTest:50 - ****Number of Top cities*****
+2025-07-13 18:40:34 INFO  TC008_TopCity_TestPageTest:53 - ****List Of Cities*****
+2025-07-13 18:40:34 INFO  TC008_TopCity_TestPageTest:66 - ****Finished TestCase*****
