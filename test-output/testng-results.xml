@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="16" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-17T10:32:03 IST" name="Suite" finished-at="2025-07-17T10:53:47 IST" duration-ms="1303669">
+    <groups>
+    </groups>
+    <test started-at="2025-07-17T10:32:03 IST" name="chromeTest" finished-at="2025-07-17T10:48:43 IST" duration-ms="999623">
+      <class name="testCases.TC002_NearbyDoctors">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_NearbyDoctors@7e3f95fe]" started-at="2025-07-17T10:37:11 IST" name="setup" finished-at="2025-07-17T10:37:42 IST" duration-ms="30422" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="findDoctorsTest(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_NearbyDoctors@7e3f95fe]" started-at="2025-07-17T10:37:42 IST" name="findDoctorsTest" data-provider="DoctorsSearchData" finished-at="2025-07-17T10:38:23 IST" duration-ms="41214" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dermatologist]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findDoctorsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_NearbyDoctors@7e3f95fe]" started-at="2025-07-17T10:38:23 IST" name="tearDown" finished-at="2025-07-17T10:38:54 IST" duration-ms="31054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC002_NearbyDoctors -->
+      <class name="testCases.TC003_VideoConsultancy">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_VideoConsultancy@34625ccd]" started-at="2025-07-17T10:38:54 IST" name="setup" finished-at="2025-07-17T10:39:13 IST" duration-ms="18926" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getTopCities()[pri:0, instance:testCases.TC003_VideoConsultancy@34625ccd]" started-at="2025-07-17T10:39:13 IST" name="getTopCities" finished-at="2025-07-17T10:39:24 IST" duration-ms="10813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTopCities -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_VideoConsultancy@34625ccd]" started-at="2025-07-17T10:39:24 IST" name="tearDown" finished-at="2025-07-17T10:39:55 IST" duration-ms="31039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC003_VideoConsultancy -->
+      <class name="testCases.TC005_SearchHealthArticles">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC005_SearchHealthArticles@65aa6596]" started-at="2025-07-17T10:41:22 IST" name="setup" finished-at="2025-07-17T10:42:12 IST" duration-ms="49501" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="healthArticlesSearch(java.lang.String)[pri:0, instance:testCases.TC005_SearchHealthArticles@65aa6596]" started-at="2025-07-17T10:42:12 IST" name="healthArticlesSearch" data-provider="HealthArticleSearchData" finished-at="2025-07-17T10:42:32 IST" duration-ms="20271" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mental heath]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- healthArticlesSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC005_SearchHealthArticles@65aa6596]" started-at="2025-07-17T10:42:32 IST" name="tearDown" finished-at="2025-07-17T10:43:03 IST" duration-ms="31024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC005_SearchHealthArticles -->
+      <class name="testCases.TC006_SocialsLinkVerification">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC006_SocialsLinkVerification@67389cb8]" started-at="2025-07-17T10:43:03 IST" name="setup" finished-at="2025-07-17T10:43:32 IST" duration-ms="28471" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="linkVerification()[pri:0, instance:testCases.TC006_SocialsLinkVerification@67389cb8]" started-at="2025-07-17T10:43:32 IST" name="linkVerification" finished-at="2025-07-17T10:47:06 IST" duration-ms="214873" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Exception occurred: java.util.concurrent.TimeoutException
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c9e67f2af0a94241105286a1437a550c, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2403732\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62846}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62846/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c9e67f2af0a94241105286a1437a550c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Exception occurred: java.util.concurrent.TimeoutException
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c9e67f2af0a94241105286a1437a550c, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2403732\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62846}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62846/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c9e67f2af0a94241105286a1437a550c
+at org.testng.Assert.fail(Assert.java:111)
+at testCases.TC006_SocialsLinkVerification.linkVerification(TC006_SocialsLinkVerification.java:30)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- linkVerification -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC006_SocialsLinkVerification@67389cb8]" started-at="2025-07-17T10:47:06 IST" name="tearDown" finished-at="2025-07-17T10:47:37 IST" duration-ms="31036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC006_SocialsLinkVerification -->
+      <class name="testCases.TC001_HospitalsAvailabilityTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_HospitalsAvailabilityTest@5860f3d7]" started-at="2025-07-17T10:32:04 IST" name="setup" finished-at="2025-07-17T10:32:33 IST" duration-ms="29178" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="hospitalsSearch(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_HospitalsAvailabilityTest@5860f3d7]" started-at="2025-07-17T10:32:34 IST" name="hospitalsSearch" data-provider="FindingHospitalsData" finished-at="2025-07-17T10:36:40 IST" duration-ms="245926" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hospital]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Open 24x7]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at testCases.TC001_HospitalsAvailabilityTest.hospitalsSearch(TC001_HospitalsAvailabilityTest.java:46)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hospitalsSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_HospitalsAvailabilityTest@5860f3d7]" started-at="2025-07-17T10:36:40 IST" name="tearDown" finished-at="2025-07-17T10:37:11 IST" duration-ms="31055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC001_HospitalsAvailabilityTest -->
+      <class name="testCases.TC008_TopCity_TestPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC008_TopCity_TestPageTest@533377b]" started-at="2025-07-17T10:48:12 IST" name="setup" finished-at="2025-07-17T10:48:21 IST" duration-ms="8652" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getTopCities()[pri:0, instance:testCases.TC008_TopCity_TestPageTest@533377b]" started-at="2025-07-17T10:48:21 IST" name="getTopCities" finished-at="2025-07-17T10:48:38 IST" duration-ms="17088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTopCities -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC008_TopCity_TestPageTest@533377b]" started-at="2025-07-17T10:48:38 IST" name="tearDown" finished-at="2025-07-17T10:48:43 IST" duration-ms="4918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC008_TopCity_TestPageTest -->
+      <class name="testCases.TC007_CaptchaScreenshot">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC007_CaptchaScreenshot@419a20a6]" started-at="2025-07-17T10:47:37 IST" name="setup" finished-at="2025-07-17T10:47:46 IST" duration-ms="8823" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="corporateClick()[pri:0, instance:testCases.TC007_CaptchaScreenshot@419a20a6]" started-at="2025-07-17T10:47:46 IST" name="corporateClick" finished-at="2025-07-17T10:48:09 IST" duration-ms="22497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- corporateClick -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC007_CaptchaScreenshot@419a20a6]" started-at="2025-07-17T10:48:09 IST" name="tearDown" finished-at="2025-07-17T10:48:12 IST" duration-ms="3677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC007_CaptchaScreenshot -->
+      <class name="testCases.TC004_LoginAuthentication">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_LoginAuthentication@2c7d121c]" started-at="2025-07-17T10:39:55 IST" name="setup" finished-at="2025-07-17T10:40:38 IST" duration-ms="42670" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_LoginAuthentication@2c7d121c]" started-at="2025-07-17T10:40:38 IST" name="loginTest" data-provider="LoginData" finished-at="2025-07-17T10:40:44 IST" duration-ms="6005" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rajthakur2341@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[RajThakur234@#]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_LoginAuthentication@2c7d121c]" started-at="2025-07-17T10:40:44 IST" name="loginTest" data-provider="LoginData" finished-at="2025-07-17T10:40:49 IST" duration-ms="5062" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chatterjeenaitik0@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Practo2025@#$]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_LoginAuthentication@2c7d121c]" started-at="2025-07-17T10:40:49 IST" name="loginTest" data-provider="LoginData" finished-at="2025-07-17T10:40:51 IST" duration-ms="1888" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dasTanisha@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyzdasTani@#]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC004_LoginAuthentication@2c7d121c]" started-at="2025-07-17T10:40:51 IST" name="tearDown" finished-at="2025-07-17T10:41:22 IST" duration-ms="31057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC004_LoginAuthentication -->
+    </test> <!-- chromeTest -->
+    <test started-at="2025-07-17T10:48:43 IST" name="edgeTest" finished-at="2025-07-17T10:53:47 IST" duration-ms="303955">
+      <class name="testCases.TC002_NearbyDoctors">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_NearbyDoctors@3a320ade]" started-at="2025-07-17T10:49:17 IST" name="setup" finished-at="2025-07-17T10:49:27 IST" duration-ms="9729" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="findDoctorsTest(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_NearbyDoctors@3a320ade]" started-at="2025-07-17T10:49:27 IST" name="findDoctorsTest" data-provider="DoctorsSearchData" finished-at="2025-07-17T10:49:56 IST" duration-ms="29125" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dermatologist]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findDoctorsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_NearbyDoctors@3a320ade]" started-at="2025-07-17T10:49:56 IST" name="tearDown" finished-at="2025-07-17T10:50:00 IST" duration-ms="3582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC002_NearbyDoctors -->
+      <class name="testCases.TC003_VideoConsultancy">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_VideoConsultancy@64beebb7]" started-at="2025-07-17T10:50:00 IST" name="setup" finished-at="2025-07-17T10:50:10 IST" duration-ms="10182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getTopCities()[pri:0, instance:testCases.TC003_VideoConsultancy@64beebb7]" started-at="2025-07-17T10:50:10 IST" name="getTopCities" finished-at="2025-07-17T10:50:16 IST" duration-ms="6268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTopCities -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_VideoConsultancy@64beebb7]" started-at="2025-07-17T10:50:16 IST" name="tearDown" finished-at="2025-07-17T10:50:19 IST" duration-ms="2748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC003_VideoConsultancy -->
+      <class name="testCases.TC005_SearchHealthArticles">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC005_SearchHealthArticles@bcec031]" started-at="2025-07-17T10:50:42 IST" name="setup" finished-at="2025-07-17T10:50:52 IST" duration-ms="9598" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="healthArticlesSearch(java.lang.String)[pri:0, instance:testCases.TC005_SearchHealthArticles@bcec031]" started-at="2025-07-17T10:50:52 IST" name="healthArticlesSearch" data-provider="HealthArticleSearchData" finished-at="2025-07-17T10:51:19 IST" duration-ms="27301" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mental heath]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- healthArticlesSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC005_SearchHealthArticles@bcec031]" started-at="2025-07-17T10:51:19 IST" name="tearDown" finished-at="2025-07-17T10:51:23 IST" duration-ms="3262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC005_SearchHealthArticles -->
+      <class name="testCases.TC006_SocialsLinkVerification">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC006_SocialsLinkVerification@21005f6c]" started-at="2025-07-17T10:51:23 IST" name="setup" finished-at="2025-07-17T10:51:58 IST" duration-ms="35643" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="linkVerification()[pri:0, instance:testCases.TC006_SocialsLinkVerification@21005f6c]" started-at="2025-07-17T10:51:58 IST" name="linkVerification" finished-at="2025-07-17T10:52:40 IST" duration-ms="41708" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Exception occurred: Unexpected result for screenshot command: null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Exception occurred: Unexpected result for screenshot command: null
+at org.testng.Assert.fail(Assert.java:111)
+at testCases.TC006_SocialsLinkVerification.linkVerification(TC006_SocialsLinkVerification.java:30)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- linkVerification -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC006_SocialsLinkVerification@21005f6c]" started-at="2025-07-17T10:52:40 IST" name="tearDown" finished-at="2025-07-17T10:52:43 IST" duration-ms="3473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC006_SocialsLinkVerification -->
+      <class name="testCases.TC008_TopCity_TestPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC008_TopCity_TestPageTest@545de5a4]" started-at="2025-07-17T10:53:21 IST" name="setup" finished-at="2025-07-17T10:53:31 IST" duration-ms="9624" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getTopCities()[pri:0, instance:testCases.TC008_TopCity_TestPageTest@545de5a4]" started-at="2025-07-17T10:53:31 IST" name="getTopCities" finished-at="2025-07-17T10:53:44 IST" duration-ms="13905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTopCities -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC008_TopCity_TestPageTest@545de5a4]" started-at="2025-07-17T10:53:44 IST" name="tearDown" finished-at="2025-07-17T10:53:47 IST" duration-ms="2640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC008_TopCity_TestPageTest -->
+      <class name="testCases.TC007_CaptchaScreenshot">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC007_CaptchaScreenshot@32f0fba8]" started-at="2025-07-17T10:52:43 IST" name="setup" finished-at="2025-07-17T10:52:53 IST" duration-ms="9639" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="corporateClick()[pri:0, instance:testCases.TC007_CaptchaScreenshot@32f0fba8]" started-at="2025-07-17T10:52:53 IST" name="corporateClick" finished-at="2025-07-17T10:53:17 IST" duration-ms="24183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- corporateClick -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC007_CaptchaScreenshot@32f0fba8]" started-at="2025-07-17T10:53:17 IST" name="tearDown" finished-at="2025-07-17T10:53:21 IST" duration-ms="3652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC007_CaptchaScreenshot -->
+      <class name="testCases.TC001_HospitalsAvailabilityTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_HospitalsAvailabilityTest@24faea88]" started-at="2025-07-17T10:48:43 IST" name="setup" finished-at="2025-07-17T10:48:54 IST" duration-ms="10747" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="hospitalsSearch(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_HospitalsAvailabilityTest@24faea88]" started-at="2025-07-17T10:48:54 IST" name="hospitalsSearch" data-provider="FindingHospitalsData" finished-at="2025-07-17T10:49:14 IST" duration-ms="19731" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hospital]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Open 24x7]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hospitalsSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_HospitalsAvailabilityTest@24faea88]" started-at="2025-07-17T10:49:14 IST" name="tearDown" finished-at="2025-07-17T10:49:17 IST" duration-ms="3201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC001_HospitalsAvailabilityTest -->
+      <class name="testCases.TC004_LoginAuthentication">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_LoginAuthentication@7813cb11]" started-at="2025-07-17T10:50:19 IST" name="setup" finished-at="2025-07-17T10:50:32 IST" duration-ms="13733" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_LoginAuthentication@7813cb11]" started-at="2025-07-17T10:50:33 IST" name="loginTest" data-provider="LoginData" finished-at="2025-07-17T10:50:35 IST" duration-ms="2187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rajthakur2341@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[RajThakur234@#]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_LoginAuthentication@7813cb11]" started-at="2025-07-17T10:50:35 IST" name="loginTest" data-provider="LoginData" finished-at="2025-07-17T10:50:39 IST" duration-ms="3760" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chatterjeenaitik0@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Practo2025@#$]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_LoginAuthentication@7813cb11]" started-at="2025-07-17T10:50:39 IST" name="loginTest" data-provider="LoginData" finished-at="2025-07-17T10:50:40 IST" duration-ms="1471" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dasTanisha@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyzdasTani@#]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at testCases.TC004_LoginAuthentication.loginTest(TC004_LoginAuthentication.java:54)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC004_LoginAuthentication@7813cb11]" started-at="2025-07-17T10:50:40 IST" name="tearDown" finished-at="2025-07-17T10:50:42 IST" duration-ms="2353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC004_LoginAuthentication -->
+    </test> <!-- edgeTest -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="chromeTest(failed)">
+    <parameter name="os" value="Windows"/>
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="testCases.TC001_HospitalsAvailabilityTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="hospitalsSearch" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testCases.TC001_HospitalsAvailabilityTest -->
+      <class name="testCases.TC006_SocialsLinkVerification">
+        <methods>
+          <include name="tearDown"/>
+          <include name="linkVerification"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC006_SocialsLinkVerification -->
+    </classes>
+  </test> <!-- chromeTest(failed) -->
+  <test thread-count="5" name="edgeTest(failed)">
+    <parameter name="os" value="Windows"/>
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="testCases.TC004_LoginAuthentication">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginTest" invocation-numbers="2"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC004_LoginAuthentication -->
+      <class name="testCases.TC006_SocialsLinkVerification">
+        <methods>
+          <include name="tearDown"/>
+          <include name="linkVerification"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC006_SocialsLinkVerification -->
+    </classes>
+  </test> <!-- edgeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

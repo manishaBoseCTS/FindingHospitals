@@ -1,0 +1,521 @@
+2025-07-17 10:14:53 INFO  Hooks:26 - Navigating to Home Page
+2025-07-17 10:14:53 INFO  Hooks:33 - Loading hospital search data from Excel sheet: TC001
+2025-07-17 10:14:55 INFO  Hooks:41 - Loaded Data -> City: Bangalore, SearchPlace: Hospital, OpenTime: Open 24x7, Rating: 4.0
+2025-07-17 10:14:55 INFO  Hooks:47 - Entering City into Search: Bangalore
+2025-07-17 10:15:00 INFO  Hooks:53 - Entering SearchPlace into Search field: Hospital
+2025-07-17 10:15:09 INFO  Hooks:59 - Retrieving total number of hospital search results
+2025-07-17 10:15:09 INFO  Hooks:65 - Filtering hospital names based on OpenTime: Open 24x7 and Rating >= 4.0
+2025-07-17 10:15:10 INFO  Hooks:71 - Writing filtered hospital names to Excel sheet: TC001_Output
+2025-07-17 10:15:10 INFO  Hooks:76 - Writing Hospital Name to Excel: Manipal Hospital Varthur Road (formerly Columbia Asia Hospital)
+2025-07-17 10:15:10 INFO  Hooks:76 - Writing Hospital Name to Excel: Manipal Hospitals
+2025-07-17 10:15:11 INFO  Hooks:76 - Writing Hospital Name to Excel: Motherhood Hospital
+2025-07-17 10:15:11 INFO  Hooks:76 - Writing Hospital Name to Excel: Koshys Hospital
+2025-07-17 10:15:11 INFO  Hooks:76 - Writing Hospital Name to Excel: Apollo Spectra Hospitals
+2025-07-17 10:15:11 INFO  Hooks:76 - Writing Hospital Name to Excel: Motherhood Hospital
+2025-07-17 10:15:11 INFO  Hooks:76 - Writing Hospital Name to Excel: Apollo Cradle & Children’s Hospital
+2025-07-17 10:15:11 INFO  Hooks:81 - Finished writing all hospital names to Excel
+2025-07-17 10:16:06 INFO  Hooks:22 - Navigating to application URL...
+2025-07-17 10:16:22 INFO  Hooks:24 - User is on the home page.
+2025-07-17 10:16:22 INFO  Hooks:34 - Total rows in sheet 'TC002': 1
+2025-07-17 10:16:22 INFO  Hooks:40 - Searching for doctors in location: 'Bangalore' with type: 'Dermatologist'
+2025-07-17 10:16:57 INFO  Hooks:87 - Doctors found: 10
+2025-07-17 10:16:57 INFO  Hooks:60 - Saved doctor name to Excel: Dr. Ambresh Badad
+2025-07-17 10:16:57 INFO  Hooks:60 - Saved doctor name to Excel: Dr. Shashi Kumar M
+2025-07-17 10:16:58 INFO  Hooks:60 - Saved doctor name to Excel: Dr. Vinay Nagaraj
+2025-07-17 10:16:58 INFO  Hooks:60 - Saved doctor name to Excel: Dr. M.Jeethan
+2025-07-17 10:16:58 INFO  Hooks:60 - Saved doctor name to Excel: Dr. Kiran K C
+2025-07-17 10:16:58 INFO  Hooks:60 - Saved doctor name to Excel: Dr. S C Rajendran
+2025-07-17 10:16:58 INFO  Hooks:60 - Saved doctor name to Excel: Dr. Chandrashekara Aithal
+2025-07-17 10:16:58 INFO  Hooks:60 - Saved doctor name to Excel: Dr. J Prasad
+2025-07-17 10:16:58 INFO  Hooks:60 - Saved doctor name to Excel: Dr. Shaik Mohammed Obeidullah
+2025-07-17 10:16:58 INFO  Hooks:60 - Saved doctor name to Excel: Dr. Revanth BN
+2025-07-17 10:16:58 INFO  Hooks:64 - All doctor names saved to sheet 'TC002_Output'
+2025-07-17 10:18:10 INFO  Hooks:16 - ****Clicking Instant Video Consultation*****
+2025-07-17 10:18:10 INFO  Hooks:25 - ****Scrolling*****
+2025-07-17 10:18:28 INFO  Hooks:28 - ****passing and getting specialities with price*****
+2025-07-17 10:19:11 INFO  Hooks:19 - ******Starting Login Authentication Test Case*******
+2025-07-17 10:19:11 INFO  Hooks:30 - *****Clicking Login on Home Page******
+2025-07-17 10:19:11 INFO  Hooks:34 - *****Entering username and password and clicking login******
+2025-07-17 10:19:14 INFO  Hooks:48 - *****Checking visibility of username error block upon unsuccessful login******
+2025-07-17 10:19:15 INFO  Hooks:30 - *****Clicking Login on Home Page******
+2025-07-17 10:19:16 INFO  Hooks:34 - *****Entering username and password and clicking login******
+2025-07-17 10:19:18 INFO  Hooks:43 - *****Checking if Profile Info is displayed after successful login******
+2025-07-17 10:19:18 INFO  Hooks:45 - *****Logging out******
+2025-07-17 10:19:20 INFO  Hooks:30 - *****Clicking Login on Home Page******
+2025-07-17 10:19:20 INFO  Hooks:34 - *****Entering username and password and clicking login******
+2025-07-17 10:19:21 INFO  Hooks:48 - *****Checking visibility of username error block upon unsuccessful login******
+2025-07-17 10:19:21 INFO  Hooks:60 - ****Finished Login Authentication TestCase*****
+2025-07-17 10:19:37 INFO  Hooks:26 - Launching Home Page
+2025-07-17 10:19:37 INFO  Hooks:33 - Reading search term from Excel sheet: TC005
+2025-07-17 10:19:37 INFO  Hooks:37 - Loaded search term: mental heath
+2025-07-17 10:19:38 INFO  Hooks:43 - Clicked on 'Read Articles' link
+2025-07-17 10:19:38 INFO  Hooks:55 - Switched to new window for article search
+2025-07-17 10:20:10 INFO  Hooks:61 - Performed search for: mental heath
+2025-07-17 10:20:10 INFO  Hooks:68 - Extracted 10 article titles and author pairs
+2025-07-17 10:20:10 INFO  Hooks:79 - Written to Excel: Mental Health | Dr.Surabhi Jain, Dietitian/Nutritionist
+2025-07-17 10:20:10 INFO  Hooks:79 - Written to Excel: 7 Simple Yet Effective Ways to Build Your Mental Strength | Ms.Seema Agarwal, Psychologist
+2025-07-17 10:20:11 INFO  Hooks:79 - Written to Excel: World Mental Health Day 2016 | Dr.Sonia Malhotra, Psychiatrist
+2025-07-17 10:20:11 INFO  Hooks:79 - Written to Excel: Importance of Mental health | Ms.Seema Agarwal, Psychologist
+2025-07-17 10:20:11 INFO  Hooks:79 - Written to Excel: Mental Disorders: Stigma or Something else? | Dr.D. S. Poonia, Psychiatrist
+2025-07-17 10:20:11 INFO  Hooks:79 - Written to Excel: Dealing with mental stress at the workplace | Dr.Ankita Mishra, Psychiatrist
+2025-07-17 10:20:11 INFO  Hooks:79 - Written to Excel: How to Deal With Depression/mental Illnesses? | Dr.Neelam Nath Bhatia, General Physician
+2025-07-17 10:20:11 INFO  Hooks:79 - Written to Excel: 5 Ways to Good Mental Health | Dr.Pankaj B Borade, Psychiatrist
+2025-07-17 10:20:12 INFO  Hooks:79 - Written to Excel: 10 Easy & Effective Ways to Improve Mental Health | Ms.Vijal Sejpal, Psychologist
+2025-07-17 10:20:12 INFO  Hooks:79 - Written to Excel: Essential Ways to Enhance Adolescent Mental Health | Dr.Ashima Srivastava(PhD), Psychologist
+2025-07-17 10:20:12 INFO  Hooks:82 - Data writing complete for TC005_Output
+2025-07-17 10:21:14 INFO  Hooks:16 - Scrolling to footer section
+2025-07-17 10:21:51 INFO  Hooks:26 - Navigating to Home Page
+2025-07-17 10:21:51 INFO  Hooks:26 - Clicking 'For Corporates' link
+2025-07-17 10:21:51 INFO  Hooks:32 - Clicking 'For Health and Wellness' link
+2025-07-17 10:21:57 INFO  Hooks:38 - Waiting for form to load...
+2025-07-17 10:21:59 INFO  Hooks:42 - Form loaded and ready
+2025-07-17 10:21:59 INFO  Hooks:48 - Filling form using XML data...
+2025-07-17 10:22:03 INFO  Hooks:50 - Entered Name
+2025-07-17 10:22:06 INFO  Hooks:53 - Entered Organization
+2025-07-17 10:22:09 INFO  Hooks:56 - Entered Contact
+2025-07-17 10:22:12 INFO  Hooks:59 - Entered Email
+2025-07-17 10:22:12 INFO  Hooks:62 - Selected Organization Size
+2025-07-17 10:22:12 INFO  Hooks:65 - Selected Interest
+2025-07-17 10:22:12 INFO  Hooks:70 - Submitting demo request
+2025-07-17 10:22:15 INFO  Hooks:76 - Verifying CAPTCHA screen is displayed
+2025-07-17 10:22:15 INFO  Hooks:83 - Capturing screenshot: CaptchaAfterSubmit
+2025-07-17 10:22:28 INFO  Hooks:27 - Starting login process...
+2025-07-17 10:22:37 INFO  Hooks:38 - Login successful.
+2025-07-17 10:22:37 INFO  Hooks:50 - Clicked user dropdown.
+2025-07-17 10:22:40 INFO  Hooks:53 - Navigated to My Tests.
+2025-07-17 10:22:44 INFO  Hooks:59 - Clicked Book Tests.
+2025-07-17 10:22:44 INFO  Hooks:62 - Fetched 8 TopCities.
+2025-07-17 10:22:44 INFO  Hooks:80 - Written TopCity to Excel: Bangalore
+2025-07-17 10:22:44 INFO  Hooks:80 - Written TopCity to Excel: Delhi
+2025-07-17 10:22:44 INFO  Hooks:80 - Written TopCity to Excel: Mumbai
+2025-07-17 10:22:45 INFO  Hooks:80 - Written TopCity to Excel: Chennai
+2025-07-17 10:22:45 INFO  Hooks:80 - Written TopCity to Excel: Hyderabad
+2025-07-17 10:22:45 INFO  Hooks:80 - Written TopCity to Excel: Kolkata
+2025-07-17 10:22:45 INFO  Hooks:80 - Written TopCity to Excel: Pune
+2025-07-17 10:22:45 INFO  Hooks:80 - Written TopCity to Excel: Ahmedabad
+2025-07-17 10:22:45 INFO  Hooks:85 - All TopCities written to Excel successfully.
+2025-07-17 10:23:27 INFO  Hooks:16 - Scrolling to footer section
+2025-07-17 10:32:03 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2403732\OneDrive - Cognizant\Desktop\FindingHospitals\testng.xml
+
+2025-07-17 10:32:34 INFO  TC001_HospitalsAvailabilityTest:17 - ****Starting TestCase*****
+2025-07-17 10:32:34 INFO  TC001_HospitalsAvailabilityTest:22 - ****Entering Search City*****
+2025-07-17 10:36:40 ERROR TC001_HospitalsAvailabilityTest:44 - Test Failed
+java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302)
+	at java.base/java.util.Objects.checkIndex(Objects.java:385)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at pageObjects.HomePage.setSearchCity(HomePage.java:64)
+	at testCases.TC001_HospitalsAvailabilityTest.hospitalsSearch(TC001_HospitalsAvailabilityTest.java:23)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+2025-07-17 10:37:42 INFO  TC002_NearbyDoctors:21 - ****Starting Search Nearby Doctors TestCase*****
+2025-07-17 10:37:58 INFO  TC002_NearbyDoctors:27 - ****Selecting Location*****
+2025-07-17 10:37:59 INFO  TC002_NearbyDoctors:29 - ****Selecting Doctor Type*****
+2025-07-17 10:38:06 INFO  TC002_NearbyDoctors:33 - ****Selecting Gender*****
+2025-07-17 10:38:08 INFO  TC002_NearbyDoctors:35 - ****Selecting Experience*****
+2025-07-17 10:38:13 INFO  TC002_NearbyDoctors:37 - ****Sorting names based on fees*****
+2025-07-17 10:38:20 INFO  TC002_NearbyDoctors:39 - ****Storing doctor names in a list*****
+2025-07-17 10:38:23 INFO  TC002_NearbyDoctors:55 - ****Finished Searching Doctors TestCase*****
+2025-07-17 10:39:13 INFO  TC003_VideoConsultancy:16 - ****Starting TestCase*****
+2025-07-17 10:39:13 INFO  TC003_VideoConsultancy:21 - ****Clicking Instant Video Consultation*****
+2025-07-17 10:39:13 INFO  TC003_VideoConsultancy:27 - ****Scrolling*****
+2025-07-17 10:39:18 INFO  TC003_VideoConsultancy:30 - ****passing and getting specialities with price*****
+2025-07-17 10:39:24 INFO  TC003_VideoConsultancy:41 - ****Finished TestCase*****
+2025-07-17 10:40:38 INFO  TC004_LoginAuthentication:22 - ******Starting Login Authentication Test Case*******
+2025-07-17 10:40:38 INFO  TC004_LoginAuthentication:24 - *****Clicking Login on Home Page******
+2025-07-17 10:40:40 INFO  TC004_LoginAuthentication:28 - *****Entering username and password and clicking login******
+2025-07-17 10:40:44 INFO  TC004_LoginAuthentication:45 - *****Checking visibility of username error block upon unsuccessful login******
+2025-07-17 10:40:44 INFO  TC004_LoginAuthentication:56 - ****Finished Login Authentication TestCase*****
+2025-07-17 10:40:44 INFO  TC004_LoginAuthentication:22 - ******Starting Login Authentication Test Case*******
+2025-07-17 10:40:44 INFO  TC004_LoginAuthentication:24 - *****Clicking Login on Home Page******
+2025-07-17 10:40:45 INFO  TC004_LoginAuthentication:28 - *****Entering username and password and clicking login******
+2025-07-17 10:40:47 INFO  TC004_LoginAuthentication:37 - *****Checking if Profile Info is displayed after successful login******
+2025-07-17 10:40:48 INFO  TC004_LoginAuthentication:39 - *****Logging out******
+2025-07-17 10:40:49 INFO  TC004_LoginAuthentication:56 - ****Finished Login Authentication TestCase*****
+2025-07-17 10:40:49 INFO  TC004_LoginAuthentication:22 - ******Starting Login Authentication Test Case*******
+2025-07-17 10:40:49 INFO  TC004_LoginAuthentication:24 - *****Clicking Login on Home Page******
+2025-07-17 10:40:50 INFO  TC004_LoginAuthentication:28 - *****Entering username and password and clicking login******
+2025-07-17 10:40:51 INFO  TC004_LoginAuthentication:45 - *****Checking visibility of username error block upon unsuccessful login******
+2025-07-17 10:40:51 INFO  TC004_LoginAuthentication:56 - ****Finished Login Authentication TestCase*****
+2025-07-17 10:42:12 INFO  TC005_SearchHealthArticles:20 - **** Starting TC005_SearchHealthArticles Test ****
+2025-07-17 10:42:19 INFO  TC005_SearchHealthArticles:25 - Clicked on 'Read Articles' link
+2025-07-17 10:42:30 INFO  TC005_SearchHealthArticles:38 - Searched for: mental heath
+2025-07-17 10:42:30 INFO  TC005_SearchHealthArticles:49 - Saved: Mental Health | Dr.Surabhi Jain, Dietitian/Nutritionist
+2025-07-17 10:42:31 INFO  TC005_SearchHealthArticles:49 - Saved: 7 Simple Yet Effective Ways to Build Your Mental Strength | Ms.Seema Agarwal, Psychologist
+2025-07-17 10:42:31 INFO  TC005_SearchHealthArticles:49 - Saved: World Mental Health Day 2016 | Dr.Sonia Malhotra, Psychiatrist
+2025-07-17 10:42:31 INFO  TC005_SearchHealthArticles:49 - Saved: Importance of Mental health | Ms.Seema Agarwal, Psychologist
+2025-07-17 10:42:31 INFO  TC005_SearchHealthArticles:49 - Saved: Mental Disorders: Stigma or Something else? | Dr.D. S. Poonia, Psychiatrist
+2025-07-17 10:42:31 INFO  TC005_SearchHealthArticles:49 - Saved: Dealing with mental stress at the workplace | Dr.Ankita Mishra, Psychiatrist
+2025-07-17 10:42:32 INFO  TC005_SearchHealthArticles:49 - Saved: How to Deal With Depression/mental Illnesses? | Dr.Neelam Nath Bhatia, General Physician
+2025-07-17 10:42:32 INFO  TC005_SearchHealthArticles:49 - Saved: 5 Ways to Good Mental Health | Dr.Pankaj B Borade, Psychiatrist
+2025-07-17 10:42:32 INFO  TC005_SearchHealthArticles:49 - Saved: 10 Easy & Effective Ways to Improve Mental Health | Ms.Vijal Sejpal, Psychologist
+2025-07-17 10:42:32 INFO  TC005_SearchHealthArticles:49 - Saved: Essential Ways to Enhance Adolescent Mental Health | Dr.Ashima Srivastava(PhD), Psychologist
+2025-07-17 10:42:32 INFO  TC005_SearchHealthArticles:52 - Data written successfully to Excel
+2025-07-17 10:42:32 INFO  TC005_SearchHealthArticles:60 - **** Finished TC005_SearchHealthArticles Test ****
+2025-07-17 10:43:32 INFO  TC006_SocialsLinkVerification:15 - **** Starting Social Links Verification TestCase ****
+2025-07-17 10:47:06 ERROR TC006_SocialsLinkVerification:29 - Test Failed: java.util.concurrent.TimeoutException
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c9e67f2af0a94241105286a1437a550c, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2403732\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62846}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62846/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c9e67f2af0a94241105286a1437a550c
+org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c9e67f2af0a94241105286a1437a550c, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2403732\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62846}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62846/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c9e67f2af0a94241105286a1437a550c
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:427)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:212)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:617)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:621)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:333)
+	at utilities.ScreenShot.takeScreenShot(ScreenShot.java:36)
+	at testCases.TC006_SocialsLinkVerification.verifyAndCapture(TC006_SocialsLinkVerification.java:45)
+	at testCases.TC006_SocialsLinkVerification.linkVerification(TC006_SocialsLinkVerification.java:22)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2920)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-07-17 10:47:46 INFO  TC007_CaptchaScreenshot:19 - **********Starting: from For Corporates
+2025-07-17 10:47:46 INFO  TC007_CaptchaScreenshot:24 - ********Clicked 'For Corporate Link'********
+2025-07-17 10:47:51 INFO  TC007_CaptchaScreenshot:27 - ********Clicked 'For Health and Wellness Link'********
+2025-07-17 10:47:53 INFO  TC007_CaptchaScreenshot:30 - Current URL after clicking: https://www.practo.com/plus/corporate
+2025-07-17 10:47:53 INFO  TC007_CaptchaScreenshot:34 - Form is loaded — ready to interact
+2025-07-17 10:47:53 INFO  TC007_CaptchaScreenshot:37 - Current active window handle: E501480D01DF5F1B258649E47A9A8B15
+2025-07-17 10:47:57 INFO  TC007_CaptchaScreenshot:41 - ********Name********
+2025-07-17 10:48:00 INFO  TC007_CaptchaScreenshot:44 - *******Organization********
+2025-07-17 10:48:03 INFO  TC007_CaptchaScreenshot:47 - ********Contact********
+2025-07-17 10:48:06 INFO  TC007_CaptchaScreenshot:50 - ********Email********
+2025-07-17 10:48:06 INFO  TC007_CaptchaScreenshot:53 - ********Organization Size********
+2025-07-17 10:48:06 INFO  TC007_CaptchaScreenshot:56 - ********Interest********
+2025-07-17 10:48:08 INFO  TC007_CaptchaScreenshot:59 - ********Clicked submit********
+2025-07-17 10:48:09 INFO  TC007_CaptchaScreenshot:62 - ***Screenshot captured: CaptchaAfterSubmit*****
+2025-07-17 10:48:21 INFO  TC008_TopCity_TestPageTest:26 - ****Starting TestCase*****
+2025-07-17 10:48:30 INFO  TC008_TopCity_TestPageTest:40 - ****Clicking userInfo*****
+2025-07-17 10:48:30 INFO  TC008_TopCity_TestPageTest:43 - ****Clicking My Tests*****
+2025-07-17 10:48:35 INFO  TC008_TopCity_TestPageTest:49 - ****Clicking Book Tests*****
+2025-07-17 10:48:38 INFO  TC008_TopCity_TestPageTest:52 - ****Number of Top cities*****
+2025-07-17 10:48:38 INFO  TC008_TopCity_TestPageTest:55 - ****List Of Cities*****
+2025-07-17 10:48:38 INFO  TC008_TopCity_TestPageTest:73 - ****Finished TestCase*****
+2025-07-17 10:48:54 INFO  TC001_HospitalsAvailabilityTest:17 - ****Starting TestCase*****
+2025-07-17 10:48:54 INFO  TC001_HospitalsAvailabilityTest:22 - ****Entering Search City*****
+2025-07-17 10:49:00 INFO  TC001_HospitalsAvailabilityTest:25 - ****Entering Search Value*****
+2025-07-17 10:49:13 INFO  TC001_HospitalsAvailabilityTest:28 - ****Getting Total No. of Results*****
+2025-07-17 10:49:13 INFO  TC001_HospitalsAvailabilityTest:31 - ****Getting Name of Hospitals based on criteria*****
+2025-07-17 10:49:14 INFO  TC001_HospitalsAvailabilityTest:34 - ****Writing Name of Hospitals to Excel****
+2025-07-17 10:49:14 INFO  TC001_HospitalsAvailabilityTest:48 - ****Finished Searching Hospitals TestCase*****
+2025-07-17 10:49:27 INFO  TC002_NearbyDoctors:21 - ****Starting Search Nearby Doctors TestCase*****
+2025-07-17 10:49:34 INFO  TC002_NearbyDoctors:27 - ****Selecting Location*****
+2025-07-17 10:49:35 INFO  TC002_NearbyDoctors:29 - ****Selecting Doctor Type*****
+2025-07-17 10:49:41 INFO  TC002_NearbyDoctors:33 - ****Selecting Gender*****
+2025-07-17 10:49:43 INFO  TC002_NearbyDoctors:35 - ****Selecting Experience*****
+2025-07-17 10:49:48 INFO  TC002_NearbyDoctors:37 - ****Sorting names based on fees*****
+2025-07-17 10:49:53 INFO  TC002_NearbyDoctors:39 - ****Storing doctor names in a list*****
+2025-07-17 10:49:56 INFO  TC002_NearbyDoctors:55 - ****Finished Searching Doctors TestCase*****
+2025-07-17 10:50:10 INFO  TC003_VideoConsultancy:16 - ****Starting TestCase*****
+2025-07-17 10:50:10 INFO  TC003_VideoConsultancy:21 - ****Clicking Instant Video Consultation*****
+2025-07-17 10:50:10 INFO  TC003_VideoConsultancy:27 - ****Scrolling*****
+2025-07-17 10:50:14 INFO  TC003_VideoConsultancy:30 - ****passing and getting specialities with price*****
+2025-07-17 10:50:16 INFO  TC003_VideoConsultancy:41 - ****Finished TestCase*****
+2025-07-17 10:50:33 INFO  TC004_LoginAuthentication:22 - ******Starting Login Authentication Test Case*******
+2025-07-17 10:50:33 INFO  TC004_LoginAuthentication:24 - *****Clicking Login on Home Page******
+2025-07-17 10:50:34 INFO  TC004_LoginAuthentication:28 - *****Entering username and password and clicking login******
+2025-07-17 10:50:34 INFO  TC004_LoginAuthentication:45 - *****Checking visibility of username error block upon unsuccessful login******
+2025-07-17 10:50:35 INFO  TC004_LoginAuthentication:56 - ****Finished Login Authentication TestCase*****
+2025-07-17 10:50:35 INFO  TC004_LoginAuthentication:22 - ******Starting Login Authentication Test Case*******
+2025-07-17 10:50:35 INFO  TC004_LoginAuthentication:24 - *****Clicking Login on Home Page******
+2025-07-17 10:50:35 INFO  TC004_LoginAuthentication:28 - *****Entering username and password and clicking login******
+2025-07-17 10:50:38 INFO  TC004_LoginAuthentication:37 - *****Checking if Profile Info is displayed after successful login******
+2025-07-17 10:50:38 INFO  TC004_LoginAuthentication:39 - *****Logging out******
+2025-07-17 10:50:39 INFO  TC004_LoginAuthentication:56 - ****Finished Login Authentication TestCase*****
+2025-07-17 10:50:39 INFO  TC004_LoginAuthentication:22 - ******Starting Login Authentication Test Case*******
+2025-07-17 10:50:39 INFO  TC004_LoginAuthentication:24 - *****Clicking Login on Home Page******
+2025-07-17 10:50:39 INFO  TC004_LoginAuthentication:28 - *****Entering username and password and clicking login******
+2025-07-17 10:50:40 INFO  TC004_LoginAuthentication:45 - *****Checking visibility of username error block upon unsuccessful login******
+2025-07-17 10:50:40 ERROR TC004_LoginAuthentication:52 - Test Failed
+org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: MicrosoftEdge=138.0.3351.83)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [e71c4c2d2a657b4a1708fbf86a9e88d5, isElementDisplayed {id=f.C9CF4CB0F2201DD811DAB66615EFAE16.d.62C389008A0434C1AB7E161F70F79C9D.e.302}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 138.0.3351.83, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:65246}, msedge: {msedgedriverVersion: 138.0.3351.83 (16e2a7bef320..., userDataDir: C:\Users\2403732\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65246/devtoo..., se:cdpVersion: 138.0.3351.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (e71c4c2d2a657b4a1708fbf86a9e88d5)] -> id: usernameErrorBlock]
+Session ID: e71c4c2d2a657b4a1708fbf86a9e88d5
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:282)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy33.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at testCases.TC004_LoginAuthentication.loginTest(TC004_LoginAuthentication.java:46)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+2025-07-17 10:50:52 INFO  TC005_SearchHealthArticles:20 - **** Starting TC005_SearchHealthArticles Test ****
+2025-07-17 10:50:52 INFO  TC005_SearchHealthArticles:25 - Clicked on 'Read Articles' link
+2025-07-17 10:51:18 INFO  TC005_SearchHealthArticles:38 - Searched for: mental heath
+2025-07-17 10:51:18 INFO  TC005_SearchHealthArticles:49 - Saved: Mental Health | Dr.Surabhi Jain, Dietitian/Nutritionist
+2025-07-17 10:51:18 INFO  TC005_SearchHealthArticles:49 - Saved: 7 Simple Yet Effective Ways to Build Your Mental Strength | Ms.Seema Agarwal, Psychologist
+2025-07-17 10:51:19 INFO  TC005_SearchHealthArticles:49 - Saved: World Mental Health Day 2016 | Dr.Sonia Malhotra, Psychiatrist
+2025-07-17 10:51:19 INFO  TC005_SearchHealthArticles:49 - Saved: Importance of Mental health | Ms.Seema Agarwal, Psychologist
+2025-07-17 10:51:19 INFO  TC005_SearchHealthArticles:49 - Saved: Mental Disorders: Stigma or Something else? | Dr.D. S. Poonia, Psychiatrist
+2025-07-17 10:51:19 INFO  TC005_SearchHealthArticles:49 - Saved: Dealing with mental stress at the workplace | Dr.Ankita Mishra, Psychiatrist
+2025-07-17 10:51:19 INFO  TC005_SearchHealthArticles:49 - Saved: How to Deal With Depression/mental Illnesses? | Dr.Neelam Nath Bhatia, General Physician
+2025-07-17 10:51:19 INFO  TC005_SearchHealthArticles:49 - Saved: 5 Ways to Good Mental Health | Dr.Pankaj B Borade, Psychiatrist
+2025-07-17 10:51:19 INFO  TC005_SearchHealthArticles:49 - Saved: 10 Easy & Effective Ways to Improve Mental Health | Ms.Vijal Sejpal, Psychologist
+2025-07-17 10:51:19 INFO  TC005_SearchHealthArticles:49 - Saved: Essential Ways to Enhance Adolescent Mental Health | Dr.Ashima Srivastava(PhD), Psychologist
+2025-07-17 10:51:19 INFO  TC005_SearchHealthArticles:52 - Data written successfully to Excel
+2025-07-17 10:51:19 INFO  TC005_SearchHealthArticles:60 - **** Finished TC005_SearchHealthArticles Test ****
+2025-07-17 10:51:58 INFO  TC006_SocialsLinkVerification:15 - **** Starting Social Links Verification TestCase ****
+2025-07-17 10:52:40 ERROR TC006_SocialsLinkVerification:29 - Test Failed: Unexpected result for screenshot command: null
+java.lang.RuntimeException: Unexpected result for screenshot command: null
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:342)
+	at utilities.ScreenShot.takeScreenShot(ScreenShot.java:36)
+	at testCases.TC006_SocialsLinkVerification.verifyAndCapture(TC006_SocialsLinkVerification.java:45)
+	at testCases.TC006_SocialsLinkVerification.linkVerification(TC006_SocialsLinkVerification.java:22)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+2025-07-17 10:52:53 INFO  TC007_CaptchaScreenshot:19 - **********Starting: from For Corporates
+2025-07-17 10:52:53 INFO  TC007_CaptchaScreenshot:24 - ********Clicked 'For Corporate Link'********
+2025-07-17 10:53:00 INFO  TC007_CaptchaScreenshot:27 - ********Clicked 'For Health and Wellness Link'********
+2025-07-17 10:53:02 INFO  TC007_CaptchaScreenshot:30 - Current URL after clicking: https://www.practo.com/plus/corporate
+2025-07-17 10:53:02 INFO  TC007_CaptchaScreenshot:34 - Form is loaded — ready to interact
+2025-07-17 10:53:02 INFO  TC007_CaptchaScreenshot:37 - Current active window handle: 858B65880918CB854844D0AE26116D44
+2025-07-17 10:53:05 INFO  TC007_CaptchaScreenshot:41 - ********Name********
+2025-07-17 10:53:08 INFO  TC007_CaptchaScreenshot:44 - *******Organization********
+2025-07-17 10:53:12 INFO  TC007_CaptchaScreenshot:47 - ********Contact********
+2025-07-17 10:53:15 INFO  TC007_CaptchaScreenshot:50 - ********Email********
+2025-07-17 10:53:15 INFO  TC007_CaptchaScreenshot:53 - ********Organization Size********
+2025-07-17 10:53:15 INFO  TC007_CaptchaScreenshot:56 - ********Interest********
+2025-07-17 10:53:17 INFO  TC007_CaptchaScreenshot:59 - ********Clicked submit********
+2025-07-17 10:53:17 INFO  TC007_CaptchaScreenshot:62 - ***Screenshot captured: CaptchaAfterSubmit*****
+2025-07-17 10:53:31 INFO  TC008_TopCity_TestPageTest:26 - ****Starting TestCase*****
+2025-07-17 10:53:39 INFO  TC008_TopCity_TestPageTest:40 - ****Clicking userInfo*****
+2025-07-17 10:53:39 INFO  TC008_TopCity_TestPageTest:43 - ****Clicking My Tests*****
+2025-07-17 10:53:42 INFO  TC008_TopCity_TestPageTest:49 - ****Clicking Book Tests*****
+2025-07-17 10:53:44 INFO  TC008_TopCity_TestPageTest:52 - ****Number of Top cities*****
+2025-07-17 10:53:44 INFO  TC008_TopCity_TestPageTest:55 - ****List Of Cities*****
+2025-07-17 10:53:44 INFO  TC008_TopCity_TestPageTest:73 - ****Finished TestCase*****
+2025-07-17 10:57:24 INFO  Hooks:16 - Scrolling to footer section
+2025-07-17 17:49:49 INFO  Hooks:26 - Navigating to Home Page
+2025-07-17 17:49:49 INFO  Hooks:33 - Loading hospital search data from Excel sheet: TC001
+2025-07-17 17:49:50 INFO  Hooks:41 - Loaded Data -> City: Bangalore, SearchPlace: Hospital, OpenTime: Open 24x7, Rating: 4.0
+2025-07-17 17:49:50 INFO  Hooks:47 - Entering City into Search: Bangalore
+2025-07-17 17:49:56 INFO  Hooks:53 - Entering SearchPlace into Search field: Hospital
+2025-07-17 17:50:03 INFO  Hooks:59 - Retrieving total number of hospital search results
+2025-07-17 17:50:03 INFO  Hooks:65 - Filtering hospital names based on OpenTime: Open 24x7 and Rating >= 4.0
+2025-07-17 17:50:04 INFO  Hooks:71 - Writing filtered hospital names to Excel sheet: TC001_Output
+2025-07-17 17:50:04 INFO  Hooks:76 - Writing Hospital Name to Excel: Manipal Hospital Varthur Road (formerly Columbia Asia Hospital)
+2025-07-17 17:50:04 INFO  Hooks:76 - Writing Hospital Name to Excel: Manipal Hospitals
+2025-07-17 17:50:04 INFO  Hooks:76 - Writing Hospital Name to Excel: Motherhood Hospital
+2025-07-17 17:50:04 INFO  Hooks:76 - Writing Hospital Name to Excel: Koshys Hospital
+2025-07-17 17:50:04 INFO  Hooks:76 - Writing Hospital Name to Excel: Apollo Spectra Hospitals
+2025-07-17 17:50:04 INFO  Hooks:76 - Writing Hospital Name to Excel: Motherhood Hospital
+2025-07-17 17:50:04 INFO  Hooks:76 - Writing Hospital Name to Excel: Apollo Cradle & Children’s Hospital
+2025-07-17 17:50:04 INFO  Hooks:81 - Finished writing all hospital names to Excel
+2025-07-17 17:50:16 INFO  Hooks:22 - Navigating to application URL...
+2025-07-17 17:50:20 INFO  Hooks:24 - User is on the home page.
+2025-07-17 17:50:20 INFO  Hooks:34 - Total rows in sheet 'TC002': 1
+2025-07-17 17:50:20 INFO  Hooks:40 - Searching for doctors in location: 'Bangalore' with type: 'Dermatologist'
+2025-07-17 17:50:48 INFO  Hooks:87 - Doctors found: 10
+2025-07-17 17:50:48 INFO  Hooks:60 - Saved doctor name to Excel: Dr. Ambresh Badad
+2025-07-17 17:50:48 INFO  Hooks:60 - Saved doctor name to Excel: Dr. Shashi Kumar M
+2025-07-17 17:50:48 INFO  Hooks:60 - Saved doctor name to Excel: Dr. Vinay Nagaraj
+2025-07-17 17:50:48 INFO  Hooks:60 - Saved doctor name to Excel: Dr. M.Jeethan
+2025-07-17 17:50:48 INFO  Hooks:60 - Saved doctor name to Excel: Dr. Kiran K C
+2025-07-17 17:50:48 INFO  Hooks:60 - Saved doctor name to Excel: Dr. S C Rajendran
+2025-07-17 17:50:48 INFO  Hooks:60 - Saved doctor name to Excel: Dr. Chandrashekara Aithal
+2025-07-17 17:50:49 INFO  Hooks:60 - Saved doctor name to Excel: Dr. J Prasad
+2025-07-17 17:50:49 INFO  Hooks:60 - Saved doctor name to Excel: Dr. Shaik Mohammed Obeidullah
+2025-07-17 17:50:49 INFO  Hooks:60 - Saved doctor name to Excel: Dr. Revanth BN
+2025-07-17 17:50:49 INFO  Hooks:64 - All doctor names saved to sheet 'TC002_Output'
+2025-07-17 17:51:00 INFO  Hooks:16 - ****Clicking Instant Video Consultation*****
+2025-07-17 17:51:01 INFO  Hooks:25 - ****Scrolling*****
+2025-07-17 17:51:06 INFO  Hooks:28 - ****passing and getting specialities with price*****
+2025-07-17 17:51:18 INFO  Hooks:19 - ******Starting Login Authentication Test Case*******
+2025-07-17 17:51:18 INFO  Hooks:30 - *****Clicking Login on Home Page******
+2025-07-17 17:51:19 INFO  Hooks:34 - *****Entering username and password and clicking login******
+2025-07-17 17:51:21 INFO  Hooks:48 - *****Checking visibility of username error block upon unsuccessful login******
+2025-07-17 17:51:22 INFO  Hooks:30 - *****Clicking Login on Home Page******
+2025-07-17 17:51:23 INFO  Hooks:34 - *****Entering username and password and clicking login******
+2025-07-17 17:51:25 INFO  Hooks:43 - *****Checking if Profile Info is displayed after successful login******
+2025-07-17 17:51:25 INFO  Hooks:45 - *****Logging out******
+2025-07-17 17:51:26 INFO  Hooks:30 - *****Clicking Login on Home Page******
+2025-07-17 17:51:27 INFO  Hooks:34 - *****Entering username and password and clicking login******
+2025-07-17 17:51:28 INFO  Hooks:48 - *****Checking visibility of username error block upon unsuccessful login******
+2025-07-17 17:51:28 INFO  Hooks:60 - ****Finished Login Authentication TestCase*****
+2025-07-17 17:52:04 INFO  Hooks:26 - Launching Home Page
+2025-07-17 17:52:04 INFO  Hooks:33 - Reading search term from Excel sheet: TC005
+2025-07-17 17:52:04 INFO  Hooks:37 - Loaded search term: mental heath
+2025-07-17 17:52:04 INFO  Hooks:43 - Clicked on 'Read Articles' link
+2025-07-17 17:52:04 INFO  Hooks:55 - Switched to new window for article search
+2025-07-17 17:52:16 INFO  Hooks:61 - Performed search for: mental heath
+2025-07-17 17:52:16 INFO  Hooks:68 - Extracted 10 article titles and author pairs
+2025-07-17 17:52:16 INFO  Hooks:79 - Written to Excel: Mental Health | Dr.Surabhi Jain, Dietitian/Nutritionist
+2025-07-17 17:52:16 INFO  Hooks:79 - Written to Excel: 7 Simple Yet Effective Ways to Build Your Mental Strength | Ms.Seema Agarwal, Psychologist
+2025-07-17 17:52:16 INFO  Hooks:79 - Written to Excel: World Mental Health Day 2016 | Dr.Sonia Malhotra, Psychiatrist
+2025-07-17 17:52:16 INFO  Hooks:79 - Written to Excel: Importance of Mental health | Ms.Seema Agarwal, Psychologist
+2025-07-17 17:52:16 INFO  Hooks:79 - Written to Excel: Mental Disorders: Stigma or Something else? | Dr.D. S. Poonia, Psychiatrist
+2025-07-17 17:52:16 INFO  Hooks:79 - Written to Excel: Dealing with mental stress at the workplace | Dr.Ankita Mishra, Psychiatrist
+2025-07-17 17:52:17 INFO  Hooks:79 - Written to Excel: How to Deal With Depression/mental Illnesses? | Dr.Neelam Nath Bhatia, General Physician
+2025-07-17 17:52:17 INFO  Hooks:79 - Written to Excel: 5 Ways to Good Mental Health | Dr.Pankaj B Borade, Psychiatrist
+2025-07-17 17:52:17 INFO  Hooks:79 - Written to Excel: 10 Easy & Effective Ways to Improve Mental Health | Ms.Vijal Sejpal, Psychologist
+2025-07-17 17:52:17 INFO  Hooks:79 - Written to Excel: Essential Ways to Enhance Adolescent Mental Health | Dr.Ashima Srivastava(PhD), Psychologist
+2025-07-17 17:52:17 INFO  Hooks:82 - Data writing complete for TC005_Output
+2025-07-17 17:52:29 INFO  Hooks:16 - Scrolling to footer section
+2025-07-17 17:53:09 INFO  Hooks:26 - Navigating to Home Page
+2025-07-17 17:53:09 INFO  Hooks:26 - Clicking 'For Corporates' link
+2025-07-17 17:53:09 INFO  Hooks:32 - Clicking 'For Health and Wellness' link
+2025-07-17 17:53:14 INFO  Hooks:38 - Waiting for form to load...
+2025-07-17 17:53:16 INFO  Hooks:42 - Form loaded and ready
+2025-07-17 17:53:16 INFO  Hooks:48 - Filling form using XML data...
+2025-07-17 17:53:19 INFO  Hooks:50 - Entered Name
+2025-07-17 17:53:22 INFO  Hooks:53 - Entered Organization
+2025-07-17 17:53:26 INFO  Hooks:56 - Entered Contact
+2025-07-17 17:53:29 INFO  Hooks:59 - Entered Email
+2025-07-17 17:53:29 INFO  Hooks:62 - Selected Organization Size
+2025-07-17 17:53:29 INFO  Hooks:65 - Selected Interest
+2025-07-17 17:53:29 INFO  Hooks:70 - Submitting demo request
+2025-07-17 17:53:31 INFO  Hooks:76 - Verifying CAPTCHA screen is displayed
+2025-07-17 17:53:31 INFO  Hooks:83 - Capturing screenshot: CaptchaAfterSubmit
+2025-07-17 17:53:44 INFO  Hooks:27 - Starting login process...
+2025-07-17 17:53:53 INFO  Hooks:38 - Login successful.
+2025-07-17 17:53:53 INFO  Hooks:50 - Clicked user dropdown.
+2025-07-17 17:53:55 INFO  Hooks:53 - Navigated to My Tests.
+2025-07-17 17:53:58 INFO  Hooks:59 - Clicked Book Tests.
+2025-07-17 17:53:58 INFO  Hooks:62 - Fetched 8 TopCities.
+2025-07-17 17:53:58 INFO  Hooks:80 - Written TopCity to Excel: Bangalore
+2025-07-17 17:53:59 INFO  Hooks:80 - Written TopCity to Excel: Delhi
+2025-07-17 17:53:59 INFO  Hooks:80 - Written TopCity to Excel: Mumbai
+2025-07-17 17:53:59 INFO  Hooks:80 - Written TopCity to Excel: Chennai
+2025-07-17 17:53:59 INFO  Hooks:80 - Written TopCity to Excel: Hyderabad
+2025-07-17 17:53:59 INFO  Hooks:80 - Written TopCity to Excel: Kolkata
+2025-07-17 17:53:59 INFO  Hooks:80 - Written TopCity to Excel: Pune
+2025-07-17 17:53:59 INFO  Hooks:80 - Written TopCity to Excel: Ahmedabad
+2025-07-17 17:53:59 INFO  Hooks:85 - All TopCities written to Excel successfully.
