@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.TC008_TopCity_TestPageTest">
+      <class name="runners.TestRunner_TestNG">
         <methods>
-          <include name="getTopCities"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="0 1 2 3 4 5 6 7"/>
         </methods>
-      </class> <!-- testCases.TC008_TopCity_TestPageTest -->
+      </class> <!-- runners.TestRunner_TestNG -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

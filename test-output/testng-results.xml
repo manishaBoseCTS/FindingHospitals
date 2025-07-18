@@ -1,220 +1,209 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="20" passed="16" failed="4" skipped="0">
+<testng-results ignored="0" total="8" passed="0" failed="8" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-17T10:32:03 IST" name="Suite" finished-at="2025-07-17T10:53:47 IST" duration-ms="1303669">
+  <suite started-at="2025-07-18T17:16:51 IST" name="Default suite" finished-at="2025-07-18T17:17:51 IST" duration-ms="60047">
     <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner_TestNG@72a85671]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-07-17T10:32:03 IST" name="chromeTest" finished-at="2025-07-17T10:48:43 IST" duration-ms="999623">
-      <class name="testCases.TC002_NearbyDoctors">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_NearbyDoctors@7e3f95fe]" started-at="2025-07-17T10:37:11 IST" name="setup" finished-at="2025-07-17T10:37:42 IST" duration-ms="30422" status="PASS">
+    <test started-at="2025-07-18T17:16:51 IST" name="Default test" finished-at="2025-07-18T17:17:51 IST" duration-ms="60047">
+      <class name="runners.TestRunner_TestNG">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.TestRunner_TestNG@72a85671]" started-at="2025-07-18T17:16:51 IST" name="setUpClass" finished-at="2025-07-18T17:16:52 IST" duration-ms="1002" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Windows]]>
+                <![CDATA[org.testng.TestRunner@5563bb40]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner_TestNG@72a85671]" started-at="2025-07-18T17:16:52 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-18T17:17:21 IST" duration-ms="29135" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Load hospital search data and retrieve matching hospital names"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Chrome]]>
+                <![CDATA["Verify hospital search functionality"]]>
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="findDoctorsTest(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_NearbyDoctors@7e3f95fe]" started-at="2025-07-17T10:37:42 IST" name="findDoctorsTest" data-provider="DoctorsSearchData" finished-at="2025-07-17T10:38:23 IST" duration-ms="41214" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Bangalore]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Dermatologist]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- findDoctorsTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_NearbyDoctors@7e3f95fe]" started-at="2025-07-17T10:38:23 IST" name="tearDown" finished-at="2025-07-17T10:38:54 IST" duration-ms="31054" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC002_NearbyDoctors -->
-      <class name="testCases.TC003_VideoConsultancy">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_VideoConsultancy@34625ccd]" started-at="2025-07-17T10:38:54 IST" name="setup" finished-at="2025-07-17T10:39:13 IST" duration-ms="18926" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="getTopCities()[pri:0, instance:testCases.TC003_VideoConsultancy@34625ccd]" started-at="2025-07-17T10:39:13 IST" name="getTopCities" finished-at="2025-07-17T10:39:24 IST" duration-ms="10813" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getTopCities -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_VideoConsultancy@34625ccd]" started-at="2025-07-17T10:39:24 IST" name="tearDown" finished-at="2025-07-17T10:39:55 IST" duration-ms="31039" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC003_VideoConsultancy -->
-      <class name="testCases.TC005_SearchHealthArticles">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC005_SearchHealthArticles@65aa6596]" started-at="2025-07-17T10:41:22 IST" name="setup" finished-at="2025-07-17T10:42:12 IST" duration-ms="49501" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="healthArticlesSearch(java.lang.String)[pri:0, instance:testCases.TC005_SearchHealthArticles@65aa6596]" started-at="2025-07-17T10:42:12 IST" name="healthArticlesSearch" data-provider="HealthArticleSearchData" finished-at="2025-07-17T10:42:32 IST" duration-ms="20271" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mental heath]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- healthArticlesSearch -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC005_SearchHealthArticles@65aa6596]" started-at="2025-07-17T10:42:32 IST" name="tearDown" finished-at="2025-07-17T10:43:03 IST" duration-ms="31024" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC005_SearchHealthArticles -->
-      <class name="testCases.TC006_SocialsLinkVerification">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC006_SocialsLinkVerification@67389cb8]" started-at="2025-07-17T10:43:03 IST" name="setup" finished-at="2025-07-17T10:43:32 IST" duration-ms="28471" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="linkVerification()[pri:0, instance:testCases.TC006_SocialsLinkVerification@67389cb8]" started-at="2025-07-17T10:43:32 IST" name="linkVerification" finished-at="2025-07-17T10:47:06 IST" duration-ms="214873" status="FAIL">
-          <exception class="java.lang.AssertionError">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
-              <![CDATA[Exception occurred: java.util.concurrent.TimeoutException
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+              <![CDATA[invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=137.0.7151.69)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c9e67f2af0a94241105286a1437a550c, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2403732\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62846}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62846/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c9e67f2af0a94241105286a1437a550c]]>
+Command: [13890a0bff26399d2d2b7abf62663335, findElements {using=xpath, value=//div[normalize-space()='Bangalore']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2403730\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54038}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54038/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 13890a0bff26399d2d2b7abf62663335]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Exception occurred: java.util.concurrent.TimeoutException
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=137.0.7151.69)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c9e67f2af0a94241105286a1437a550c, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2403732\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62846}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62846/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c9e67f2af0a94241105286a1437a550c
-at org.testng.Assert.fail(Assert.java:111)
-at testCases.TC006_SocialsLinkVerification.linkVerification(TC006_SocialsLinkVerification.java:30)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Command: [13890a0bff26399d2d2b7abf62663335, findElements {using=xpath, value=//div[normalize-space()='Bangalore']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2403730\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54038}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54038/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 13890a0bff26399d2d2b7abf62663335
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
+at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
+at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:381)
+at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:375)
+at pageObjects.HomePage.setSearchCity(HomePage.java:58)
+at stepDefinitions.TC001_HospitalsAvailabilitySteps.user_enters_search_city(TC001_HospitalsAvailabilitySteps.java:48)
+at ✽.User enters city from sheet TC001(file:///C:/Users/2403730/eclipse-workspace/FindingHospitals-main/src/test/java/features/TC001_HospitalsAvailability.feature:6)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- linkVerification -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC006_SocialsLinkVerification@67389cb8]" started-at="2025-07-17T10:47:06 IST" name="tearDown" finished-at="2025-07-17T10:47:37 IST" duration-ms="31036" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC006_SocialsLinkVerification -->
-      <class name="testCases.TC001_HospitalsAvailabilityTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_HospitalsAvailabilityTest@5860f3d7]" started-at="2025-07-17T10:32:04 IST" name="setup" finished-at="2025-07-17T10:32:33 IST" duration-ms="29178" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner_TestNG@72a85671]" started-at="2025-07-18T17:17:21 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-18T17:17:25 IST" duration-ms="3659" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Windows]]>
+                <![CDATA["Search doctors by location and type from Excel"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Chrome]]>
+                <![CDATA["Search for nearby doctors"]]>
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cdf1cbc8f57c547002397805f39ef0da, get {url=https://www.practo.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2403730\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54190}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54190/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cdf1cbc8f57c547002397805f39ef0da]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cdf1cbc8f57c547002397805f39ef0da, get {url=https://www.practo.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2403730\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54190}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54190/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cdf1cbc8f57c547002397805f39ef0da
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:313)
+at stepDefinitions.TC002_NearbyDoctorsSteps.user_navigates_to_application(TC002_NearbyDoctorsSteps.java:23)
+at ✽.User navigates to the application(file:///C:/Users/2403730/eclipse-workspace/FindingHospitals-main/src/test/java/features/TC002_NearbyDoctors.feature:4)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="hospitalsSearch(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_HospitalsAvailabilityTest@5860f3d7]" started-at="2025-07-17T10:32:34 IST" name="hospitalsSearch" data-provider="FindingHospitalsData" finished-at="2025-07-17T10:36:40 IST" duration-ms="245926" status="FAIL">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner_TestNG@72a85671]" started-at="2025-07-18T17:17:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-18T17:17:28 IST" duration-ms="3668" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Bangalore]]>
+                <![CDATA["Search for Video Consultation types and return its prices"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Hospital]]>
+                <![CDATA["Video Consultancy types and its prices"]]>
               </value>
             </param>
-            <param index="2">
+          </params>
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bc7df96f96344a21504c5c55b540ef55, findElement {using=xpath, value=//a[@aria-label='Instant Video Consultation']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2403730\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54230}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54230/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bc7df96f96344a21504c5c55b540ef55]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bc7df96f96344a21504c5c55b540ef55, findElement {using=xpath, value=//a[@aria-label='Instant Video Consultation']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2403730\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54230}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54230/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bc7df96f96344a21504c5c55b540ef55
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy40.click(Unknown Source)
+at pageObjects.HomePage.clickVideoCosultBtn(HomePage.java:85)
+at stepDefinitions.TC003_VideoConsultancySteps.User_clicks_Video_Consultation_Button(TC003_VideoConsultancySteps.java:17)
+at ✽.User clicks Video Consultation Button(file:///C:/Users/2403730/eclipse-workspace/FindingHospitals-main/src/test/java/features/TC003_VideoConsultancy.feature:3)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner_TestNG@72a85671]" started-at="2025-07-18T17:17:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-18T17:17:33 IST" duration-ms="4224" status="FAIL">
+          <params>
+            <param index="0">
               <value>
-                <![CDATA[Open 24x7]]>
+                <![CDATA["Login with multiple credentials from Excel"]]>
               </value>
             </param>
-            <param index="3">
+            <param index="1">
               <value>
-                <![CDATA[4]]>
+                <![CDATA["Login Authentication"]]>
               </value>
             </param>
           </params>
@@ -226,566 +215,240 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
               <![CDATA[java.lang.AssertionError: null
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.fail(Assert.java:116)
-at testCases.TC001_HospitalsAvailabilityTest.hospitalsSearch(TC001_HospitalsAvailabilityTest.java:46)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+at stepDefinitions.TC004_LoginSteps.user_performs_login_authentication_using_excel_data(TC004_LoginSteps.java:57)
+at ✽.User performs login authentication using Excel data(file:///C:/Users/2403730/eclipse-workspace/FindingHospitals-main/src/test/java/features/TC004_Login.feature:4)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- hospitalsSearch -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_HospitalsAvailabilityTest@5860f3d7]" started-at="2025-07-17T10:36:40 IST" name="tearDown" finished-at="2025-07-17T10:37:11 IST" duration-ms="31055" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC001_HospitalsAvailabilityTest -->
-      <class name="testCases.TC008_TopCity_TestPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC008_TopCity_TestPageTest@533377b]" started-at="2025-07-17T10:48:12 IST" name="setup" finished-at="2025-07-17T10:48:21 IST" duration-ms="8652" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner_TestNG@72a85671]" started-at="2025-07-18T17:17:33 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-18T17:17:36 IST" duration-ms="3726" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Windows]]>
+                <![CDATA["Search for health articles and save title-author pairs"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Chrome]]>
+                <![CDATA["Search and store health articles"]]>
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="getTopCities()[pri:0, instance:testCases.TC008_TopCity_TestPageTest@533377b]" started-at="2025-07-17T10:48:21 IST" name="getTopCities" finished-at="2025-07-17T10:48:38 IST" duration-ms="17088" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getTopCities -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC008_TopCity_TestPageTest@533377b]" started-at="2025-07-17T10:48:38 IST" name="tearDown" finished-at="2025-07-17T10:48:43 IST" duration-ms="4918" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC008_TopCity_TestPageTest -->
-      <class name="testCases.TC007_CaptchaScreenshot">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC007_CaptchaScreenshot@419a20a6]" started-at="2025-07-17T10:47:37 IST" name="setup" finished-at="2025-07-17T10:47:46 IST" duration-ms="8823" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="corporateClick()[pri:0, instance:testCases.TC007_CaptchaScreenshot@419a20a6]" started-at="2025-07-17T10:47:46 IST" name="corporateClick" finished-at="2025-07-17T10:48:09 IST" duration-ms="22497" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- corporateClick -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC007_CaptchaScreenshot@419a20a6]" started-at="2025-07-17T10:48:09 IST" name="tearDown" finished-at="2025-07-17T10:48:12 IST" duration-ms="3677" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC007_CaptchaScreenshot -->
-      <class name="testCases.TC004_LoginAuthentication">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_LoginAuthentication@2c7d121c]" started-at="2025-07-17T10:39:55 IST" name="setup" finished-at="2025-07-17T10:40:38 IST" duration-ms="42670" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_LoginAuthentication@2c7d121c]" started-at="2025-07-17T10:40:38 IST" name="loginTest" data-provider="LoginData" finished-at="2025-07-17T10:40:44 IST" duration-ms="6005" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[rajthakur2341@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[RajThakur234@#]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Invalid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_LoginAuthentication@2c7d121c]" started-at="2025-07-17T10:40:44 IST" name="loginTest" data-provider="LoginData" finished-at="2025-07-17T10:40:49 IST" duration-ms="5062" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chatterjeenaitik0@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Practo2025@#$]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Valid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_LoginAuthentication@2c7d121c]" started-at="2025-07-17T10:40:49 IST" name="loginTest" data-provider="LoginData" finished-at="2025-07-17T10:40:51 IST" duration-ms="1888" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[dasTanisha@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[xyzdasTani@#]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Invalid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC004_LoginAuthentication@2c7d121c]" started-at="2025-07-17T10:40:51 IST" name="tearDown" finished-at="2025-07-17T10:41:22 IST" duration-ms="31057" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC004_LoginAuthentication -->
-    </test> <!-- chromeTest -->
-    <test started-at="2025-07-17T10:48:43 IST" name="edgeTest" finished-at="2025-07-17T10:53:47 IST" duration-ms="303955">
-      <class name="testCases.TC002_NearbyDoctors">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_NearbyDoctors@3a320ade]" started-at="2025-07-17T10:49:17 IST" name="setup" finished-at="2025-07-17T10:49:27 IST" duration-ms="9729" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="findDoctorsTest(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_NearbyDoctors@3a320ade]" started-at="2025-07-17T10:49:27 IST" name="findDoctorsTest" data-provider="DoctorsSearchData" finished-at="2025-07-17T10:49:56 IST" duration-ms="29125" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Bangalore]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Dermatologist]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- findDoctorsTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_NearbyDoctors@3a320ade]" started-at="2025-07-17T10:49:56 IST" name="tearDown" finished-at="2025-07-17T10:50:00 IST" duration-ms="3582" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC002_NearbyDoctors -->
-      <class name="testCases.TC003_VideoConsultancy">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_VideoConsultancy@64beebb7]" started-at="2025-07-17T10:50:00 IST" name="setup" finished-at="2025-07-17T10:50:10 IST" duration-ms="10182" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="getTopCities()[pri:0, instance:testCases.TC003_VideoConsultancy@64beebb7]" started-at="2025-07-17T10:50:10 IST" name="getTopCities" finished-at="2025-07-17T10:50:16 IST" duration-ms="6268" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getTopCities -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_VideoConsultancy@64beebb7]" started-at="2025-07-17T10:50:16 IST" name="tearDown" finished-at="2025-07-17T10:50:19 IST" duration-ms="2748" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC003_VideoConsultancy -->
-      <class name="testCases.TC005_SearchHealthArticles">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC005_SearchHealthArticles@bcec031]" started-at="2025-07-17T10:50:42 IST" name="setup" finished-at="2025-07-17T10:50:52 IST" duration-ms="9598" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="healthArticlesSearch(java.lang.String)[pri:0, instance:testCases.TC005_SearchHealthArticles@bcec031]" started-at="2025-07-17T10:50:52 IST" name="healthArticlesSearch" data-provider="HealthArticleSearchData" finished-at="2025-07-17T10:51:19 IST" duration-ms="27301" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mental heath]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- healthArticlesSearch -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC005_SearchHealthArticles@bcec031]" started-at="2025-07-17T10:51:19 IST" name="tearDown" finished-at="2025-07-17T10:51:23 IST" duration-ms="3262" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC005_SearchHealthArticles -->
-      <class name="testCases.TC006_SocialsLinkVerification">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC006_SocialsLinkVerification@21005f6c]" started-at="2025-07-17T10:51:23 IST" name="setup" finished-at="2025-07-17T10:51:58 IST" duration-ms="35643" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="linkVerification()[pri:0, instance:testCases.TC006_SocialsLinkVerification@21005f6c]" started-at="2025-07-17T10:51:58 IST" name="linkVerification" finished-at="2025-07-17T10:52:40 IST" duration-ms="41708" status="FAIL">
-          <exception class="java.lang.AssertionError">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
-              <![CDATA[Exception occurred: Unexpected result for screenshot command: null]]>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e31d085efbf30780293c5c47c595438b, findElement {using=xpath, value=//span[normalize-space()='Read health articles']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2403730\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54321}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54321/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e31d085efbf30780293c5c47c595438b]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Exception occurred: Unexpected result for screenshot command: null
-at org.testng.Assert.fail(Assert.java:111)
-at testCases.TC006_SocialsLinkVerification.linkVerification(TC006_SocialsLinkVerification.java:30)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e31d085efbf30780293c5c47c595438b, findElement {using=xpath, value=//span[normalize-space()='Read health articles']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2403730\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54321}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54321/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e31d085efbf30780293c5c47c595438b
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy40.click(Unknown Source)
+at pageObjects.HomePage.readArticlesLink(HomePage.java:94)
+at stepDefinitions.TC005_SearchHealthArticlesSteps.user_clicks_read_articles_link(TC005_SearchHealthArticlesSteps.java:42)
+at ✽.User clicks on "Read Articles" link(file:///C:/Users/2403730/eclipse-workspace/FindingHospitals-main/src/test/java/features/TC005_SearchHealthArticles.feature:6)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- linkVerification -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC006_SocialsLinkVerification@21005f6c]" started-at="2025-07-17T10:52:40 IST" name="tearDown" finished-at="2025-07-17T10:52:43 IST" duration-ms="3473" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC006_SocialsLinkVerification -->
-      <class name="testCases.TC008_TopCity_TestPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC008_TopCity_TestPageTest@545de5a4]" started-at="2025-07-17T10:53:21 IST" name="setup" finished-at="2025-07-17T10:53:31 IST" duration-ms="9624" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner_TestNG@72a85671]" started-at="2025-07-18T17:17:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-18T17:17:44 IST" duration-ms="7123" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Windows]]>
+                <![CDATA["Verify all social links open correctly and capture screenshots"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Edge]]>
+                <![CDATA["Social Media Links Verification"]]>
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0df5ff55fdfcef982e5c2dfd2d2cce99, executeScript {args=[], script=window.scrollTo(0, document.body.scrollHeight)}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2403730\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54374}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54374/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0df5ff55fdfcef982e5c2dfd2d2cce99]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0df5ff55fdfcef982e5c2dfd2d2cce99, executeScript {args=[], script=window.scrollTo(0, document.body.scrollHeight)}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2403730\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54374}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54374/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0df5ff55fdfcef982e5c2dfd2d2cce99
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:476)
+at pageObjects.FooterSocialLinks.scrollToFooter(FooterSocialLinks.java:30)
+at stepDefinitions.TC006_SocialsLinkVerificationSteps.user_scrolls_to_footer(TC006_SocialsLinkVerificationSteps.java:18)
+at ✽.User is on the website and scrolls to footer(file:///C:/Users/2403730/eclipse-workspace/FindingHospitals-main/src/test/java/features/TC006_SocialsLinkVerification.feature:4)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="getTopCities()[pri:0, instance:testCases.TC008_TopCity_TestPageTest@545de5a4]" started-at="2025-07-17T10:53:31 IST" name="getTopCities" finished-at="2025-07-17T10:53:44 IST" duration-ms="13905" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getTopCities -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC008_TopCity_TestPageTest@545de5a4]" started-at="2025-07-17T10:53:44 IST" name="tearDown" finished-at="2025-07-17T10:53:47 IST" duration-ms="2640" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC008_TopCity_TestPageTest -->
-      <class name="testCases.TC007_CaptchaScreenshot">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC007_CaptchaScreenshot@32f0fba8]" started-at="2025-07-17T10:52:43 IST" name="setup" finished-at="2025-07-17T10:52:53 IST" duration-ms="9639" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner_TestNG@72a85671]" started-at="2025-07-18T17:17:44 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-18T17:17:47 IST" duration-ms="3771" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Windows]]>
+                <![CDATA["Fill and submit health and wellness form to capture CAPTCHA screen"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Edge]]>
+                <![CDATA["Submit corporate health demo request form"]]>
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [96f931a7968a548b69aa78b49cae2b58, findElement {using=xpath, value=//span[@class='nav-interact']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2403730\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54481}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54481/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 96f931a7968a548b69aa78b49cae2b58]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [96f931a7968a548b69aa78b49cae2b58, findElement {using=xpath, value=//span[@class='nav-interact']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2403730\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54481}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54481/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 96f931a7968a548b69aa78b49cae2b58
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy40.click(Unknown Source)
+at pageObjects.HomePage.forCorporateClickFunc(HomePage.java:98)
+at stepDefinitions.TC007_CaptchaScreenshotSteps.user_clicks_for_corporates_link(TC007_CaptchaScreenshotSteps.java:27)
+at ✽.User clicks the "For Corporates" link(file:///C:/Users/2403730/eclipse-workspace/FindingHospitals-main/src/test/java/features/TC007_CaptchaScreenshot.feature:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="corporateClick()[pri:0, instance:testCases.TC007_CaptchaScreenshot@32f0fba8]" started-at="2025-07-17T10:52:53 IST" name="corporateClick" finished-at="2025-07-17T10:53:17 IST" duration-ms="24183" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- corporateClick -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC007_CaptchaScreenshot@32f0fba8]" started-at="2025-07-17T10:53:17 IST" name="tearDown" finished-at="2025-07-17T10:53:21 IST" duration-ms="3652" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC007_CaptchaScreenshot -->
-      <class name="testCases.TC001_HospitalsAvailabilityTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_HospitalsAvailabilityTest@24faea88]" started-at="2025-07-17T10:48:43 IST" name="setup" finished-at="2025-07-17T10:48:54 IST" duration-ms="10747" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner_TestNG@72a85671]" started-at="2025-07-18T17:17:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-18T17:17:51 IST" duration-ms="3553" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Windows]]>
+                <![CDATA["User logs in and saves TopCities to Excel"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="hospitalsSearch(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_HospitalsAvailabilityTest@24faea88]" started-at="2025-07-17T10:48:54 IST" name="hospitalsSearch" data-provider="FindingHospitalsData" finished-at="2025-07-17T10:49:14 IST" duration-ms="19731" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Bangalore]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Hospital]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Open 24x7]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[4]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- hospitalsSearch -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_HospitalsAvailabilityTest@24faea88]" started-at="2025-07-17T10:49:14 IST" name="tearDown" finished-at="2025-07-17T10:49:17 IST" duration-ms="3201" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC001_HospitalsAvailabilityTest -->
-      <class name="testCases.TC004_LoginAuthentication">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_LoginAuthentication@7813cb11]" started-at="2025-07-17T10:50:19 IST" name="setup" finished-at="2025-07-17T10:50:32 IST" duration-ms="13733" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_LoginAuthentication@7813cb11]" started-at="2025-07-17T10:50:33 IST" name="loginTest" data-provider="LoginData" finished-at="2025-07-17T10:50:35 IST" duration-ms="2187" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[rajthakur2341@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[RajThakur234@#]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Invalid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_LoginAuthentication@7813cb11]" started-at="2025-07-17T10:50:35 IST" name="loginTest" data-provider="LoginData" finished-at="2025-07-17T10:50:39 IST" duration-ms="3760" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chatterjeenaitik0@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Practo2025@#$]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Valid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_LoginAuthentication@7813cb11]" started-at="2025-07-17T10:50:39 IST" name="loginTest" data-provider="LoginData" finished-at="2025-07-17T10:50:40 IST" duration-ms="1471" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[dasTanisha@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[xyzdasTani@#]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Invalid]]>
+                <![CDATA["Fetch and store TopCities from Book Tests section"]]>
               </value>
             </param>
           </params>
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[null]]>
+              <![CDATA[Login failed due to exception: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7cb014a87aefa11956ee2ae2e9789867, findElement {using=xpath, value=//a[normalize-space()='Login / Signup']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2403730\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54526}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54526/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7cb014a87aefa11956ee2ae2e9789867]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: null
+              <![CDATA[java.lang.AssertionError: Login failed due to exception: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7cb014a87aefa11956ee2ae2e9789867, findElement {using=xpath, value=//a[normalize-space()='Login / Signup']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2403730\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54526}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54526/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7cb014a87aefa11956ee2ae2e9789867
 at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.fail(Assert.java:116)
-at testCases.TC004_LoginAuthentication.loginTest(TC004_LoginAuthentication.java:54)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+at stepDefinitions.TC008_TopCitiesSteps.user_logs_into_the_application_with_valid_credentials(TC008_TopCitiesSteps.java:41)
+at ✽.User logs into the application with valid credentials(file:///C:/Users/2403730/eclipse-workspace/FindingHospitals-main/src/test/java/features/TC008_TopCities.feature:4)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC004_LoginAuthentication@7813cb11]" started-at="2025-07-17T10:50:40 IST" name="tearDown" finished-at="2025-07-17T10:50:42 IST" duration-ms="2353" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.TestRunner_TestNG@72a85671]" started-at="2025-07-18T17:17:51 IST" name="tearDownClass" finished-at="2025-07-18T17:17:51 IST" duration-ms="96" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC004_LoginAuthentication -->
-    </test> <!-- edgeTest -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.TestRunner_TestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
