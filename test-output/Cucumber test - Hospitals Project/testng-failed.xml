@@ -7,10 +7,9 @@
       <class name="runners.TestRunner_TestNG">
         <methods>
           <include name="setUpClass"/>
-          <include name="afterSuite"/>
           <include name="tearDownClass"/>
-          <include name="runScenario" invocation-numbers="0 1 2 3 4 5 6 7"/>
-          <include name="clear"/>
+          <include name="afterSuite"/>
+          <include name="runScenario" invocation-numbers="0"/>
         </methods>
       </class> <!-- runners.TestRunner_TestNG -->
     </classes>

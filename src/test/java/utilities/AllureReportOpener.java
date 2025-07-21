@@ -1,31 +1,33 @@
 package utilities;
 
+import java.io.File;
 import java.io.IOException;
 
 public class AllureReportOpener {
-	
-	public static void openAllureReport() {
-		try {
-			// Step 1: Generate Allure report
-			ProcessBuilder generate = new ProcessBuilder(
 
-					"C:\\Users\\2403730\\eclipse-workspace\\FindingHospitals-main\\allureReport.bat",
-					"generate", "target/allure-results", "-o", "/allure-report", "--clean");
-			generate.inheritIO(); // Optional: shows output in console
-			Process genProcess = generate.start();
-			genProcess.waitFor();
+    public static void openAllureReport() {
+        try {
+            // Get current working directory
+            String projectPath = new File("").getAbsolutePath();
 
-			// Step 2: Open Allure report in browser
-			ProcessBuilder open = new ProcessBuilder(
-					"C:\\Users\\2403730\\eclipse-workspace\\FindingHospitals-main\\allureReport.bat", "open",
-					"/allure-report");
-			open.inheritIO();
-			Process openProcess = open.start();
-			openProcess.waitFor();
+            // Construct batch file path
+            String batchFile = projectPath + File.separator + "allureReport.bat";
 
-		} catch (IOException | InterruptedException e) {
-			e.printStackTrace();
-		}
-	}
+            // Step 1: Generate Allure report
+            ProcessBuilder generate = new ProcessBuilder(
+                    batchFile, "generate", "target/allure-results", "-o", "allure-report", "--clean");
+            generate.inheritIO();
+            Process genProcess = generate.start();
+            genProcess.waitFor();
 
+            // Step 2: Open Allure report
+            ProcessBuilder open = new ProcessBuilder(batchFile, "open", "allure-report");
+            open.inheritIO();
+            Process openProcess = open.start();
+            openProcess.waitFor();
+
+        } catch (IOException | InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
 }
