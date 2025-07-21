@@ -5,6 +5,7 @@ import org.testng.annotations.BeforeSuite;
 
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
+import utilities.AllureReportOpener;
 
 @CucumberOptions(
 		features = "src/test/java/features",
@@ -16,4 +17,10 @@ import io.cucumber.testng.CucumberOptions;
 		)
  
 public class TestRunner_TestNG extends AbstractTestNGCucumberTests{
+	
+	@AfterSuite
+	public void afterSuite() {
+		AllureReportOpener.openAllureReport();
+	}
+	
 }
