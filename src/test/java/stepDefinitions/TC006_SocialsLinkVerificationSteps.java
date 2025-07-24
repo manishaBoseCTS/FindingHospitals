@@ -23,7 +23,7 @@ public class TC006_SocialsLinkVerificationSteps {
         WebElement element = null;
         switch (platform.toLowerCase()) {
             case "facebook": element = links.facebook; break;
-           // case "twitter": element = links.twitter; break;
+            //case "twitter": element = links.twitter; break;
             case "linkedin": element = links.linkedin; break;
             case "youtube": element = links.youtube; break;
             case "github": element = links.github; break;

@@ -9,6 +9,8 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.Reporter;
+
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.net.URL;
@@ -35,15 +37,39 @@ public class Hooks {
 
         String baseURL = p.getProperty("appURL");
         String os = p.getProperty("os");
-        String browser = p.getProperty("browser");
+        String browser = Reporter.getCurrentTestResult().getTestContext().getCurrentXmlTest().getParameter("browser");
 
         logger = LogManager.getLogger(Hooks.class);
 
         if (p.getProperty("execution_env").equalsIgnoreCase("remote")) {
             DesiredCapabilities capabilities = new DesiredCapabilities();
-            capabilities.setPlatform(os.equalsIgnoreCase("windows") ? Platform.WINDOWS : Platform.MAC);
-            capabilities.setBrowserName(browser.toLowerCase());
-            driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capabilities);
+//            capabilities.setPlatform(os.equalsIgnoreCase("windows") ? Platform.WINDOWS : Platform.MAC);
+//            capabilities.setBrowserName(browser.toLowerCase());
+//            driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capabilities);
+            
+            switch (os) {
+            case "windows":
+                capabilities.setPlatform(Platform.WINDOWS);
+                break;
+            case "mac":
+                capabilities.setPlatform(Platform.MAC);
+                break;
+            
+           }
+			
+			//browser
+			 switch (browser) {
+            case "chrome":
+                capabilities.setBrowserName("chrome");
+                break;
+            case "edge":
+                capabilities.setBrowserName("MicrosoftEdge");
+                break;
+           
+            }
+	       
+	        driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),capabilities);
+			
         } else {
             switch (browser.toLowerCase()) {
                 case "chrome": driver = new ChromeDriver(); break;

@@ -1,197 +1,245 @@
-2025-07-21 22:39:02 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\2403721\SeleniumLearningWorkspace\seleniumwebdriver\FindingHospitals\testRunner.xml
+2025-07-24 12:25:29 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-24 12:25:29 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2025-07-24 12:25:29 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 6 ms.
+2025-07-24 12:25:29 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 5 ms.
+2025-07-24 12:25:29 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-24 12:25:29 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-24 12:25:29 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-24 12:25:29 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-24 12:25:29 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2025-07-24 12:25:29 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-24 12:25:29 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-24 12:25:29 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2025-07-24 12:25:29 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-24 12:25:29 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-24 12:25:29 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-24 12:25:29 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-24 12:25:29 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-24 12:25:29 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-24 12:25:29 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-24 12:25:29 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-24 12:25:29 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-24 12:25:29 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-24 12:25:29 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-24 12:25:29 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-24 12:25:29 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-24 12:25:29 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-24 12:25:29 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-24 12:25:29 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-24 12:25:29 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-24 12:25:29 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-24 12:25:29 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2403732\AppData\Local\Temp\testng-eclipse--684449531\testng-customsuite.xml
 
-2025-07-21 22:39:14 INFO  Hooks:26 - Navigating to Home Page
-2025-07-21 22:39:14 INFO  Hooks:33 - Loading hospital search data from Excel sheet: TC001
-2025-07-21 22:39:15 INFO  Hooks:41 - Loaded Data -> City: Bangalore, SearchPlace: Hospital, OpenTime: Open 24x7, Rating: 4.0
-2025-07-21 22:39:15 INFO  Hooks:47 - Entering City into Search: Bangalore
-2025-07-21 22:39:20 INFO  Hooks:53 - Entering SearchPlace into Search field: Hospital
-2025-07-21 22:39:27 INFO  Hooks:59 - Retrieving total number of hospital search results
-2025-07-21 22:39:27 INFO  Hooks:65 - Filtering hospital names based on OpenTime: Open 24x7 and Rating >= 4.0
-2025-07-21 22:39:27 INFO  Hooks:71 - Writing filtered hospital names to Excel sheet: TC001_Output
-2025-07-21 22:39:27 INFO  Hooks:76 - Writing Hospital Name to Excel: Manipal Hospital Varthur Road (formerly Columbia Asia Hospital)
-2025-07-21 22:39:27 INFO  Hooks:76 - Writing Hospital Name to Excel: Manipal Hospitals
-2025-07-21 22:39:27 INFO  Hooks:76 - Writing Hospital Name to Excel: Motherhood Hospital
-2025-07-21 22:39:27 INFO  Hooks:76 - Writing Hospital Name to Excel: Koshys Hospital
-2025-07-21 22:39:27 INFO  Hooks:76 - Writing Hospital Name to Excel: Apollo Spectra Hospitals
-2025-07-21 22:39:28 INFO  Hooks:76 - Writing Hospital Name to Excel: Motherhood Hospital
-2025-07-21 22:39:28 INFO  Hooks:76 - Writing Hospital Name to Excel: Trilife Hospital
-2025-07-21 22:39:28 INFO  Hooks:76 - Writing Hospital Name to Excel: Apollo Cradle & Children’s Hospital
-2025-07-21 22:39:28 INFO  Hooks:81 - Finished writing all hospital names to Excel
-2025-07-21 22:39:40 INFO  Hooks:22 - Navigating to application URL...
-2025-07-21 22:39:46 INFO  Hooks:24 - User is on the home page.
-2025-07-21 22:39:46 INFO  Hooks:34 - Total rows in sheet 'TC002': 1
-2025-07-21 22:39:46 INFO  Hooks:40 - Searching for doctors in location: 'Bangalore' with type: 'Dermatologist'
-2025-07-21 22:40:16 INFO  Hooks:87 - Doctors found: 10
-2025-07-21 22:40:17 INFO  Hooks:60 - Saved doctor name to Excel: Dr. Ambresh Badad
-2025-07-21 22:40:17 INFO  Hooks:60 - Saved doctor name to Excel: Dr. Shashi Kumar M
-2025-07-21 22:40:17 INFO  Hooks:60 - Saved doctor name to Excel: Dr. Vinay Nagaraj
-2025-07-21 22:40:17 INFO  Hooks:60 - Saved doctor name to Excel: Dr. M.Jeethan
-2025-07-21 22:40:17 INFO  Hooks:60 - Saved doctor name to Excel: Dr. Kiran K C
-2025-07-21 22:40:17 INFO  Hooks:60 - Saved doctor name to Excel: Dr. Chandrashekara Aithal
-2025-07-21 22:40:17 INFO  Hooks:60 - Saved doctor name to Excel: Dr. S C Rajendran
-2025-07-21 22:40:17 INFO  Hooks:60 - Saved doctor name to Excel: Dr. J Prasad
-2025-07-21 22:40:17 INFO  Hooks:60 - Saved doctor name to Excel: Dr. Revanth BN
-2025-07-21 22:40:17 INFO  Hooks:60 - Saved doctor name to Excel: Dr. Shaik Mohammed Obeidullah
-2025-07-21 22:40:17 INFO  Hooks:64 - All doctor names saved to sheet 'TC002_Output'
-2025-07-21 22:40:30 INFO  Hooks:16 - ****Clicking Instant Video Consultation*****
-2025-07-21 22:40:30 INFO  Hooks:25 - ****Scrolling*****
-2025-07-21 22:40:34 INFO  Hooks:28 - ****passing and getting specialities with price*****
-2025-07-21 22:40:48 INFO  Hooks:19 - ******Starting Login Authentication Test Case*******
-2025-07-21 22:40:48 INFO  Hooks:30 - *****Clicking Login on Home Page******
-2025-07-21 22:40:48 INFO  Hooks:34 - *****Entering username and password and clicking login******
-2025-07-21 22:40:52 INFO  Hooks:48 - *****Checking visibility of username error block upon unsuccessful login******
-2025-07-21 22:40:52 INFO  Hooks:30 - *****Clicking Login on Home Page******
-2025-07-21 22:40:53 INFO  Hooks:34 - *****Entering username and password and clicking login******
-2025-07-21 22:40:56 INFO  Hooks:43 - *****Checking if Profile Info is displayed after successful login******
-2025-07-21 22:40:56 INFO  Hooks:45 - *****Logging out******
-2025-07-21 22:40:58 INFO  Hooks:30 - *****Clicking Login on Home Page******
-2025-07-21 22:40:58 INFO  Hooks:34 - *****Entering username and password and clicking login******
-2025-07-21 22:40:59 INFO  Hooks:48 - *****Checking visibility of username error block upon unsuccessful login******
-2025-07-21 22:40:59 INFO  Hooks:60 - ****Finished Login Authentication TestCase*****
-2025-07-21 22:41:11 INFO  Hooks:26 - Launching Home Page
-2025-07-21 22:41:11 INFO  Hooks:33 - Reading search term from Excel sheet: TC005
-2025-07-21 22:41:11 INFO  Hooks:37 - Loaded search term: mental heath
-2025-07-21 22:41:11 INFO  Hooks:43 - Clicked on 'Read Articles' link
-2025-07-21 22:41:11 INFO  Hooks:55 - Switched to new window for article search
-2025-07-21 22:41:22 INFO  Hooks:61 - Performed search for: mental heath
-2025-07-21 22:41:22 INFO  Hooks:68 - Extracted 10 article titles and author pairs
-2025-07-21 22:41:23 INFO  Hooks:79 - Written to Excel: Mental Health | Dr.Surabhi Jain, Dietitian/Nutritionist
-2025-07-21 22:41:23 INFO  Hooks:79 - Written to Excel: 7 Simple Yet Effective Ways to Build Your Mental Strength | Ms.Seema Agarwal, Psychologist
-2025-07-21 22:41:23 INFO  Hooks:79 - Written to Excel: World Mental Health Day 2016 | Dr.Sonia Malhotra, Psychiatrist
-2025-07-21 22:41:23 INFO  Hooks:79 - Written to Excel: Importance of Mental health | Ms.Seema Agarwal, Psychologist
-2025-07-21 22:41:23 INFO  Hooks:79 - Written to Excel: Mental Disorders: Stigma or Something else? | Dr.D. S. Poonia, Psychiatrist
-2025-07-21 22:41:23 INFO  Hooks:79 - Written to Excel: Dealing with mental stress at the workplace | Dr.Ankita Mishra, Psychiatrist
-2025-07-21 22:41:23 INFO  Hooks:79 - Written to Excel: How to Deal With Depression/mental Illnesses? | Dr.Neelam Nath Bhatia, General Physician
-2025-07-21 22:41:23 INFO  Hooks:79 - Written to Excel: 5 Ways to Good Mental Health | Dr.Pankaj B Borade, Psychiatrist
-2025-07-21 22:41:23 INFO  Hooks:79 - Written to Excel: 10 Easy & Effective Ways to Improve Mental Health | Ms.Vijal Sejpal, Psychologist
-2025-07-21 22:41:24 INFO  Hooks:79 - Written to Excel: Essential Ways to Enhance Adolescent Mental Health | Dr.Ashima Srivastava(PhD), Psychologist
-2025-07-21 22:41:24 INFO  Hooks:82 - Data writing complete for TC005_Output
-2025-07-21 22:41:36 INFO  Hooks:16 - Scrolling to footer section
-2025-07-21 22:42:16 INFO  Hooks:26 - Navigating to Home Page
-2025-07-21 22:42:16 INFO  Hooks:26 - Clicking 'For Corporates' link
-2025-07-21 22:42:16 INFO  Hooks:32 - Clicking 'For Health and Wellness' link
-2025-07-21 22:42:21 INFO  Hooks:38 - Waiting for form to load...
-2025-07-21 22:42:23 INFO  Hooks:42 - Form loaded and ready
-2025-07-21 22:42:23 INFO  Hooks:48 - Filling form using XML data...
-2025-07-21 22:42:26 INFO  Hooks:50 - Entered Name
-2025-07-21 22:42:29 INFO  Hooks:53 - Entered Organization
-2025-07-21 22:42:32 INFO  Hooks:56 - Entered Contact
-2025-07-21 22:42:35 INFO  Hooks:59 - Entered Email
-2025-07-21 22:42:36 INFO  Hooks:62 - Selected Organization Size
-2025-07-21 22:42:36 INFO  Hooks:65 - Selected Interest
-2025-07-21 22:42:36 INFO  Hooks:70 - Submitting demo request
-2025-07-21 22:42:38 INFO  Hooks:76 - Verifying CAPTCHA screen is displayed
-2025-07-21 22:42:38 INFO  Hooks:83 - Capturing screenshot: CaptchaAfterSubmit
-2025-07-21 22:42:51 INFO  Hooks:27 - Starting login process...
-2025-07-21 22:43:01 INFO  Hooks:38 - Login successful.
-2025-07-21 22:43:01 INFO  Hooks:50 - Clicked user dropdown.
-2025-07-21 22:43:03 INFO  Hooks:53 - Navigated to My Tests.
-2025-07-21 22:43:07 INFO  Hooks:59 - Clicked Book Tests.
-2025-07-21 22:43:07 INFO  Hooks:62 - Fetched 8 TopCities.
-2025-07-21 22:43:07 INFO  Hooks:80 - Written TopCity to Excel: Bangalore
-2025-07-21 22:43:07 INFO  Hooks:80 - Written TopCity to Excel: Delhi
-2025-07-21 22:43:07 INFO  Hooks:80 - Written TopCity to Excel: Mumbai
-2025-07-21 22:43:07 INFO  Hooks:80 - Written TopCity to Excel: Chennai
-2025-07-21 22:43:07 INFO  Hooks:80 - Written TopCity to Excel: Hyderabad
-2025-07-21 22:43:07 INFO  Hooks:80 - Written TopCity to Excel: Kolkata
-2025-07-21 22:43:07 INFO  Hooks:80 - Written TopCity to Excel: Pune
-2025-07-21 22:43:07 INFO  Hooks:80 - Written TopCity to Excel: Ahmedabad
-2025-07-21 22:43:07 INFO  Hooks:85 - All TopCities written to Excel successfully.
-2025-07-21 22:43:19 INFO  Hooks:26 - Navigating to Home Page
-2025-07-21 22:43:19 INFO  Hooks:33 - Loading hospital search data from Excel sheet: TC001
-2025-07-21 22:43:19 INFO  Hooks:41 - Loaded Data -> City: Bangalore, SearchPlace: Hospital, OpenTime: Open 24x7, Rating: 4.0
-2025-07-21 22:43:19 INFO  Hooks:47 - Entering City into Search: Bangalore
-2025-07-21 22:43:24 INFO  Hooks:53 - Entering SearchPlace into Search field: Hospital
-2025-07-21 22:43:35 INFO  Hooks:59 - Retrieving total number of hospital search results
-2025-07-21 22:43:35 INFO  Hooks:65 - Filtering hospital names based on OpenTime: Open 24x7 and Rating >= 4.0
-2025-07-21 22:43:35 INFO  Hooks:71 - Writing filtered hospital names to Excel sheet: TC001_Output
-2025-07-21 22:43:35 INFO  Hooks:76 - Writing Hospital Name to Excel: Manipal Hospital Varthur Road (formerly Columbia Asia Hospital)
-2025-07-21 22:43:36 INFO  Hooks:76 - Writing Hospital Name to Excel: Manipal Hospitals
-2025-07-21 22:43:36 INFO  Hooks:76 - Writing Hospital Name to Excel: Motherhood Hospital
-2025-07-21 22:43:36 INFO  Hooks:76 - Writing Hospital Name to Excel: Koshys Hospital
-2025-07-21 22:43:36 INFO  Hooks:76 - Writing Hospital Name to Excel: Apollo Spectra Hospitals
-2025-07-21 22:43:36 INFO  Hooks:76 - Writing Hospital Name to Excel: Motherhood Hospital
-2025-07-21 22:43:36 INFO  Hooks:76 - Writing Hospital Name to Excel: Trilife Hospital
-2025-07-21 22:43:36 INFO  Hooks:76 - Writing Hospital Name to Excel: Apollo Cradle & Children’s Hospital
-2025-07-21 22:43:36 INFO  Hooks:81 - Finished writing all hospital names to Excel
-2025-07-21 22:43:48 INFO  Hooks:22 - Navigating to application URL...
-2025-07-21 22:43:53 INFO  Hooks:24 - User is on the home page.
-2025-07-21 22:43:53 INFO  Hooks:34 - Total rows in sheet 'TC002': 1
-2025-07-21 22:43:53 INFO  Hooks:40 - Searching for doctors in location: 'Bangalore' with type: 'Dermatologist'
-2025-07-21 22:44:25 INFO  Hooks:87 - Doctors found: 10
-2025-07-21 22:44:25 INFO  Hooks:60 - Saved doctor name to Excel: Dr. Ambresh Badad
-2025-07-21 22:44:25 INFO  Hooks:60 - Saved doctor name to Excel: Dr. Shashi Kumar M
-2025-07-21 22:44:25 INFO  Hooks:60 - Saved doctor name to Excel: Dr. Vinay Nagaraj
-2025-07-21 22:44:25 INFO  Hooks:60 - Saved doctor name to Excel: Dr. M.Jeethan
-2025-07-21 22:44:25 INFO  Hooks:60 - Saved doctor name to Excel: Dr. Kiran K C
-2025-07-21 22:44:25 INFO  Hooks:60 - Saved doctor name to Excel: Dr. Chandrashekara Aithal
-2025-07-21 22:44:25 INFO  Hooks:60 - Saved doctor name to Excel: Dr. S C Rajendran
-2025-07-21 22:44:25 INFO  Hooks:60 - Saved doctor name to Excel: Dr. J Prasad
-2025-07-21 22:44:25 INFO  Hooks:60 - Saved doctor name to Excel: Dr. Revanth BN
-2025-07-21 22:44:25 INFO  Hooks:60 - Saved doctor name to Excel: Dr. Shaik Mohammed Obeidullah
-2025-07-21 22:44:25 INFO  Hooks:64 - All doctor names saved to sheet 'TC002_Output'
-2025-07-21 22:44:37 INFO  Hooks:16 - ****Clicking Instant Video Consultation*****
-2025-07-21 22:44:37 INFO  Hooks:25 - ****Scrolling*****
-2025-07-21 22:44:42 INFO  Hooks:28 - ****passing and getting specialities with price*****
-2025-07-21 22:44:55 INFO  Hooks:19 - ******Starting Login Authentication Test Case*******
-2025-07-21 22:44:55 INFO  Hooks:30 - *****Clicking Login on Home Page******
-2025-07-21 22:44:55 INFO  Hooks:34 - *****Entering username and password and clicking login******
-2025-07-21 22:44:59 INFO  Hooks:48 - *****Checking visibility of username error block upon unsuccessful login******
-2025-07-21 22:45:00 INFO  Hooks:30 - *****Clicking Login on Home Page******
-2025-07-21 22:45:01 INFO  Hooks:34 - *****Entering username and password and clicking login******
-2025-07-21 22:45:03 INFO  Hooks:43 - *****Checking if Profile Info is displayed after successful login******
-2025-07-21 22:45:03 INFO  Hooks:45 - *****Logging out******
-2025-07-21 22:45:04 INFO  Hooks:30 - *****Clicking Login on Home Page******
-2025-07-21 22:45:05 INFO  Hooks:34 - *****Entering username and password and clicking login******
-2025-07-21 22:45:05 INFO  Hooks:48 - *****Checking visibility of username error block upon unsuccessful login******
-2025-07-21 22:45:06 INFO  Hooks:60 - ****Finished Login Authentication TestCase*****
-2025-07-21 22:45:17 INFO  Hooks:26 - Launching Home Page
-2025-07-21 22:45:17 INFO  Hooks:33 - Reading search term from Excel sheet: TC005
-2025-07-21 22:45:17 INFO  Hooks:37 - Loaded search term: mental heath
-2025-07-21 22:45:18 INFO  Hooks:43 - Clicked on 'Read Articles' link
-2025-07-21 22:45:18 INFO  Hooks:55 - Switched to new window for article search
-2025-07-21 22:45:29 INFO  Hooks:61 - Performed search for: mental heath
-2025-07-21 22:45:29 INFO  Hooks:68 - Extracted 10 article titles and author pairs
-2025-07-21 22:45:29 INFO  Hooks:79 - Written to Excel: Mental Health | Dr.Surabhi Jain, Dietitian/Nutritionist
-2025-07-21 22:45:30 INFO  Hooks:79 - Written to Excel: 7 Simple Yet Effective Ways to Build Your Mental Strength | Ms.Seema Agarwal, Psychologist
-2025-07-21 22:45:30 INFO  Hooks:79 - Written to Excel: World Mental Health Day 2016 | Dr.Sonia Malhotra, Psychiatrist
-2025-07-21 22:45:30 INFO  Hooks:79 - Written to Excel: Importance of Mental health | Ms.Seema Agarwal, Psychologist
-2025-07-21 22:45:30 INFO  Hooks:79 - Written to Excel: Mental Disorders: Stigma or Something else? | Dr.D. S. Poonia, Psychiatrist
-2025-07-21 22:45:30 INFO  Hooks:79 - Written to Excel: Dealing with mental stress at the workplace | Dr.Ankita Mishra, Psychiatrist
-2025-07-21 22:45:30 INFO  Hooks:79 - Written to Excel: How to Deal With Depression/mental Illnesses? | Dr.Neelam Nath Bhatia, General Physician
-2025-07-21 22:45:30 INFO  Hooks:79 - Written to Excel: 5 Ways to Good Mental Health | Dr.Pankaj B Borade, Psychiatrist
-2025-07-21 22:45:30 INFO  Hooks:79 - Written to Excel: 10 Easy & Effective Ways to Improve Mental Health | Ms.Vijal Sejpal, Psychologist
-2025-07-21 22:45:30 INFO  Hooks:79 - Written to Excel: Essential Ways to Enhance Adolescent Mental Health | Dr.Ashima Srivastava(PhD), Psychologist
-2025-07-21 22:45:30 INFO  Hooks:82 - Data writing complete for TC005_Output
-2025-07-21 22:45:42 INFO  Hooks:16 - Scrolling to footer section
-2025-07-21 22:46:22 INFO  Hooks:26 - Navigating to Home Page
-2025-07-21 22:46:22 INFO  Hooks:26 - Clicking 'For Corporates' link
-2025-07-21 22:46:22 INFO  Hooks:32 - Clicking 'For Health and Wellness' link
-2025-07-21 22:46:27 INFO  Hooks:38 - Waiting for form to load...
-2025-07-21 22:46:29 INFO  Hooks:42 - Form loaded and ready
-2025-07-21 22:46:29 INFO  Hooks:48 - Filling form using XML data...
-2025-07-21 22:46:32 INFO  Hooks:50 - Entered Name
-2025-07-21 22:46:35 INFO  Hooks:53 - Entered Organization
-2025-07-21 22:46:39 INFO  Hooks:56 - Entered Contact
-2025-07-21 22:46:42 INFO  Hooks:59 - Entered Email
-2025-07-21 22:46:42 INFO  Hooks:62 - Selected Organization Size
-2025-07-21 22:46:42 INFO  Hooks:65 - Selected Interest
-2025-07-21 22:46:42 INFO  Hooks:70 - Submitting demo request
-2025-07-21 22:46:44 INFO  Hooks:76 - Verifying CAPTCHA screen is displayed
-2025-07-21 22:46:44 INFO  Hooks:83 - Capturing screenshot: CaptchaAfterSubmit
-2025-07-21 22:46:57 INFO  Hooks:27 - Starting login process...
-2025-07-21 22:47:07 INFO  Hooks:38 - Login successful.
-2025-07-21 22:47:07 INFO  Hooks:50 - Clicked user dropdown.
-2025-07-21 22:47:10 INFO  Hooks:53 - Navigated to My Tests.
-2025-07-21 22:47:15 INFO  Hooks:59 - Clicked Book Tests.
-2025-07-21 22:47:15 INFO  Hooks:62 - Fetched 8 TopCities.
-2025-07-21 22:47:15 INFO  Hooks:80 - Written TopCity to Excel: Bangalore
-2025-07-21 22:47:15 INFO  Hooks:80 - Written TopCity to Excel: Delhi
-2025-07-21 22:47:15 INFO  Hooks:80 - Written TopCity to Excel: Mumbai
-2025-07-21 22:47:15 INFO  Hooks:80 - Written TopCity to Excel: Chennai
-2025-07-21 22:47:15 INFO  Hooks:80 - Written TopCity to Excel: Hyderabad
-2025-07-21 22:47:15 INFO  Hooks:80 - Written TopCity to Excel: Kolkata
-2025-07-21 22:47:15 INFO  Hooks:80 - Written TopCity to Excel: Pune
-2025-07-21 22:47:15 INFO  Hooks:80 - Written TopCity to Excel: Ahmedabad
-2025-07-21 22:47:15 INFO  Hooks:85 - All TopCities written to Excel successfully.
+2025-07-24 12:25:29 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 6 ms.
+2025-07-24 12:25:46 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2403732\OneDrive - Cognizant\Desktop\FindingHospitals\testRunner.xml
+
+2025-07-24 12:26:15 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2403732\OneDrive - Cognizant\Desktop\FindingHospitals\testRunner.xml
+
+2025-07-24 12:26:43 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2403732\OneDrive - Cognizant\Desktop\FindingHospitals\testRunner.xml
+
+2025-07-24 12:27:17 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2403732\OneDrive - Cognizant\Desktop\FindingHospitals\testRunner.xml
+
+2025-07-24 12:33:03 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2403732\OneDrive - Cognizant\Desktop\FindingHospitals\testRunner.xml
+
+2025-07-24 12:33:14 INFO  Hooks:26 - Navigating to Home Page
+2025-07-24 12:33:14 INFO  Hooks:33 - Loading hospital search data from Excel sheet: TC001
+2025-07-24 12:33:15 INFO  Hooks:41 - Loaded Data -> City: Bangalore, SearchPlace: Hospital, OpenTime: Open 24x7, Rating: 4.0
+2025-07-24 12:33:15 INFO  Hooks:47 - Entering City into Search: Bangalore
+2025-07-24 12:33:21 INFO  Hooks:53 - Entering SearchPlace into Search field: Hospital
+2025-07-24 12:33:28 INFO  Hooks:59 - Retrieving total number of hospital search results
+2025-07-24 12:33:28 INFO  Hooks:65 - Filtering hospital names based on OpenTime: Open 24x7 and Rating >= 4.0
+2025-07-24 12:33:29 INFO  Hooks:71 - Writing filtered hospital names to Excel sheet: TC001_Output
+2025-07-24 12:33:29 INFO  Hooks:76 - Writing Hospital Name to Excel: MIOT International Hospital
+2025-07-24 12:33:30 INFO  Hooks:76 - Writing Hospital Name to Excel: Apollo Spectra Hospital
+2025-07-24 12:33:30 INFO  Hooks:76 - Writing Hospital Name to Excel: Apollo Cradle
+2025-07-24 12:33:30 INFO  Hooks:76 - Writing Hospital Name to Excel: Cloudnine Hospital
+2025-07-24 12:33:30 INFO  Hooks:76 - Writing Hospital Name to Excel: Motherhood Hospital
+2025-07-24 12:33:30 INFO  Hooks:76 - Writing Hospital Name to Excel: Shadithya Hospital
+2025-07-24 12:33:30 INFO  Hooks:76 - Writing Hospital Name to Excel: Apollo Spectra Hospitals
+2025-07-24 12:33:30 INFO  Hooks:76 - Writing Hospital Name to Excel: Promed Hospital
+2025-07-24 12:33:30 INFO  Hooks:81 - Finished writing all hospital names to Excel
+2025-07-24 12:33:42 INFO  Hooks:22 - Navigating to application URL...
+2025-07-24 12:33:47 INFO  Hooks:24 - User is on the home page.
+2025-07-24 12:33:47 INFO  Hooks:34 - Total rows in sheet 'TC002': 1
+2025-07-24 12:33:47 INFO  Hooks:40 - Searching for doctors in location: 'Bangalore' with type: 'Dermatologist'
+2025-07-24 12:34:20 INFO  Hooks:87 - Doctors found: 10
+2025-07-24 12:34:21 INFO  Hooks:60 - Saved doctor name to Excel: Dr. Ambresh Badad
+2025-07-24 12:34:21 INFO  Hooks:60 - Saved doctor name to Excel: Dr. Shashi Kumar M
+2025-07-24 12:34:21 INFO  Hooks:60 - Saved doctor name to Excel: Dr. Vinay Nagaraj
+2025-07-24 12:34:21 INFO  Hooks:60 - Saved doctor name to Excel: Dr. M.Jeethan
+2025-07-24 12:34:21 INFO  Hooks:60 - Saved doctor name to Excel: Dr. Kiran K C
+2025-07-24 12:34:21 INFO  Hooks:60 - Saved doctor name to Excel: Dr. S C Rajendran
+2025-07-24 12:34:21 INFO  Hooks:60 - Saved doctor name to Excel: Dr. Chandrashekara Aithal
+2025-07-24 12:34:21 INFO  Hooks:60 - Saved doctor name to Excel: Dr. J Prasad
+2025-07-24 12:34:21 INFO  Hooks:60 - Saved doctor name to Excel: Dr. Revanth BN
+2025-07-24 12:34:21 INFO  Hooks:60 - Saved doctor name to Excel: Dr. Shaik Mohammed Obeidullah
+2025-07-24 12:34:21 INFO  Hooks:64 - All doctor names saved to sheet 'TC002_Output'
+2025-07-24 12:34:34 INFO  Hooks:16 - ****Clicking Instant Video Consultation*****
+2025-07-24 12:34:34 INFO  Hooks:25 - ****Scrolling*****
+2025-07-24 12:34:39 INFO  Hooks:28 - ****passing and getting specialities with price*****
+2025-07-24 12:34:53 INFO  Hooks:19 - ******Starting Login Authentication Test Case*******
+2025-07-24 12:34:53 INFO  Hooks:30 - *****Clicking Login on Home Page******
+2025-07-24 12:34:54 INFO  Hooks:34 - *****Entering username and password and clicking login******
+2025-07-24 12:34:58 INFO  Hooks:48 - *****Checking visibility of username error block upon unsuccessful login******
+2025-07-24 12:34:58 INFO  Hooks:30 - *****Clicking Login on Home Page******
+2025-07-24 12:34:59 INFO  Hooks:34 - *****Entering username and password and clicking login******
+2025-07-24 12:35:01 INFO  Hooks:43 - *****Checking if Profile Info is displayed after successful login******
+2025-07-24 12:35:02 INFO  Hooks:45 - *****Logging out******
+2025-07-24 12:35:03 INFO  Hooks:30 - *****Clicking Login on Home Page******
+2025-07-24 12:35:04 INFO  Hooks:34 - *****Entering username and password and clicking login******
+2025-07-24 12:35:04 INFO  Hooks:48 - *****Checking visibility of username error block upon unsuccessful login******
+2025-07-24 12:35:05 INFO  Hooks:60 - ****Finished Login Authentication TestCase*****
+2025-07-24 12:35:16 INFO  Hooks:26 - Launching Home Page
+2025-07-24 12:35:16 INFO  Hooks:33 - Reading search term from Excel sheet: TC005
+2025-07-24 12:35:16 INFO  Hooks:37 - Loaded search term: mental heath
+2025-07-24 12:35:16 INFO  Hooks:43 - Clicked on 'Read Articles' link
+2025-07-24 12:35:16 INFO  Hooks:55 - Switched to new window for article search
+2025-07-24 12:35:28 INFO  Hooks:61 - Performed search for: mental heath
+2025-07-24 12:35:28 INFO  Hooks:68 - Extracted 10 article titles and author pairs
+2025-07-24 12:35:28 INFO  Hooks:79 - Written to Excel: Mental Health | Dr.Surabhi Jain, Dietitian/Nutritionist
+2025-07-24 12:35:28 INFO  Hooks:79 - Written to Excel: 7 Simple Yet Effective Ways to Build Your Mental Strength | Ms.Seema Agarwal, Psychologist
+2025-07-24 12:35:29 INFO  Hooks:79 - Written to Excel: World Mental Health Day 2016 | Dr.Sonia Malhotra, Psychiatrist
+2025-07-24 12:35:29 INFO  Hooks:79 - Written to Excel: Importance of Mental health | Ms.Seema Agarwal, Psychologist
+2025-07-24 12:35:29 INFO  Hooks:79 - Written to Excel: Mental Disorders: Stigma or Something else? | Dr.D. S. Poonia, Psychiatrist
+2025-07-24 12:35:29 INFO  Hooks:79 - Written to Excel: Dealing with mental stress at the workplace | Dr.Ankita Mishra, Psychiatrist
+2025-07-24 12:35:29 INFO  Hooks:79 - Written to Excel: How to Deal With Depression/mental Illnesses? | Dr.Neelam Nath Bhatia, General Physician
+2025-07-24 12:35:29 INFO  Hooks:79 - Written to Excel: 5 Ways to Good Mental Health | Dr.Pankaj B Borade, Psychiatrist
+2025-07-24 12:35:29 INFO  Hooks:79 - Written to Excel: 10 Easy & Effective Ways to Improve Mental Health | Ms.Vijal Sejpal, Psychologist
+2025-07-24 12:35:30 INFO  Hooks:79 - Written to Excel: Essential Ways to Enhance Adolescent Mental Health | Dr.Ashima Srivastava(PhD), Psychologist
+2025-07-24 12:35:30 INFO  Hooks:82 - Data writing complete for TC005_Output
+2025-07-24 12:35:42 INFO  Hooks:16 - Scrolling to footer section
+2025-07-24 12:36:23 INFO  Hooks:26 - Navigating to Home Page
+2025-07-24 12:36:23 INFO  Hooks:26 - Clicking 'For Corporates' link
+2025-07-24 12:36:23 INFO  Hooks:32 - Clicking 'For Health and Wellness' link
+2025-07-24 12:36:28 INFO  Hooks:38 - Waiting for form to load...
+2025-07-24 12:36:30 INFO  Hooks:42 - Form loaded and ready
+2025-07-24 12:36:30 INFO  Hooks:48 - Filling form using XML data...
+2025-07-24 12:36:33 INFO  Hooks:50 - Entered Name
+2025-07-24 12:36:36 INFO  Hooks:53 - Entered Organization
+2025-07-24 12:36:40 INFO  Hooks:56 - Entered Contact
+2025-07-24 12:36:43 INFO  Hooks:59 - Entered Email
+2025-07-24 12:36:43 INFO  Hooks:62 - Selected Organization Size
+2025-07-24 12:36:43 INFO  Hooks:65 - Selected Interest
+2025-07-24 12:36:43 INFO  Hooks:70 - Submitting demo request
+2025-07-24 12:36:45 INFO  Hooks:76 - Verifying CAPTCHA screen is displayed
+2025-07-24 12:36:45 INFO  Hooks:83 - Capturing screenshot: CaptchaAfterSubmit
+2025-07-24 12:36:58 INFO  Hooks:27 - Starting login process...
+2025-07-24 12:37:10 INFO  Hooks:38 - Login successful.
+2025-07-24 12:37:10 INFO  Hooks:50 - Clicked user dropdown.
+2025-07-24 12:37:13 INFO  Hooks:53 - Navigated to My Tests.
+2025-07-24 12:37:17 INFO  Hooks:59 - Clicked Book Tests.
+2025-07-24 12:37:18 INFO  Hooks:62 - Fetched 8 TopCities.
+2025-07-24 12:37:18 INFO  Hooks:80 - Written TopCity to Excel: Bangalore
+2025-07-24 12:37:18 INFO  Hooks:80 - Written TopCity to Excel: Delhi
+2025-07-24 12:37:18 INFO  Hooks:80 - Written TopCity to Excel: Mumbai
+2025-07-24 12:37:18 INFO  Hooks:80 - Written TopCity to Excel: Chennai
+2025-07-24 12:37:18 INFO  Hooks:80 - Written TopCity to Excel: Hyderabad
+2025-07-24 12:37:18 INFO  Hooks:80 - Written TopCity to Excel: Kolkata
+2025-07-24 12:37:18 INFO  Hooks:80 - Written TopCity to Excel: Pune
+2025-07-24 12:37:18 INFO  Hooks:80 - Written TopCity to Excel: Ahmedabad
+2025-07-24 12:37:18 INFO  Hooks:85 - All TopCities written to Excel successfully.
+2025-07-24 12:37:22 WARN  Utils:133 - The test method 'io.cucumber.testng.AbstractTestNGCucumberTests.runScenario' will be skipped since its data provider 'scenarios' returned an empty array or iterator. 
+2025-07-24 12:37:33 INFO  Hooks:26 - Navigating to Home Page
+2025-07-24 12:37:33 INFO  Hooks:33 - Loading hospital search data from Excel sheet: TC001
+2025-07-24 12:37:33 INFO  Hooks:41 - Loaded Data -> City: Bangalore, SearchPlace: Hospital, OpenTime: Open 24x7, Rating: 4.0
+2025-07-24 12:37:33 INFO  Hooks:47 - Entering City into Search: Bangalore
+2025-07-24 12:37:38 INFO  Hooks:53 - Entering SearchPlace into Search field: Hospital
+2025-07-24 12:37:45 INFO  Hooks:59 - Retrieving total number of hospital search results
+2025-07-24 12:37:45 INFO  Hooks:65 - Filtering hospital names based on OpenTime: Open 24x7 and Rating >= 4.0
+2025-07-24 12:37:46 INFO  Hooks:71 - Writing filtered hospital names to Excel sheet: TC001_Output
+2025-07-24 12:37:46 INFO  Hooks:76 - Writing Hospital Name to Excel: Manipal Hospital Varthur Road (formerly Columbia Asia Hospital)
+2025-07-24 12:37:46 INFO  Hooks:76 - Writing Hospital Name to Excel: Manipal Hospitals
+2025-07-24 12:37:46 INFO  Hooks:76 - Writing Hospital Name to Excel: Motherhood Hospital
+2025-07-24 12:37:46 INFO  Hooks:76 - Writing Hospital Name to Excel: Koshys Hospital
+2025-07-24 12:37:46 INFO  Hooks:76 - Writing Hospital Name to Excel: Apollo Spectra Hospitals
+2025-07-24 12:37:46 INFO  Hooks:76 - Writing Hospital Name to Excel: Motherhood Hospital
+2025-07-24 12:37:46 INFO  Hooks:76 - Writing Hospital Name to Excel: Trilife Hospital
+2025-07-24 12:37:46 INFO  Hooks:76 - Writing Hospital Name to Excel: Apollo Cradle & Children’s Hospital
+2025-07-24 12:37:46 INFO  Hooks:81 - Finished writing all hospital names to Excel
+2025-07-24 12:37:59 INFO  Hooks:22 - Navigating to application URL...
+2025-07-24 12:38:04 INFO  Hooks:24 - User is on the home page.
+2025-07-24 12:38:04 INFO  Hooks:34 - Total rows in sheet 'TC002': 1
+2025-07-24 12:38:04 INFO  Hooks:40 - Searching for doctors in location: 'Bangalore' with type: 'Dermatologist'
+2025-07-24 12:38:37 INFO  Hooks:87 - Doctors found: 10
+2025-07-24 12:38:37 INFO  Hooks:60 - Saved doctor name to Excel: Dr. Ambresh Badad
+2025-07-24 12:38:37 INFO  Hooks:60 - Saved doctor name to Excel: Dr. Shashi Kumar M
+2025-07-24 12:38:37 INFO  Hooks:60 - Saved doctor name to Excel: Dr. Vinay Nagaraj
+2025-07-24 12:38:37 INFO  Hooks:60 - Saved doctor name to Excel: Dr. M.Jeethan
+2025-07-24 12:38:37 INFO  Hooks:60 - Saved doctor name to Excel: Dr. Kiran K C
+2025-07-24 12:38:37 INFO  Hooks:60 - Saved doctor name to Excel: Dr. S C Rajendran
+2025-07-24 12:38:37 INFO  Hooks:60 - Saved doctor name to Excel: Dr. Chandrashekara Aithal
+2025-07-24 12:38:37 INFO  Hooks:60 - Saved doctor name to Excel: Dr. J Prasad
+2025-07-24 12:38:37 INFO  Hooks:60 - Saved doctor name to Excel: Dr. Revanth BN
+2025-07-24 12:38:37 INFO  Hooks:60 - Saved doctor name to Excel: Dr. Shaik Mohammed Obeidullah
+2025-07-24 12:38:37 INFO  Hooks:64 - All doctor names saved to sheet 'TC002_Output'
+2025-07-24 12:38:50 INFO  Hooks:16 - ****Clicking Instant Video Consultation*****
+2025-07-24 12:38:50 INFO  Hooks:25 - ****Scrolling*****
+2025-07-24 12:38:54 INFO  Hooks:28 - ****passing and getting specialities with price*****
+2025-07-24 12:39:09 INFO  Hooks:19 - ******Starting Login Authentication Test Case*******
+2025-07-24 12:39:09 INFO  Hooks:30 - *****Clicking Login on Home Page******
+2025-07-24 12:39:09 INFO  Hooks:34 - *****Entering username and password and clicking login******
+2025-07-24 12:39:13 INFO  Hooks:48 - *****Checking visibility of username error block upon unsuccessful login******
+2025-07-24 12:39:14 INFO  Hooks:30 - *****Clicking Login on Home Page******
+2025-07-24 12:39:15 INFO  Hooks:34 - *****Entering username and password and clicking login******
+2025-07-24 12:39:17 INFO  Hooks:43 - *****Checking if Profile Info is displayed after successful login******
+2025-07-24 12:39:17 INFO  Hooks:45 - *****Logging out******
+2025-07-24 12:39:18 INFO  Hooks:30 - *****Clicking Login on Home Page******
+2025-07-24 12:39:19 INFO  Hooks:34 - *****Entering username and password and clicking login******
+2025-07-24 12:39:20 INFO  Hooks:48 - *****Checking visibility of username error block upon unsuccessful login******
+2025-07-24 12:39:20 INFO  Hooks:60 - ****Finished Login Authentication TestCase*****
+2025-07-24 12:39:32 INFO  Hooks:26 - Launching Home Page
+2025-07-24 12:39:32 INFO  Hooks:33 - Reading search term from Excel sheet: TC005
+2025-07-24 12:39:32 INFO  Hooks:37 - Loaded search term: mental heath
+2025-07-24 12:39:32 INFO  Hooks:43 - Clicked on 'Read Articles' link
+2025-07-24 12:39:32 INFO  Hooks:55 - Switched to new window for article search
+2025-07-24 12:39:44 INFO  Hooks:61 - Performed search for: mental heath
+2025-07-24 12:39:44 INFO  Hooks:68 - Extracted 10 article titles and author pairs
+2025-07-24 12:39:44 INFO  Hooks:79 - Written to Excel: Mental Health | Dr.Surabhi Jain, Dietitian/Nutritionist
+2025-07-24 12:39:44 INFO  Hooks:79 - Written to Excel: 7 Simple Yet Effective Ways to Build Your Mental Strength | Ms.Seema Agarwal, Psychologist
+2025-07-24 12:39:44 INFO  Hooks:79 - Written to Excel: World Mental Health Day 2016 | Dr.Sonia Malhotra, Psychiatrist
+2025-07-24 12:39:44 INFO  Hooks:79 - Written to Excel: Importance of Mental health | Ms.Seema Agarwal, Psychologist
+2025-07-24 12:39:45 INFO  Hooks:79 - Written to Excel: Mental Disorders: Stigma or Something else? | Dr.D. S. Poonia, Psychiatrist
+2025-07-24 12:39:45 INFO  Hooks:79 - Written to Excel: Dealing with mental stress at the workplace | Dr.Ankita Mishra, Psychiatrist
+2025-07-24 12:39:45 INFO  Hooks:79 - Written to Excel: How to Deal With Depression/mental Illnesses? | Dr.Neelam Nath Bhatia, General Physician
+2025-07-24 12:39:45 INFO  Hooks:79 - Written to Excel: 5 Ways to Good Mental Health | Dr.Pankaj B Borade, Psychiatrist
+2025-07-24 12:39:45 INFO  Hooks:79 - Written to Excel: 10 Easy & Effective Ways to Improve Mental Health | Ms.Vijal Sejpal, Psychologist
+2025-07-24 12:39:45 INFO  Hooks:79 - Written to Excel: Essential Ways to Enhance Adolescent Mental Health | Dr.Ashima Srivastava(PhD), Psychologist
+2025-07-24 12:39:45 INFO  Hooks:82 - Data writing complete for TC005_Output
+2025-07-24 12:40:00 INFO  Hooks:16 - Scrolling to footer section
+2025-07-24 12:40:41 INFO  Hooks:26 - Navigating to Home Page
+2025-07-24 12:40:41 INFO  Hooks:26 - Clicking 'For Corporates' link
+2025-07-24 12:40:41 INFO  Hooks:32 - Clicking 'For Health and Wellness' link
+2025-07-24 12:40:46 INFO  Hooks:38 - Waiting for form to load...
+2025-07-24 12:40:48 INFO  Hooks:42 - Form loaded and ready
+2025-07-24 12:40:48 INFO  Hooks:48 - Filling form using XML data...
+2025-07-24 12:40:51 INFO  Hooks:50 - Entered Name
+2025-07-24 12:40:54 INFO  Hooks:53 - Entered Organization
+2025-07-24 12:40:57 INFO  Hooks:56 - Entered Contact
+2025-07-24 12:41:01 INFO  Hooks:59 - Entered Email
+2025-07-24 12:41:01 INFO  Hooks:62 - Selected Organization Size
+2025-07-24 12:41:01 INFO  Hooks:65 - Selected Interest
+2025-07-24 12:41:01 INFO  Hooks:70 - Submitting demo request
+2025-07-24 12:41:03 INFO  Hooks:76 - Verifying CAPTCHA screen is displayed
+2025-07-24 12:41:03 INFO  Hooks:83 - Capturing screenshot: CaptchaAfterSubmit
+2025-07-24 12:41:17 INFO  Hooks:27 - Starting login process...
+2025-07-24 12:41:26 INFO  Hooks:38 - Login successful.
+2025-07-24 12:41:26 INFO  Hooks:50 - Clicked user dropdown.
+2025-07-24 12:41:29 INFO  Hooks:53 - Navigated to My Tests.
+2025-07-24 12:41:33 INFO  Hooks:59 - Clicked Book Tests.
+2025-07-24 12:41:33 INFO  Hooks:62 - Fetched 8 TopCities.
+2025-07-24 12:41:33 INFO  Hooks:80 - Written TopCity to Excel: Bangalore
+2025-07-24 12:41:33 INFO  Hooks:80 - Written TopCity to Excel: Delhi
+2025-07-24 12:41:33 INFO  Hooks:80 - Written TopCity to Excel: Mumbai
+2025-07-24 12:41:34 INFO  Hooks:80 - Written TopCity to Excel: Chennai
+2025-07-24 12:41:34 INFO  Hooks:80 - Written TopCity to Excel: Hyderabad
+2025-07-24 12:41:34 INFO  Hooks:80 - Written TopCity to Excel: Kolkata
+2025-07-24 12:41:34 INFO  Hooks:80 - Written TopCity to Excel: Pune
+2025-07-24 12:41:34 INFO  Hooks:80 - Written TopCity to Excel: Ahmedabad
+2025-07-24 12:41:34 INFO  Hooks:85 - All TopCities written to Excel successfully.
+2025-07-24 12:41:37 WARN  Utils:133 - The test method 'io.cucumber.testng.AbstractTestNGCucumberTests.runScenario' will be skipped since its data provider 'scenarios' returned an empty array or iterator. 

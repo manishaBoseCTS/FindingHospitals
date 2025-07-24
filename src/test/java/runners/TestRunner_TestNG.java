@@ -12,6 +12,7 @@ import utilities.AllureReportOpener;
 		glue = {"stepDefinitions", "hooks"},
 		plugin = {"pretty","html:target/cucumber-reports.html",
 				"json:target/cucumber-reports/cucumber-report2.json",
+				"rerun:target/failedrerun.txt",  
 				"io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"},				 
 		monochrome = true
 		)
